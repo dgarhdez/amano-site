@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dgarhdez.github.io/amano-site/sitemap.xml
