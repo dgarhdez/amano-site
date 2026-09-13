@@ -26,6 +26,7 @@
 <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..650,100&family=Instrument+Sans:wght@400;500;600&display=swap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Onde ficam guardados os meus documentos?", "acceptedAnswer": {"@type": "Answer", "text": "No seu iPhone, cifrados — e, se ativar a sincronização, no seu próprio iCloud. O Amano não tem servidores nem contas: ninguém além de si pode abrir o seu espaço."}}, {"@type": "Question", "name": "O que acontece se perder o telemóvel?", "acceptedAnswer": {"@type": "Answer", "text": "Com a sincronização iCloud ativa (parte do Unlimited), o seu espaço espera por si no próximo iPhone. Sem ela, os documentos vivem apenas no dispositivo — é a contrapartida do armazenamento totalmente local."}}, {"@type": "Question", "name": "O que inclui exatamente o pagamento único?", "acceptedAnswer": {"@type": "Answer", "text": "Tudo, para sempre: documentos ilimitados, pastas e subpastas, sincronização e cópia iCloud, pastas de família partilhadas, lembretes de validade, marcas de água pessoais, dossiês de documentos e o modo evento. Nunca uma subscrição."}}, {"@type": "Question", "name": "Preciso de criar uma conta?", "acceptedAnswer": {"@type": "Answer", "text": "Não. O Amano funciona assim que o abre. Não há nada para registar — e nada que possa ser divulgado."}}]}</script>
 <style>
   :root {
     --paper: #F4F6F9; --card: #FFFFFF; --navy: #193B70; --deep: #101722;
@@ -89,6 +90,19 @@
   footer .langs { width: 100%; margin-top: 14px; }
   footer .langs a { margin: 0 12px 0 0; color: #8FA0B8; font-size: 13px; }
   footer .langs span { color: #F4F6F9; font-size: 13px; margin-right: 12px; }
+  section.shots { padding: 40px 0 30px; }
+  .shots h2, .faq h2 { font-family: var(--display); font-variation-settings: "opsz" 72, "SOFT" 100;
+    font-weight: 560; font-size: clamp(28px, 4vw, 38px); text-align: center; margin-bottom: 30px;
+    color: var(--ink); text-wrap: balance; }
+  .shots .strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; max-width: 900px; margin: 0 auto; }
+  .shots img { width: 100%; height: auto; display: block; border-radius: 18px;
+    box-shadow: 0 18px 44px rgba(16, 23, 34, 0.14); }
+  @media (max-width: 640px) { .shots .strip { grid-template-columns: 1fr; max-width: 340px; } }
+  section.faq { padding: 70px 0 84px; }
+  .faq .qa { max-width: 680px; margin: 0 auto; }
+  .faq details { background: var(--card); border-radius: var(--radius); padding: 4px 24px; margin-bottom: 12px; }
+  .faq summary { cursor: pointer; font-weight: 600; font-size: 17px; padding: 16px 0; list-style-position: outside; }
+  .faq details p { color: var(--muted); padding: 0 0 18px; text-wrap: pretty; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .store-button { transition: none; } }
 </style>
 </head>
@@ -119,6 +133,10 @@
       <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 15V4M8 7l4-3.5L16 7"/><rect x="5" y="11" width="14" height="9" rx="2"/></svg></div><h3>Partilhado nos seus termos</h3><p>Envie cópias com marca de água que dizem exatamente para que servem — inúteis em qualquer outro lado. Os originais nunca mudam. As pastas de família juntam a papelada partilhada num só lugar.</p></article>
     </div>
   </section>
+  <section class="shots">
+    <h2>Um olhar por dentro</h2>
+    <div class="strip"><img src="../assets/shots/pt/renew.webp" alt="Ecrã de renovações a avisar de um passaporte prestes a caducar" loading="lazy" width="480" height="1039"><img src="../assets/shots/pt/sign.webp" alt="Uma assinatura a ser colocada na página de um documento" loading="lazy" width="480" height="1039"><img src="../assets/shots/pt/family.webp" alt="Uma pasta de família partilhada com documentos de viagem" loading="lazy" width="480" height="1039"></div>
+  </section>
 </div>
 <section class="promise">
   <div class="inner">
@@ -127,6 +145,12 @@
     <span class="price">Comece grátis &middot; um único pagamento desbloqueia tudo, para sempre</span>
   </div>
 </section>
+<div class="wrap">
+  <section class="faq">
+    <h2>Perguntas, respondidas</h2>
+    <div class="qa"><details><summary>Onde ficam guardados os meus documentos?</summary><p>No seu iPhone, cifrados — e, se ativar a sincronização, no seu próprio iCloud. O Amano não tem servidores nem contas: ninguém além de si pode abrir o seu espaço.</p></details><details><summary>O que acontece se perder o telemóvel?</summary><p>Com a sincronização iCloud ativa (parte do Unlimited), o seu espaço espera por si no próximo iPhone. Sem ela, os documentos vivem apenas no dispositivo — é a contrapartida do armazenamento totalmente local.</p></details><details><summary>O que inclui exatamente o pagamento único?</summary><p>Tudo, para sempre: documentos ilimitados, pastas e subpastas, sincronização e cópia iCloud, pastas de família partilhadas, lembretes de validade, marcas de água pessoais, dossiês de documentos e o modo evento. Nunca uma subscrição.</p></details><details><summary>Preciso de criar uma conta?</summary><p>Não. O Amano funciona assim que o abre. Não há nada para registar — e nada que possa ser divulgado.</p></details></div>
+  </section>
+</div>
 <footer>
   <div class="wrap">
     <span>&copy; 2026 Amano &middot; feito por uma pessoa, com cuidado</span>

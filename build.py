@@ -39,6 +39,15 @@ S = {
     price="Free to start &middot; one payment unlocks everything, forever",
     made="made by one person, with care", privacy="Privacy", store="App&nbsp;Store",
     videolabel="Amano turning three photos into one watermarked PDF and sharing it",
+    shotsh2="A look inside",
+    shotsalt=["Renewals screen reminding about an expiring passport", "Placing a signature on a document page", "A shared family folder with travel documents"],
+    faqh2="Questions, answered",
+    faq=[
+        ("Where are my documents stored?", "On your iPhone, encrypted — and, if you turn on sync, in your own iCloud. Amano has no servers and no accounts; nobody but you can open your vault."),
+        ("What happens if I lose my phone?", "With iCloud sync on (part of Unlimited), your vault is waiting on your next iPhone. Without it, documents live only on the device — that is the trade-off of fully local storage."),
+        ("What exactly does the one payment include?", "Everything, forever: unlimited documents, folders and subfolders, iCloud sync and backup, shared family folders, expiry reminders, personal watermarks, document packs and Event mode. No subscription, ever."),
+        ("Do I need to create an account?", "No. Amano works the moment you open it. There is nothing to sign up for — and nothing to be leaked."),
+    ],
 ),
 "es": dict(
     title="Amano — Documentos privados",
@@ -56,6 +65,15 @@ S = {
     price="Empieza gratis &middot; un solo pago lo desbloquea todo, para siempre",
     made="hecho por una persona, con cariño", privacy="Privacidad", store="App&nbsp;Store",
     videolabel="Amano convirtiendo tres fotos en un PDF con marca de agua y compartiéndolo",
+    shotsh2="Un vistazo por dentro",
+    shotsalt=["Pantalla de renovaciones avisando de un pasaporte a punto de caducar", "Colocando una firma en la página de un documento", "Una carpeta familiar compartida con documentos de viaje"],
+    faqh2="Preguntas, respondidas",
+    faq=[
+        ("¿Dónde se guardan mis documentos?", "En tu iPhone, cifrados; y si activas la sincronización, en tu propio iCloud. Amano no tiene servidores ni cuentas: nadie más que tú puede abrir tu espacio."),
+        ("¿Qué pasa si pierdo el móvil?", "Con la sincronización de iCloud activada (parte de Unlimited), tu espacio te espera en tu siguiente iPhone. Sin ella, los documentos viven solo en el dispositivo: es la contrapartida del almacenamiento totalmente local."),
+        ("¿Qué incluye exactamente el pago único?", "Todo, para siempre: documentos ilimitados, carpetas y subcarpetas, sincronización y copia en iCloud, carpetas familiares compartidas, recordatorios de caducidad, marcas de agua personales, dosieres y el modo evento. Sin suscripción, nunca."),
+        ("¿Necesito crear una cuenta?", "No. Amano funciona desde el momento en que lo abres. No hay nada que registrar — y nada que se pueda filtrar."),
+    ],
 ),
 "fr": dict(
     title="Amano — Documents privés",
@@ -73,6 +91,15 @@ S = {
     price="Gratuit pour commencer &middot; un seul paiement débloque tout, pour toujours",
     made="fait par une seule personne, avec soin", privacy="Confidentialité", store="App&nbsp;Store",
     videolabel="Amano transforme trois photos en un PDF filigrané et le partage",
+    shotsh2="Un aperçu de l’intérieur",
+    shotsalt=["Écran des renouvellements signalant un passeport bientôt expiré", "Pose d’une signature sur la page d’un document", "Un dossier familial partagé avec des documents de voyage"],
+    faqh2="Vos questions, nos réponses",
+    faq=[
+        ("Où mes documents sont-ils stockés ?", "Sur ton iPhone, chiffrés — et, si tu actives la synchronisation, dans ton propre iCloud. Amano n’a ni serveurs ni comptes : personne d’autre que toi ne peut ouvrir ton espace."),
+        ("Que se passe-t-il si je perds mon téléphone ?", "Avec la synchronisation iCloud activée (incluse dans Unlimited), ton espace t’attend sur ton prochain iPhone. Sans elle, les documents ne vivent que sur l’appareil — c’est la contrepartie d’un stockage entièrement local."),
+        ("Que comprend exactement le paiement unique ?", "Tout, pour toujours : documents illimités, dossiers et sous-dossiers, synchronisation et sauvegarde iCloud, dossiers familiaux partagés, rappels d’échéance, filigranes personnels, sélections de documents et mode événement. Jamais d’abonnement."),
+        ("Dois-je créer un compte ?", "Non. Amano fonctionne dès l’ouverture. Il n’y a rien à créer — et rien qui puisse fuiter."),
+    ],
 ),
 "de": dict(
     title="Amano — Private Dokumente",
@@ -90,6 +117,15 @@ S = {
     price="Kostenlos starten &middot; ein Kauf schaltet alles frei, für immer",
     made="von einer Person gemacht, mit Sorgfalt", privacy="Datenschutz", store="App&nbsp;Store",
     videolabel="Amano macht aus drei Fotos ein PDF mit Wasserzeichen und teilt es",
+    shotsh2="Ein Blick hinein",
+    shotsalt=["Verlängerungs-Ansicht warnt vor einem ablaufenden Reisepass", "Eine Unterschrift wird auf einer Dokumentseite platziert", "Ein geteilter Familienordner mit Reisedokumenten"],
+    faqh2="Fragen, beantwortet",
+    faq=[
+        ("Wo werden meine Dokumente gespeichert?", "Auf deinem iPhone, verschlüsselt — und wenn du die Synchronisierung einschaltest, in deiner eigenen iCloud. Amano hat keine Server und keine Konten: Niemand außer dir kann deinen Bereich öffnen."),
+        ("Was passiert, wenn ich mein iPhone verliere?", "Mit iCloud-Synchronisierung (Teil von Unlimited) wartet dein Bereich auf deinem nächsten iPhone. Ohne sie leben die Dokumente nur auf dem Gerät — das ist der Preis rein lokaler Speicherung."),
+        ("Was genau enthält der Einmalkauf?", "Alles, für immer: unbegrenzte Dokumente, Ordner und Unterordner, iCloud-Synchronisierung und Sicherung, gemeinsame Familienordner, Ablauferinnerungen, eigene Wasserzeichen, Dokumentmappen und den Event-Modus. Nie ein Abo."),
+        ("Brauche ich ein Konto?", "Nein. Amano funktioniert ab dem ersten Öffnen. Es gibt nichts zu registrieren — und nichts, das geleakt werden könnte."),
+    ],
 ),
 "it": dict(
     title="Amano — Documenti privati",
@@ -107,6 +143,15 @@ S = {
     price="Inizia gratis &middot; un solo pagamento sblocca tutto, per sempre",
     made="fatto da una persona sola, con cura", privacy="Privacy", store="App&nbsp;Store",
     videolabel="Amano trasforma tre foto in un PDF con filigrana e lo condivide",
+    shotsh2="Uno sguardo dentro",
+    shotsalt=["Schermata dei rinnovi che segnala un passaporto in scadenza", "Una firma viene posizionata sulla pagina di un documento", "Una cartella famiglia condivisa con documenti di viaggio"],
+    faqh2="Domande, risposte",
+    faq=[
+        ("Dove sono conservati i miei documenti?", "Sul tuo iPhone, cifrati — e, se attivi la sincronizzazione, nel tuo iCloud. Amano non ha server né account: nessuno oltre a te può aprire il tuo archivio."),
+        ("Cosa succede se perdo il telefono?", "Con la sincronizzazione iCloud attiva (parte di Unlimited), il tuo archivio ti aspetta sul prossimo iPhone. Senza, i documenti vivono solo sul dispositivo: è il compromesso dell’archiviazione interamente locale."),
+        ("Cosa include esattamente il pagamento unico?", "Tutto, per sempre: documenti illimitati, cartelle e sottocartelle, sincronizzazione e backup iCloud, cartelle famiglia condivise, promemoria di scadenza, filigrane personali, raccolte di documenti e la modalità evento. Mai un abbonamento."),
+        ("Devo creare un account?", "No. Amano funziona appena lo apri. Non c’è nulla da registrare — e nulla che possa trapelare."),
+    ],
 ),
 "pt": dict(
     title="Amano — Documentos privados",
@@ -124,6 +169,15 @@ S = {
     price="Comece grátis &middot; um único pagamento desbloqueia tudo, para sempre",
     made="feito por uma pessoa, com cuidado", privacy="Privacidade", store="App&nbsp;Store",
     videolabel="O Amano transforma três fotos num PDF com marca de água e partilha-o",
+    shotsh2="Um olhar por dentro",
+    shotsalt=["Ecrã de renovações a avisar de um passaporte prestes a caducar", "Uma assinatura a ser colocada na página de um documento", "Uma pasta de família partilhada com documentos de viagem"],
+    faqh2="Perguntas, respondidas",
+    faq=[
+        ("Onde ficam guardados os meus documentos?", "No seu iPhone, cifrados — e, se ativar a sincronização, no seu próprio iCloud. O Amano não tem servidores nem contas: ninguém além de si pode abrir o seu espaço."),
+        ("O que acontece se perder o telemóvel?", "Com a sincronização iCloud ativa (parte do Unlimited), o seu espaço espera por si no próximo iPhone. Sem ela, os documentos vivem apenas no dispositivo — é a contrapartida do armazenamento totalmente local."),
+        ("O que inclui exatamente o pagamento único?", "Tudo, para sempre: documentos ilimitados, pastas e subpastas, sincronização e cópia iCloud, pastas de família partilhadas, lembretes de validade, marcas de água pessoais, dossiês de documentos e o modo evento. Nunca uma subscrição."),
+        ("Preciso de criar uma conta?", "Não. O Amano funciona assim que o abre. Não há nada para registar — e nada que possa ser divulgado."),
+    ],
 ),
 "tr": dict(
     title="Amano — Özel Belge Kasası",
@@ -141,6 +195,15 @@ S = {
     price="Ücretsiz başlayın &middot; tek ödeme her şeyi sonsuza dek açar",
     made="tek kişi tarafından, özenle yapıldı", privacy="Gizlilik", store="App&nbsp;Store",
     videolabel="Amano üç fotoğrafı filigranlı tek bir PDF’e dönüştürüp paylaşıyor",
+    shotsh2="İçeriden bir bakış",
+    shotsalt=["Yenilemeler ekranı süresi dolmak üzere olan bir pasaportu bildiriyor", "Bir belge sayfasına imza yerleştiriliyor", "Seyahat belgeleriyle paylaşılan bir aile klasörü"],
+    faqh2="Sorular ve yanıtları",
+    faq=[
+        ("Belgelerim nerede saklanıyor?", "iPhone’unuzda, şifrelenmiş olarak — ve eşitlemeyi açarsanız kendi iCloud’unuzda. Amano’nun sunucusu da hesabı da yok: kasanızı sizden başka kimse açamaz."),
+        ("Telefonumu kaybedersem ne olur?", "iCloud eşitleme açıksa (Unlimited’ın parçası), kasanız bir sonraki iPhone’unuzda sizi bekler. Kapalıysa belgeler yalnızca cihazda yaşar — tamamen yerel saklamanın bedeli budur."),
+        ("Tek ödeme tam olarak neleri içeriyor?", "Her şeyi, sonsuza dek: sınırsız belge, klasör ve alt klasörler, iCloud eşitleme ve yedekleme, paylaşılan aile klasörleri, süre hatırlatıcıları, kişisel filigranlar, belge dosyaları ve etkinlik modu. Asla abonelik yok."),
+        ("Hesap açmam gerekiyor mu?", "Hayır. Amano açtığınız anda çalışır. Kaydolacak bir şey yok — sızacak bir şey de yok."),
+    ],
 ),
 }
 
@@ -209,6 +272,19 @@ STYLE = """
   footer .langs { width: 100%; margin-top: 14px; }
   footer .langs a { margin: 0 12px 0 0; color: #8FA0B8; font-size: 13px; }
   footer .langs span { color: #F4F6F9; font-size: 13px; margin-right: 12px; }
+  section.shots { padding: 40px 0 30px; }
+  .shots h2, .faq h2 { font-family: var(--display); font-variation-settings: "opsz" 72, "SOFT" 100;
+    font-weight: 560; font-size: clamp(28px, 4vw, 38px); text-align: center; margin-bottom: 30px;
+    color: var(--ink); text-wrap: balance; }
+  .shots .strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; max-width: 900px; margin: 0 auto; }
+  .shots img { width: 100%; height: auto; display: block; border-radius: 18px;
+    box-shadow: 0 18px 44px rgba(16, 23, 34, 0.14); }
+  @media (max-width: 640px) { .shots .strip { grid-template-columns: 1fr; max-width: 340px; } }
+  section.faq { padding: 70px 0 84px; }
+  .faq .qa { max-width: 680px; margin: 0 auto; }
+  .faq details { background: var(--card); border-radius: var(--radius); padding: 4px 24px; margin-bottom: 12px; }
+  .faq summary { cursor: pointer; font-weight: 600; font-size: 17px; padding: 16px 0; list-style-position: outside; }
+  .faq details p { color: var(--muted); padding: 0 0 18px; text-wrap: pretty; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .store-button { transition: none; } }
 """
 
@@ -236,12 +312,24 @@ def lang_switcher(current):
             parts.append(f'<a href="{BASE}{folder}" lang="{LOCALES[key][1]}">{name}</a>')
     return '<span class="langs">' + "".join(parts) + "</span>"
 
+def faq_jsonld(s):
+    import json as _json
+    return _json.dumps({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        "mainEntity": [{"@type": "Question", "name": q,
+                        "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in s["faq"]],
+    }, ensure_ascii=False)
+
 def page(key):
     folder, lang, _, storefront, badge = LOCALES[key]
     s = S[key]
     root = "../" if folder else "./"
     canon = BASE + folder
     store = f"https://apps.apple.com/{storefront}app/id{APP_ID}"
+    shots = "".join(
+        f'<img src="{root}assets/shots/{key}/{name}.webp" alt="{alt}" loading="lazy" width="480" height="1039">'
+        for name, alt in zip(["renew", "sign", "family"], s["shotsalt"]))
+    faqs = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in s["faq"])
     return f"""<!doctype html>
 <html lang="{lang}">
 <head>
@@ -263,6 +351,7 @@ def page(key):
 <link rel="apple-touch-icon" href="{root}assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..650,100&family=Instrument+Sans:wght@400;500;600&display=swap">
+<script type="application/ld+json">{faq_jsonld(s)}</script>
 <style>{STYLE}</style>
 </head>
 <body>
@@ -292,6 +381,10 @@ def page(key):
       <article class="feature"><div class="glyph">{GLYPH3}</div><h3>{s['f3h']}</h3><p>{s['f3p']}</p></article>
     </div>
   </section>
+  <section class="shots">
+    <h2>{s['shotsh2']}</h2>
+    <div class="strip">{shots}</div>
+  </section>
 </div>
 <section class="promise">
   <div class="inner">
@@ -300,6 +393,12 @@ def page(key):
     <span class="price">{s['price']}</span>
   </div>
 </section>
+<div class="wrap">
+  <section class="faq">
+    <h2>{s['faqh2']}</h2>
+    <div class="qa">{faqs}</div>
+  </section>
+</div>
 <footer>
   <div class="wrap">
     <span>&copy; 2026 Amano &middot; {s['made']}</span>

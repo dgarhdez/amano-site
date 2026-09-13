@@ -26,6 +26,7 @@
 <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..650,100&family=Instrument+Sans:wght@400;500;600&display=swap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Where are my documents stored?", "acceptedAnswer": {"@type": "Answer", "text": "On your iPhone, encrypted — and, if you turn on sync, in your own iCloud. Amano has no servers and no accounts; nobody but you can open your vault."}}, {"@type": "Question", "name": "What happens if I lose my phone?", "acceptedAnswer": {"@type": "Answer", "text": "With iCloud sync on (part of Unlimited), your vault is waiting on your next iPhone. Without it, documents live only on the device — that is the trade-off of fully local storage."}}, {"@type": "Question", "name": "What exactly does the one payment include?", "acceptedAnswer": {"@type": "Answer", "text": "Everything, forever: unlimited documents, folders and subfolders, iCloud sync and backup, shared family folders, expiry reminders, personal watermarks, document packs and Event mode. No subscription, ever."}}, {"@type": "Question", "name": "Do I need to create an account?", "acceptedAnswer": {"@type": "Answer", "text": "No. Amano works the moment you open it. There is nothing to sign up for — and nothing to be leaked."}}]}</script>
 <style>
   :root {
     --paper: #F4F6F9; --card: #FFFFFF; --navy: #193B70; --deep: #101722;
@@ -89,6 +90,19 @@
   footer .langs { width: 100%; margin-top: 14px; }
   footer .langs a { margin: 0 12px 0 0; color: #8FA0B8; font-size: 13px; }
   footer .langs span { color: #F4F6F9; font-size: 13px; margin-right: 12px; }
+  section.shots { padding: 40px 0 30px; }
+  .shots h2, .faq h2 { font-family: var(--display); font-variation-settings: "opsz" 72, "SOFT" 100;
+    font-weight: 560; font-size: clamp(28px, 4vw, 38px); text-align: center; margin-bottom: 30px;
+    color: var(--ink); text-wrap: balance; }
+  .shots .strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; max-width: 900px; margin: 0 auto; }
+  .shots img { width: 100%; height: auto; display: block; border-radius: 18px;
+    box-shadow: 0 18px 44px rgba(16, 23, 34, 0.14); }
+  @media (max-width: 640px) { .shots .strip { grid-template-columns: 1fr; max-width: 340px; } }
+  section.faq { padding: 70px 0 84px; }
+  .faq .qa { max-width: 680px; margin: 0 auto; }
+  .faq details { background: var(--card); border-radius: var(--radius); padding: 4px 24px; margin-bottom: 12px; }
+  .faq summary { cursor: pointer; font-weight: 600; font-size: 17px; padding: 16px 0; list-style-position: outside; }
+  .faq details p { color: var(--muted); padding: 0 0 18px; text-wrap: pretty; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .store-button { transition: none; } }
 </style>
 </head>
@@ -119,6 +133,10 @@
       <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 15V4M8 7l4-3.5L16 7"/><rect x="5" y="11" width="14" height="9" rx="2"/></svg></div><h3>Shared on your terms</h3><p>Send watermarked copies that say exactly what they are for — worthless anywhere else. Originals never change. Family folders keep shared paperwork in one place.</p></article>
     </div>
   </section>
+  <section class="shots">
+    <h2>A look inside</h2>
+    <div class="strip"><img src="./assets/shots/en/renew.webp" alt="Renewals screen reminding about an expiring passport" loading="lazy" width="480" height="1039"><img src="./assets/shots/en/sign.webp" alt="Placing a signature on a document page" loading="lazy" width="480" height="1039"><img src="./assets/shots/en/family.webp" alt="A shared family folder with travel documents" loading="lazy" width="480" height="1039"></div>
+  </section>
 </div>
 <section class="promise">
   <div class="inner">
@@ -127,6 +145,12 @@
     <span class="price">Free to start &middot; one payment unlocks everything, forever</span>
   </div>
 </section>
+<div class="wrap">
+  <section class="faq">
+    <h2>Questions, answered</h2>
+    <div class="qa"><details><summary>Where are my documents stored?</summary><p>On your iPhone, encrypted — and, if you turn on sync, in your own iCloud. Amano has no servers and no accounts; nobody but you can open your vault.</p></details><details><summary>What happens if I lose my phone?</summary><p>With iCloud sync on (part of Unlimited), your vault is waiting on your next iPhone. Without it, documents live only on the device — that is the trade-off of fully local storage.</p></details><details><summary>What exactly does the one payment include?</summary><p>Everything, forever: unlimited documents, folders and subfolders, iCloud sync and backup, shared family folders, expiry reminders, personal watermarks, document packs and Event mode. No subscription, ever.</p></details><details><summary>Do I need to create an account?</summary><p>No. Amano works the moment you open it. There is nothing to sign up for — and nothing to be leaked.</p></details></div>
+  </section>
+</div>
 <footer>
   <div class="wrap">
     <span>&copy; 2026 Amano &middot; made by one person, with care</span>

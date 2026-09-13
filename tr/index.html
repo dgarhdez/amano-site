@@ -26,6 +26,7 @@
 <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..650,100&family=Instrument+Sans:wght@400;500;600&display=swap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Belgelerim nerede saklanıyor?", "acceptedAnswer": {"@type": "Answer", "text": "iPhone’unuzda, şifrelenmiş olarak — ve eşitlemeyi açarsanız kendi iCloud’unuzda. Amano’nun sunucusu da hesabı da yok: kasanızı sizden başka kimse açamaz."}}, {"@type": "Question", "name": "Telefonumu kaybedersem ne olur?", "acceptedAnswer": {"@type": "Answer", "text": "iCloud eşitleme açıksa (Unlimited’ın parçası), kasanız bir sonraki iPhone’unuzda sizi bekler. Kapalıysa belgeler yalnızca cihazda yaşar — tamamen yerel saklamanın bedeli budur."}}, {"@type": "Question", "name": "Tek ödeme tam olarak neleri içeriyor?", "acceptedAnswer": {"@type": "Answer", "text": "Her şeyi, sonsuza dek: sınırsız belge, klasör ve alt klasörler, iCloud eşitleme ve yedekleme, paylaşılan aile klasörleri, süre hatırlatıcıları, kişisel filigranlar, belge dosyaları ve etkinlik modu. Asla abonelik yok."}}, {"@type": "Question", "name": "Hesap açmam gerekiyor mu?", "acceptedAnswer": {"@type": "Answer", "text": "Hayır. Amano açtığınız anda çalışır. Kaydolacak bir şey yok — sızacak bir şey de yok."}}]}</script>
 <style>
   :root {
     --paper: #F4F6F9; --card: #FFFFFF; --navy: #193B70; --deep: #101722;
@@ -89,6 +90,19 @@
   footer .langs { width: 100%; margin-top: 14px; }
   footer .langs a { margin: 0 12px 0 0; color: #8FA0B8; font-size: 13px; }
   footer .langs span { color: #F4F6F9; font-size: 13px; margin-right: 12px; }
+  section.shots { padding: 40px 0 30px; }
+  .shots h2, .faq h2 { font-family: var(--display); font-variation-settings: "opsz" 72, "SOFT" 100;
+    font-weight: 560; font-size: clamp(28px, 4vw, 38px); text-align: center; margin-bottom: 30px;
+    color: var(--ink); text-wrap: balance; }
+  .shots .strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; max-width: 900px; margin: 0 auto; }
+  .shots img { width: 100%; height: auto; display: block; border-radius: 18px;
+    box-shadow: 0 18px 44px rgba(16, 23, 34, 0.14); }
+  @media (max-width: 640px) { .shots .strip { grid-template-columns: 1fr; max-width: 340px; } }
+  section.faq { padding: 70px 0 84px; }
+  .faq .qa { max-width: 680px; margin: 0 auto; }
+  .faq details { background: var(--card); border-radius: var(--radius); padding: 4px 24px; margin-bottom: 12px; }
+  .faq summary { cursor: pointer; font-weight: 600; font-size: 17px; padding: 16px 0; list-style-position: outside; }
+  .faq details p { color: var(--muted); padding: 0 0 18px; text-wrap: pretty; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .store-button { transition: none; } }
 </style>
 </head>
@@ -119,6 +133,10 @@
       <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 15V4M8 7l4-3.5L16 7"/><rect x="5" y="11" width="14" height="9" rx="2"/></svg></div><h3>Sizin koşullarınızla paylaşılır</h3><p>Ne için olduğunu tam olarak söyleyen filigranlı kopyalar gönderin — başka her yerde işe yaramaz. Orijinaller asla değişmez. Aile klasörleri ortak evrakı tek yerde tutar.</p></article>
     </div>
   </section>
+  <section class="shots">
+    <h2>İçeriden bir bakış</h2>
+    <div class="strip"><img src="../assets/shots/tr/renew.webp" alt="Yenilemeler ekranı süresi dolmak üzere olan bir pasaportu bildiriyor" loading="lazy" width="480" height="1039"><img src="../assets/shots/tr/sign.webp" alt="Bir belge sayfasına imza yerleştiriliyor" loading="lazy" width="480" height="1039"><img src="../assets/shots/tr/family.webp" alt="Seyahat belgeleriyle paylaşılan bir aile klasörü" loading="lazy" width="480" height="1039"></div>
+  </section>
 </div>
 <section class="promise">
   <div class="inner">
@@ -127,6 +145,12 @@
     <span class="price">Ücretsiz başlayın &middot; tek ödeme her şeyi sonsuza dek açar</span>
   </div>
 </section>
+<div class="wrap">
+  <section class="faq">
+    <h2>Sorular ve yanıtları</h2>
+    <div class="qa"><details><summary>Belgelerim nerede saklanıyor?</summary><p>iPhone’unuzda, şifrelenmiş olarak — ve eşitlemeyi açarsanız kendi iCloud’unuzda. Amano’nun sunucusu da hesabı da yok: kasanızı sizden başka kimse açamaz.</p></details><details><summary>Telefonumu kaybedersem ne olur?</summary><p>iCloud eşitleme açıksa (Unlimited’ın parçası), kasanız bir sonraki iPhone’unuzda sizi bekler. Kapalıysa belgeler yalnızca cihazda yaşar — tamamen yerel saklamanın bedeli budur.</p></details><details><summary>Tek ödeme tam olarak neleri içeriyor?</summary><p>Her şeyi, sonsuza dek: sınırsız belge, klasör ve alt klasörler, iCloud eşitleme ve yedekleme, paylaşılan aile klasörleri, süre hatırlatıcıları, kişisel filigranlar, belge dosyaları ve etkinlik modu. Asla abonelik yok.</p></details><details><summary>Hesap açmam gerekiyor mu?</summary><p>Hayır. Amano açtığınız anda çalışır. Kaydolacak bir şey yok — sızacak bir şey de yok.</p></details></div>
+  </section>
+</div>
 <footer>
   <div class="wrap">
     <span>&copy; 2026 Amano &middot; tek kişi tarafından, özenle yapıldı</span>

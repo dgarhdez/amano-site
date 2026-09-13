@@ -26,6 +26,7 @@
 <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..650,100&family=Instrument+Sans:wght@400;500;600&display=swap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Wo werden meine Dokumente gespeichert?", "acceptedAnswer": {"@type": "Answer", "text": "Auf deinem iPhone, verschlüsselt — und wenn du die Synchronisierung einschaltest, in deiner eigenen iCloud. Amano hat keine Server und keine Konten: Niemand außer dir kann deinen Bereich öffnen."}}, {"@type": "Question", "name": "Was passiert, wenn ich mein iPhone verliere?", "acceptedAnswer": {"@type": "Answer", "text": "Mit iCloud-Synchronisierung (Teil von Unlimited) wartet dein Bereich auf deinem nächsten iPhone. Ohne sie leben die Dokumente nur auf dem Gerät — das ist der Preis rein lokaler Speicherung."}}, {"@type": "Question", "name": "Was genau enthält der Einmalkauf?", "acceptedAnswer": {"@type": "Answer", "text": "Alles, für immer: unbegrenzte Dokumente, Ordner und Unterordner, iCloud-Synchronisierung und Sicherung, gemeinsame Familienordner, Ablauferinnerungen, eigene Wasserzeichen, Dokumentmappen und den Event-Modus. Nie ein Abo."}}, {"@type": "Question", "name": "Brauche ich ein Konto?", "acceptedAnswer": {"@type": "Answer", "text": "Nein. Amano funktioniert ab dem ersten Öffnen. Es gibt nichts zu registrieren — und nichts, das geleakt werden könnte."}}]}</script>
 <style>
   :root {
     --paper: #F4F6F9; --card: #FFFFFF; --navy: #193B70; --deep: #101722;
@@ -89,6 +90,19 @@
   footer .langs { width: 100%; margin-top: 14px; }
   footer .langs a { margin: 0 12px 0 0; color: #8FA0B8; font-size: 13px; }
   footer .langs span { color: #F4F6F9; font-size: 13px; margin-right: 12px; }
+  section.shots { padding: 40px 0 30px; }
+  .shots h2, .faq h2 { font-family: var(--display); font-variation-settings: "opsz" 72, "SOFT" 100;
+    font-weight: 560; font-size: clamp(28px, 4vw, 38px); text-align: center; margin-bottom: 30px;
+    color: var(--ink); text-wrap: balance; }
+  .shots .strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; max-width: 900px; margin: 0 auto; }
+  .shots img { width: 100%; height: auto; display: block; border-radius: 18px;
+    box-shadow: 0 18px 44px rgba(16, 23, 34, 0.14); }
+  @media (max-width: 640px) { .shots .strip { grid-template-columns: 1fr; max-width: 340px; } }
+  section.faq { padding: 70px 0 84px; }
+  .faq .qa { max-width: 680px; margin: 0 auto; }
+  .faq details { background: var(--card); border-radius: var(--radius); padding: 4px 24px; margin-bottom: 12px; }
+  .faq summary { cursor: pointer; font-weight: 600; font-size: 17px; padding: 16px 0; list-style-position: outside; }
+  .faq details p { color: var(--muted); padding: 0 0 18px; text-wrap: pretty; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .store-button { transition: none; } }
 </style>
 </head>
@@ -119,6 +133,10 @@
       <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 15V4M8 7l4-3.5L16 7"/><rect x="5" y="11" width="14" height="9" rx="2"/></svg></div><h3>Geteilt zu deinen Bedingungen</h3><p>Verschicke Kopien mit Wasserzeichen, die genau sagen, wofür sie sind – überall sonst wertlos. Originale bleiben unverändert. Familienordner halten gemeinsame Unterlagen an einem Ort.</p></article>
     </div>
   </section>
+  <section class="shots">
+    <h2>Ein Blick hinein</h2>
+    <div class="strip"><img src="../assets/shots/de/renew.webp" alt="Verlängerungs-Ansicht warnt vor einem ablaufenden Reisepass" loading="lazy" width="480" height="1039"><img src="../assets/shots/de/sign.webp" alt="Eine Unterschrift wird auf einer Dokumentseite platziert" loading="lazy" width="480" height="1039"><img src="../assets/shots/de/family.webp" alt="Ein geteilter Familienordner mit Reisedokumenten" loading="lazy" width="480" height="1039"></div>
+  </section>
 </div>
 <section class="promise">
   <div class="inner">
@@ -127,6 +145,12 @@
     <span class="price">Kostenlos starten &middot; ein Kauf schaltet alles frei, für immer</span>
   </div>
 </section>
+<div class="wrap">
+  <section class="faq">
+    <h2>Fragen, beantwortet</h2>
+    <div class="qa"><details><summary>Wo werden meine Dokumente gespeichert?</summary><p>Auf deinem iPhone, verschlüsselt — und wenn du die Synchronisierung einschaltest, in deiner eigenen iCloud. Amano hat keine Server und keine Konten: Niemand außer dir kann deinen Bereich öffnen.</p></details><details><summary>Was passiert, wenn ich mein iPhone verliere?</summary><p>Mit iCloud-Synchronisierung (Teil von Unlimited) wartet dein Bereich auf deinem nächsten iPhone. Ohne sie leben die Dokumente nur auf dem Gerät — das ist der Preis rein lokaler Speicherung.</p></details><details><summary>Was genau enthält der Einmalkauf?</summary><p>Alles, für immer: unbegrenzte Dokumente, Ordner und Unterordner, iCloud-Synchronisierung und Sicherung, gemeinsame Familienordner, Ablauferinnerungen, eigene Wasserzeichen, Dokumentmappen und den Event-Modus. Nie ein Abo.</p></details><details><summary>Brauche ich ein Konto?</summary><p>Nein. Amano funktioniert ab dem ersten Öffnen. Es gibt nichts zu registrieren — und nichts, das geleakt werden könnte.</p></details></div>
+  </section>
+</div>
 <footer>
   <div class="wrap">
     <span>&copy; 2026 Amano &middot; von einer Person gemacht, mit Sorgfalt</span>
