@@ -33,7 +33,10 @@ S = {
     figcap="Thirty-five seconds: three photos become one PDF, watermarked, shared.",
     f1h="Private by design", f1p="No accounts, no servers, no tracking. Your documents stay on your device and in your own iCloud, behind Face&nbsp;ID if you want it.",
     f2h="Renewed on time", f2p="Amano reads expiry dates when you save a document and reminds you before passports, permits and policies lapse.",
-    f3h="Shared on your terms", f3p="Send watermarked copies that say exactly what they are for — worthless anywhere else. Originals never change. Family folders keep shared paperwork in one place.",
+    f3h="Sign it on your phone", f3p="Draw or type your signature, place it on the page, and send a signed copy. The original stays untouched.",
+    f4h="Watermark every copy", f4p="Stamp a copy with who it’s for — “For the gym”, “Rental only”. Worthless anywhere else, so it’s safe to send.",
+    f5h="Many files, one PDF", f5p="Photos and PDFs become one ordered document — contracts, receipts, school forms — ready to share.",
+    f6h="Share safely, from your phone", f6p="Review every page and file before it leaves your iPhone. Family folders keep shared paperwork in one place.",
     ph2="No accounts. No ads. No&nbsp;tracking.",
     pp="Amano has no servers to breach and no interest in your data. Everything lives on your iPhone and in your iCloud — private by architecture, not by promise.",
     price="Free to start &middot; one payment unlocks everything, forever",
@@ -59,7 +62,10 @@ S = {
     figcap="Treinta y cinco segundos: tres fotos se convierten en un PDF, con marca de agua, compartido.",
     f1h="Privacidad desde el principio", f1p="Sin cuentas, sin servidores, sin rastreo. Tus documentos se quedan en tu dispositivo y en tu propio iCloud, protegidos con Face&nbsp;ID si quieres.",
     f2h="Renovado a tiempo", f2p="Amano lee la fecha de caducidad al guardar un documento y te avisa antes de que caduquen pasaportes, permisos y pólizas.",
-    f3h="Compartes tú, en tus términos", f3p="Envía copias con marca de agua que dicen exactamente para qué son: inútiles en cualquier otro sitio. Los originales no cambian. Las carpetas familiares reúnen el papeleo compartido en un solo lugar.",
+    f3h="Fírmalo desde el móvil", f3p="Dibuja o escribe tu firma, colócala en la página y envía una copia firmada. El original no cambia.",
+    f4h="Marca de agua en cada copia", f4p="Sella la copia con su destino: «Para el gimnasio», «Solo alquiler». Inútil en cualquier otro sitio: por eso es segura de enviar.",
+    f5h="Varios archivos, un solo PDF", f5p="Fotos y PDF se convierten en un único documento ordenado: contratos, recibos, papeles del cole, listos para compartir.",
+    f6h="Comparte seguro desde el móvil", f6p="Revisa cada página y cada archivo antes de que salga de tu iPhone. Las carpetas familiares reúnen el papeleo compartido.",
     ph2="Sin cuentas. Sin anuncios. Sin&nbsp;rastreo.",
     pp="Amano no tiene servidores que hackear ni interés en tus datos. Todo vive en tu iPhone y en tu iCloud: privado por arquitectura, no por promesa.",
     price="Empieza gratis &middot; un solo pago lo desbloquea todo, para siempre",
@@ -85,7 +91,10 @@ S = {
     figcap="Trente-cinq secondes : trois photos deviennent un PDF, filigrané, partagé.",
     f1h="Privé dès la conception", f1p="Pas de compte, pas de serveur, pas de pistage. Tes documents restent sur ton appareil et dans ton propre iCloud, derrière Face&nbsp;ID si tu le souhaites.",
     f2h="Renouvelé à temps", f2p="Amano lit la date d’échéance quand tu enregistres un document et te prévient avant que passeports, permis et contrats n’expirent.",
-    f3h="Partagé selon tes conditions", f3p="Envoie des copies filigranées qui disent exactement à quoi elles servent — inutilisables ailleurs. Les originaux ne changent jamais. Les dossiers familiaux réunissent les papiers partagés au même endroit.",
+    f3h="Signe depuis ton iPhone", f3p="Dessine ou tape ta signature, place-la sur la page et envoie une copie signée. L’original ne change pas.",
+    f4h="Un filigrane sur chaque copie", f4p="Marque la copie avec sa destination : « Pour la salle de sport », « Location uniquement ». Inutilisable ailleurs — donc sûre à envoyer.",
+    f5h="Plusieurs fichiers, un seul PDF", f5p="Photos et PDF deviennent un document unique et ordonné : contrats, reçus, papiers d’école, prêts à partager.",
+    f6h="Partage en sécurité, depuis le téléphone", f6p="Vérifie chaque page et chaque fichier avant qu’il quitte ton iPhone. Les dossiers familiaux réunissent les papiers partagés.",
     ph2="Pas de compte. Pas de pub. Pas de&nbsp;pistage.",
     pp="Amano n’a aucun serveur à pirater et aucun intérêt pour tes données. Tout vit sur ton iPhone et dans ton iCloud — privé par architecture, pas par promesse.",
     price="Gratuit pour commencer &middot; un seul paiement débloque tout, pour toujours",
@@ -111,7 +120,10 @@ S = {
     figcap="Fünfunddreißig Sekunden: Drei Fotos werden ein PDF, mit Wasserzeichen, geteilt.",
     f1h="Privat von Grund auf", f1p="Keine Konten, keine Server, kein Tracking. Deine Dokumente bleiben auf deinem Gerät und in deiner eigenen iCloud – auf Wunsch hinter Face&nbsp;ID.",
     f2h="Rechtzeitig verlängert", f2p="Amano liest das Ablaufdatum beim Speichern und erinnert dich, bevor Reisepässe, Ausweise und Policen ablaufen.",
-    f3h="Geteilt zu deinen Bedingungen", f3p="Verschicke Kopien mit Wasserzeichen, die genau sagen, wofür sie sind – überall sonst wertlos. Originale bleiben unverändert. Familienordner halten gemeinsame Unterlagen an einem Ort.",
+    f3h="Unterschreibe am iPhone", f3p="Zeichne oder tippe deine Unterschrift, platziere sie auf der Seite und sende eine signierte Kopie. Das Original bleibt unverändert.",
+    f4h="Wasserzeichen auf jeder Kopie", f4p="Versieh die Kopie mit ihrem Zweck: „Fürs Fitnessstudio“, „Nur zur Miete“. Überall sonst wertlos – deshalb sicher zu versenden.",
+    f5h="Viele Dateien, ein PDF", f5p="Fotos und PDFs werden ein geordnetes Dokument – Verträge, Belege, Schulunterlagen – bereit zum Teilen.",
+    f6h="Sicher teilen, direkt vom Handy", f6p="Prüfe jede Seite und jede Datei, bevor sie dein iPhone verlässt. Familienordner halten gemeinsame Unterlagen an einem Ort.",
     ph2="Keine Konten. Keine Werbung. Kein&nbsp;Tracking.",
     pp="Amano hat keine Server, die man hacken könnte, und kein Interesse an deinen Daten. Alles lebt auf deinem iPhone und in deiner iCloud – privat durch Architektur, nicht durch Versprechen.",
     price="Kostenlos starten &middot; ein Kauf schaltet alles frei, für immer",
@@ -137,7 +149,10 @@ S = {
     figcap="Trentacinque secondi: tre foto diventano un PDF, con filigrana, condiviso.",
     f1h="Privato fin dall’inizio", f1p="Niente account, niente server, niente tracciamento. I tuoi documenti restano sul tuo dispositivo e nel tuo iCloud, dietro Face&nbsp;ID se vuoi.",
     f2h="Rinnovato in tempo", f2p="Amano legge la scadenza quando salvi un documento e ti avvisa prima che passaporti, patenti e polizze scadano.",
-    f3h="Condiviso alle tue condizioni", f3p="Invia copie con filigrana che dicono esattamente a cosa servono: inutili altrove. Gli originali non cambiano. Le cartelle famiglia tengono le pratiche condivise in un unico posto.",
+    f3h="Firma dal telefono", f3p="Disegna o digita la firma, posizionala sulla pagina e invia una copia firmata. L’originale non cambia.",
+    f4h="Filigrana su ogni copia", f4p="Timbra la copia con la sua destinazione: «Per la palestra», «Solo affitto». Inutile altrove: per questo è sicura da inviare.",
+    f5h="Tanti file, un solo PDF", f5p="Foto e PDF diventano un unico documento ordinato: contratti, ricevute, moduli della scuola, pronti da condividere.",
+    f6h="Condividi in sicurezza dal telefono", f6p="Controlla ogni pagina e ogni file prima che lasci il tuo iPhone. Le cartelle famiglia tengono insieme le pratiche condivise.",
     ph2="Niente account. Niente pubblicità. Niente&nbsp;tracciamento.",
     pp="Amano non ha server da violare e nessun interesse per i tuoi dati. Tutto vive sul tuo iPhone e nel tuo iCloud: privato per architettura, non per promessa.",
     price="Inizia gratis &middot; un solo pagamento sblocca tutto, per sempre",
@@ -163,7 +178,10 @@ S = {
     figcap="Trinta e cinco segundos: três fotos tornam-se um PDF, com marca de água, partilhado.",
     f1h="Privado por conceção", f1p="Sem contas, sem servidores, sem rastreio. Os seus documentos ficam no seu dispositivo e no seu próprio iCloud, protegidos com Face&nbsp;ID se quiser.",
     f2h="Renovado a tempo", f2p="O Amano lê a validade quando guarda um documento e avisa antes que passaportes, cartas e apólices caduquem.",
-    f3h="Partilhado nos seus termos", f3p="Envie cópias com marca de água que dizem exatamente para que servem — inúteis em qualquer outro lado. Os originais nunca mudam. As pastas de família juntam a papelada partilhada num só lugar.",
+    f3h="Assine no telemóvel", f3p="Desenhe ou escreva a assinatura, coloque-a na página e envie uma cópia assinada. O original não muda.",
+    f4h="Marca de água em cada cópia", f4p="Carimbe a cópia com o seu destino: «Para o ginásio», «Só arrendamento». Inútil em qualquer outro lado — por isso é segura de enviar.",
+    f5h="Vários ficheiros, um só PDF", f5p="Fotos e PDF tornam-se um único documento ordenado: contratos, recibos, papéis da escola, prontos a partilhar.",
+    f6h="Partilhe em segurança, do telemóvel", f6p="Reveja cada página e cada ficheiro antes de sair do seu iPhone. As pastas de família juntam a papelada partilhada.",
     ph2="Sem contas. Sem anúncios. Sem&nbsp;rastreio.",
     pp="O Amano não tem servidores para atacar nem interesse nos seus dados. Tudo vive no seu iPhone e no seu iCloud — privado por arquitetura, não por promessa.",
     price="Comece grátis &middot; um único pagamento desbloqueia tudo, para sempre",
@@ -189,7 +207,10 @@ S = {
     figcap="Otuz beş saniye: üç fotoğraf tek bir PDF olur, filigran eklenir, paylaşılır.",
     f1h="Tasarımdan özel", f1p="Hesap yok, sunucu yok, takip yok. Belgeleriniz cihazınızda ve kendi iCloud’unuzda kalır; isterseniz Face&nbsp;ID arkasında.",
     f2h="Zamanında yenilenir", f2p="Amano bir belgeyi kaydederken son geçerlilik tarihini okur; pasaportlar, ehliyetler ve poliçeler dolmadan önce hatırlatır.",
-    f3h="Sizin koşullarınızla paylaşılır", f3p="Ne için olduğunu tam olarak söyleyen filigranlı kopyalar gönderin — başka her yerde işe yaramaz. Orijinaller asla değişmez. Aile klasörleri ortak evrakı tek yerde tutar.",
+    f3h="Telefonunuzdan imzalayın", f3p="İmzanızı çizin veya yazın, sayfaya yerleştirin ve imzalı bir kopya gönderin. Orijinal değişmez.",
+    f4h="Her kopyaya filigran", f4p="Kopyayı amacıyla damgalayın: “Spor salonu için”, “Yalnızca kiralama”. Başka her yerde işe yaramaz — bu yüzden göndermesi güvenlidir.",
+    f5h="Birçok dosya, tek PDF", f5p="Fotoğraflar ve PDF’ler tek ve düzenli bir belgeye dönüşür: sözleşmeler, makbuzlar, okul evrakı — paylaşıma hazır.",
+    f6h="Telefondan güvenle paylaşın", f6p="Her sayfayı ve dosyayı iPhone’unuzdan çıkmadan önce gözden geçirin. Aile klasörleri ortak evrakı bir arada tutar.",
     ph2="Hesap yok. Reklam yok. Takip&nbsp;yok.",
     pp="Amano’nun ele geçirilecek sunucusu ve verilerinizde gözü yok. Her şey iPhone’unuzda ve iCloud’unuzda yaşar — vaatle değil, mimariyle özel.",
     price="Ücretsiz başlayın &middot; tek ödeme her şeyi sonsuza dek açar",
@@ -290,7 +311,10 @@ STYLE = """
 
 GLYPH1 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>'
 GLYPH2 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 9h16M8 3v4M16 3v4M12 13v4M10 15h4"/></svg>'
-GLYPH3 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 15V4M8 7l4-3.5L16 7"/><rect x="5" y="11" width="14" height="9" rx="2"/></svg>'
+GLYPH3 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l4-1L19 8l-3-3L5 16l-1 4z"/><path d="M13.5 7.5l3 3"/></svg>'
+GLYPH4 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 4c3 3.8 5 6.3 5 8.8a5 5 0 0 1-10 0C7 10.3 9 7.8 12 4z"/></svg>'
+GLYPH5 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="3" width="9" height="12" rx="2"/><rect x="11" y="9" width="9" height="12" rx="2"/></svg>'
+GLYPH6 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>'
 
 LANG_NAMES = {"en": "English", "es": "Español", "fr": "Français", "de": "Deutsch",
               "it": "Italiano", "pt": "Português", "tr": "Türkçe"}
@@ -379,6 +403,9 @@ def page(key):
       <article class="feature"><div class="glyph">{GLYPH1}</div><h3>{s['f1h']}</h3><p>{s['f1p']}</p></article>
       <article class="feature"><div class="glyph">{GLYPH2}</div><h3>{s['f2h']}</h3><p>{s['f2p']}</p></article>
       <article class="feature"><div class="glyph">{GLYPH3}</div><h3>{s['f3h']}</h3><p>{s['f3p']}</p></article>
+      <article class="feature"><div class="glyph">{GLYPH4}</div><h3>{s['f4h']}</h3><p>{s['f4p']}</p></article>
+      <article class="feature"><div class="glyph">{GLYPH5}</div><h3>{s['f5h']}</h3><p>{s['f5p']}</p></article>
+      <article class="feature"><div class="glyph">{GLYPH6}</div><h3>{s['f6h']}</h3><p>{s['f6p']}</p></article>
     </div>
   </section>
   <section class="shots">
