@@ -260,6 +260,7 @@ def page(key):
 <meta property="og:image" content="{BASE}assets/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{root}assets/mark.png">
+<link rel="apple-touch-icon" href="{root}assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..650,100&family=Instrument+Sans:wght@400;500;600&display=swap">
 <style>{STYLE}</style>
