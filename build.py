@@ -262,16 +262,15 @@ STYLE = """
     text-decoration: none; padding: 10px 16px; border-radius: 999px; }
   .top a.store-mini:hover { background: var(--card); }
   .hero { padding: 48px 0 24px; text-align: center; }
-  .hero-visual { max-width: 300px; margin: 36px auto 0; }
-  .hero-visual img { width: 100%; height: auto; display: block; border-radius: 24px;
-    box-shadow: 0 26px 60px rgba(16, 23, 34, 0.20); }
+  .hero-visual { max-width: 320px; margin: 24px auto 0; }
+  .hero-visual img { width: 100%; height: auto; display: block; }
   @media (min-width: 900px) {
     .hero { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px;
       align-items: center; text-align: left; padding: 48px 0 32px; }
     .hero .cta-row { justify-content: flex-start; }
     .hero .cta-note { text-align: left; }
     .hero h1, .hero p.lede { margin-left: 0; }
-    .hero-visual { max-width: 420px; margin: 0 0 0 auto; }
+    .hero-visual { max-width: 460px; margin: 0 0 0 auto; }
   }
   .hero h1 { font-family: var(--display); font-variation-settings: "opsz" 72, "SOFT" 100;
     font-weight: 560; font-size: clamp(42px, 7vw, 74px); line-height: 1.06;
@@ -321,10 +320,9 @@ STYLE = """
   .shots h2, .faq h2 { font-family: var(--display); font-variation-settings: "opsz" 72, "SOFT" 100;
     font-weight: 560; font-size: clamp(28px, 4vw, 38px); text-align: center; margin-bottom: 30px;
     color: var(--ink); text-wrap: balance; }
-  .shots .strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; max-width: 900px; margin: 0 auto; }
-  .shots img { width: 100%; height: auto; display: block; border-radius: 18px;
-    box-shadow: 0 18px 44px rgba(16, 23, 34, 0.14); }
-  @media (max-width: 640px) { .shots .strip { grid-template-columns: 1fr; max-width: 340px; } }
+  .shots .strip { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; max-width: 760px; margin: 0 auto; }
+  .shots img { width: 100%; height: auto; display: block; }
+  @media (max-width: 640px) { .shots .strip { grid-template-columns: 1fr; max-width: 320px; } }
   section.faq { padding: 70px 0 84px; }
   .faq .qa { max-width: 680px; margin: 0 auto; }
   .faq details { background: var(--card); border-radius: var(--radius); padding: 4px 24px; margin-bottom: 12px; }
@@ -375,9 +373,9 @@ def page(key):
     canon = BASE + folder
     store = f"https://apps.apple.com/{storefront}app/id{APP_ID}"
     shots = "".join(
-        f'<figure><img src="{root}assets/shots/{key}/{name}.webp" alt="{alt}" loading="lazy" width="480" height="1039">'
+        f'<figure><img src="{root}assets/features/{key}/{name}.webp" alt="{alt}" loading="lazy" width="560" height="918">'
         f'<figcaption>{cap}</figcaption></figure>'
-        for name, alt, cap in zip(["renew", "sign", "family"], s["shotsalt"], s["shotcaps"]))
+        for name, alt, cap in zip(["renew", "sign"], s["shotsalt"], s["shotcaps"]))
     faqs = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in s["faq"])
     return f"""<!doctype html>
 <html lang="{lang}">
@@ -419,7 +417,7 @@ def page(key):
       </div>
     </div>
     <div class="hero-visual">
-      <img src="{root}assets/hero/{key}.webp" alt="{s['heroalt']}" width="640" height="1100" fetchpriority="high">
+      <img src="{root}assets/features/{key}/family.webp" alt="{s['heroalt']}" width="560" height="918" fetchpriority="high">
     </div>
   </section>
   <section class="features">
