@@ -40,7 +40,7 @@ S = {
     ph2="No accounts. No ads. No&nbsp;tracking.",
     pp="Amano has no servers to breach and no interest in your data. Everything lives on your iPhone and in your iCloud — private by architecture, not by promise.",
     price="Free to start &middot; one payment unlocks everything, forever",
-    made="made by one person, with care", privacy="Privacy", store="App&nbsp;Store",
+    made="made by one person, with care", privacy="Privacy", terms="Terms", support="Support", store="App&nbsp;Store",
     videolabel="Amano turning three photos into one watermarked PDF and sharing it",
     shotsh2="A look inside",
     shotsalt=["Renewals screen reminding about an expiring passport", "Placing a signature on a document page", "A shared family folder with travel documents"],
@@ -69,7 +69,7 @@ S = {
     ph2="Sin cuentas. Sin anuncios. Sin&nbsp;rastreo.",
     pp="Amano no tiene servidores que hackear ni interés en tus datos. Todo vive en tu iPhone y en tu iCloud: privado por arquitectura, no por promesa.",
     price="Empieza gratis &middot; un solo pago lo desbloquea todo, para siempre",
-    made="hecho por una persona, con cariño", privacy="Privacidad", store="App&nbsp;Store",
+    made="hecho por una persona, con cariño", privacy="Privacidad", terms="Condiciones", support="Ayuda", store="App&nbsp;Store",
     videolabel="Amano convirtiendo tres fotos en un PDF con marca de agua y compartiéndolo",
     shotsh2="Un vistazo por dentro",
     shotsalt=["Pantalla de renovaciones avisando de un pasaporte a punto de caducar", "Colocando una firma en la página de un documento", "Una carpeta familiar compartida con documentos de viaje"],
@@ -98,7 +98,7 @@ S = {
     ph2="Pas de compte. Pas de pub. Pas de&nbsp;pistage.",
     pp="Amano n’a aucun serveur à pirater et aucun intérêt pour tes données. Tout vit sur ton iPhone et dans ton iCloud — privé par architecture, pas par promesse.",
     price="Gratuit pour commencer &middot; un seul paiement débloque tout, pour toujours",
-    made="fait par une seule personne, avec soin", privacy="Confidentialité", store="App&nbsp;Store",
+    made="fait par une seule personne, avec soin", privacy="Confidentialité", terms="Conditions", support="Assistance", store="App&nbsp;Store",
     videolabel="Amano transforme trois photos en un PDF filigrané et le partage",
     shotsh2="Un aperçu de l’intérieur",
     shotsalt=["Écran des renouvellements signalant un passeport bientôt expiré", "Pose d’une signature sur la page d’un document", "Un dossier familial partagé avec des documents de voyage"],
@@ -127,7 +127,7 @@ S = {
     ph2="Keine Konten. Keine Werbung. Kein&nbsp;Tracking.",
     pp="Amano hat keine Server, die man hacken könnte, und kein Interesse an deinen Daten. Alles lebt auf deinem iPhone und in deiner iCloud – privat durch Architektur, nicht durch Versprechen.",
     price="Kostenlos starten &middot; ein Kauf schaltet alles frei, für immer",
-    made="von einer Person gemacht, mit Sorgfalt", privacy="Datenschutz", store="App&nbsp;Store",
+    made="von einer Person gemacht, mit Sorgfalt", privacy="Datenschutz", terms="Bedingungen", support="Support", store="App&nbsp;Store",
     videolabel="Amano macht aus drei Fotos ein PDF mit Wasserzeichen und teilt es",
     shotsh2="Ein Blick hinein",
     shotsalt=["Verlängerungs-Ansicht warnt vor einem ablaufenden Reisepass", "Eine Unterschrift wird auf einer Dokumentseite platziert", "Ein geteilter Familienordner mit Reisedokumenten"],
@@ -156,7 +156,7 @@ S = {
     ph2="Niente account. Niente pubblicità. Niente&nbsp;tracciamento.",
     pp="Amano non ha server da violare e nessun interesse per i tuoi dati. Tutto vive sul tuo iPhone e nel tuo iCloud: privato per architettura, non per promessa.",
     price="Inizia gratis &middot; un solo pagamento sblocca tutto, per sempre",
-    made="fatto da una persona sola, con cura", privacy="Privacy", store="App&nbsp;Store",
+    made="fatto da una persona sola, con cura", privacy="Privacy", terms="Termini", support="Assistenza", store="App&nbsp;Store",
     videolabel="Amano trasforma tre foto in un PDF con filigrana e lo condivide",
     shotsh2="Uno sguardo dentro",
     shotsalt=["Schermata dei rinnovi che segnala un passaporto in scadenza", "Una firma viene posizionata sulla pagina di un documento", "Una cartella famiglia condivisa con documenti di viaggio"],
@@ -185,7 +185,7 @@ S = {
     ph2="Sem contas. Sem anúncios. Sem&nbsp;rastreio.",
     pp="O Amano não tem servidores para atacar nem interesse nos seus dados. Tudo vive no seu iPhone e no seu iCloud — privado por arquitetura, não por promessa.",
     price="Comece grátis &middot; um único pagamento desbloqueia tudo, para sempre",
-    made="feito por uma pessoa, com cuidado", privacy="Privacidade", store="App&nbsp;Store",
+    made="feito por uma pessoa, com cuidado", privacy="Privacidade", terms="Termos", support="Suporte", store="App&nbsp;Store",
     videolabel="O Amano transforma três fotos num PDF com marca de água e partilha-o",
     shotsh2="Um olhar por dentro",
     shotsalt=["Ecrã de renovações a avisar de um passaporte prestes a caducar", "Uma assinatura a ser colocada na página de um documento", "Uma pasta de família partilhada com documentos de viagem"],
@@ -214,7 +214,7 @@ S = {
     ph2="Hesap yok. Reklam yok. Takip&nbsp;yok.",
     pp="Amano’nun ele geçirilecek sunucusu ve verilerinizde gözü yok. Her şey iPhone’unuzda ve iCloud’unuzda yaşar — vaatle değil, mimariyle özel.",
     price="Ücretsiz başlayın &middot; tek ödeme her şeyi sonsuza dek açar",
-    made="tek kişi tarafından, özenle yapıldı", privacy="Gizlilik", store="App&nbsp;Store",
+    made="tek kişi tarafından, özenle yapıldı", privacy="Gizlilik", terms="Koşullar", support="Destek", store="App&nbsp;Store",
     videolabel="Amano üç fotoğrafı filigranlı tek bir PDF’e dönüştürüp paylaşıyor",
     shotsh2="İçeriden bir bakış",
     shotsalt=["Yenilemeler ekranı süresi dolmak üzere olan bir pasaportu bildiriyor", "Bir belge sayfasına imza yerleştiriliyor", "Seyahat belgeleriyle paylaşılan bir aile klasörü"],
@@ -431,6 +431,8 @@ def page(key):
     <span>&copy; 2026 Amano &middot; {s['made']}</span>
     <span>
       <a href="{BASE}privacy/">{s['privacy']}</a>
+      <a href="{BASE}terms/">{s['terms']}</a>
+      <a href="{BASE}support/">{s['support']}</a>
       <a href="{store}">{s['store']}</a>
     </span>
     {lang_switcher(key)}
