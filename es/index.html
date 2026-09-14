@@ -83,6 +83,28 @@
   .demo video { display: block; width: 100%; height: auto; }
   .demo figcaption { text-align: center; font-size: 14px; color: var(--muted);
     padding: 14px 16px 16px; background: var(--card); }
+  section.chapters { padding: 56px 0 8px; }
+  .chapter { display: grid; gap: 40px; align-items: center; margin: 0 0 64px; }
+  .chapter .art { max-width: 300px; margin: 0 auto; }
+  .chapter .art img { width: 100%; height: auto; display: block; }
+  .chapter h2 { font-family: var(--display); font-variation-settings: "opsz" 72, "SOFT" 100;
+    font-weight: 560; font-size: clamp(28px, 4.4vw, 40px); line-height: 1.12;
+    text-wrap: balance; margin: 12px 0 14px; }
+  .chapter p { color: var(--muted); font-size: 17px; max-width: 30em; text-wrap: pretty; }
+  .chip { display: inline-block; font-size: 13px; font-weight: 600; letter-spacing: 0.02em;
+    padding: 5px 12px; border-radius: 999px; }
+  .chip.free { background: rgba(25, 59, 112, 0.10); color: var(--navy); }
+  .chip.unl { background: var(--deep); color: #F4F6F9; }
+  @media (min-width: 860px) {
+    .chapter { grid-template-columns: 1fr 1fr; gap: 64px; margin: 0 0 40px; }
+    .chapter .art { max-width: 380px; }
+    .chapter:nth-child(even) .art { order: 2; margin-left: auto; }
+    .chapter:nth-child(odd) .art { margin-right: auto; }
+  }
+  section.also { padding: 40px 0 10px; }
+  .also h2 { font-family: var(--display); font-variation-settings: "opsz" 40, "SOFT" 100;
+    font-weight: 600; font-size: 22px; text-align: center; margin-bottom: 26px; color: var(--muted); }
+  .also .grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
   section.features { padding: 84px 0 30px; }
   .features .grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
   .feature { background: var(--card); border-radius: var(--radius); padding: 30px 28px 32px; }
@@ -140,14 +162,38 @@
       <img src="../assets/features/es/family.webp" alt="El espacio de Amano en un iPhone" width="560" height="918" fetchpriority="high">
     </div>
   </section>
-  <section class="features">
+  <section class="chapters">
+    <div class="chapter">
+      <div class="art"><img src="../assets/features/es/renew.webp" alt="Pantalla de renovaciones avisando de un pasaporte a punto de caducar" loading="lazy" width="560" height="918"></div>
+      <div>
+        <span class="chip unl">Incluido en Unlimited</span>
+        <h2>Renovado a tiempo</h2>
+        <p>Amano lee la fecha de caducidad al guardar un documento y te avisa antes de que caduquen pasaportes, permisos y pólizas.</p>
+      </div>
+    </div>
+    <div class="chapter">
+      <div class="art"><img src="../assets/features/es/sign.webp" alt="Colocando una firma en la página de un documento" loading="lazy" width="560" height="918"></div>
+      <div>
+        <span class="chip free">Gratis para todos</span>
+        <h2>Fírmalo desde el móvil</h2>
+        <p>Dibuja o escribe tu firma, colócala en la página y envía una copia firmada. El original no cambia. Sella la copia con su destino: «Para el gimnasio», «Solo alquiler». Inútil en cualquier otro sitio: por eso es segura de enviar.</p>
+      </div>
+    </div>
+    <div class="chapter">
+      <div class="art"><img src="../assets/features/es/family.webp" alt="Una carpeta familiar compartida con documentos de viaje" loading="lazy" width="560" height="918"></div>
+      <div>
+        <span class="chip unl">Incluido en Unlimited</span>
+        <h2>Comparte seguro desde el móvil</h2>
+        <p>Revisa cada página y cada archivo antes de que salga de tu iPhone. Las carpetas familiares reúnen el papeleo compartido.</p>
+      </div>
+    </div>
+  </section>
+  <section class="also">
+    <h2>Y además, en Amano</h2>
     <div class="grid">
       <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div><h3>Privacidad desde el principio</h3><p>Sin cuentas, sin servidores, sin rastreo. Tus documentos se quedan en tu dispositivo y en tu propio iCloud, protegidos con Face&nbsp;ID si quieres.</p></article>
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 9h16M8 3v4M16 3v4M12 13v4M10 15h4"/></svg></div><h3>Renovado a tiempo</h3><p>Amano lee la fecha de caducidad al guardar un documento y te avisa antes de que caduquen pasaportes, permisos y pólizas.</p></article>
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l4-1L19 8l-3-3L5 16l-1 4z"/><path d="M13.5 7.5l3 3"/></svg></div><h3>Fírmalo desde el móvil</h3><p>Dibuja o escribe tu firma, colócala en la página y envía una copia firmada. El original no cambia.</p></article>
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 4c3 3.8 5 6.3 5 8.8a5 5 0 0 1-10 0C7 10.3 9 7.8 12 4z"/></svg></div><h3>Marca de agua en cada copia</h3><p>Sella la copia con su destino: «Para el gimnasio», «Solo alquiler». Inútil en cualquier otro sitio: por eso es segura de enviar.</p></article>
       <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="3" width="9" height="12" rx="2"/><rect x="11" y="9" width="9" height="12" rx="2"/></svg></div><h3>Varios archivos, un solo PDF</h3><p>Fotos y PDF se convierten en un único documento ordenado: contratos, recibos, papeles del cole, listos para compartir.</p></article>
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Comparte seguro desde el móvil</h3><p>Revisa cada página y cada archivo antes de que salga de tu iPhone. Las carpetas familiares reúnen el papeleo compartido.</p></article>
+      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 9h16M8 3v4M16 3v4M12 13v4M10 15h4"/></svg></div><h3>Empieza gratis</h3><p>Escanea o importa tus diez primeros documentos sin pagar nada.</p></article>
     </div>
   </section>
   <section class="demo">
@@ -155,10 +201,6 @@
       <video src="../assets/demo.mp4" poster="../assets/poster.jpg" muted loop playsinline controls preload="metadata" aria-label="Amano convirtiendo tres fotos en un PDF con marca de agua y compartiéndolo"></video>
       <figcaption>Treinta y cinco segundos: tres fotos se convierten en un PDF, con marca de agua, compartido.</figcaption>
     </figure>
-  </section>
-  <section class="shots">
-    <h2>Un vistazo por dentro</h2>
-    <div class="strip"><figure><img src="../assets/features/es/renew.webp" alt="Pantalla de renovaciones avisando de un pasaporte a punto de caducar" loading="lazy" width="560" height="918"><figcaption>Confirma la fecha que detecta Amano. Activa un recordatorio para renovar.</figcaption></figure><figure><img src="../assets/features/es/sign.webp" alt="Colocando una firma en la página de un documento" loading="lazy" width="560" height="918"><figcaption>Dibuja o escribe tu firma, colócala en la página y comparte una copia limpia.</figcaption></figure></div>
   </section>
 </div>
 <section class="promise">
