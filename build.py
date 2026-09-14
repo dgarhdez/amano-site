@@ -44,6 +44,7 @@ S = {
     videolabel="Amano turning three photos into one watermarked PDF and sharing it",
     shotsh2="A look inside",
     shotsalt=["Renewals screen reminding about an expiring passport", "Placing a signature on a document page", "A shared family folder with travel documents"],
+    shotcaps=["Confirm the expiry date Amano finds. Set a reminder to renew.", "Draw or type your signature, place it on the page, and share a clean copy.", "Share a folder with your family. Keep your private files separate."],
     faqh2="Questions, answered",
     faq=[
         ("Where are my documents stored?", "On your iPhone, encrypted — and, if you turn on sync, in your own iCloud. Amano has no servers and no accounts; nobody but you can open your vault."),
@@ -73,6 +74,7 @@ S = {
     videolabel="Amano convirtiendo tres fotos en un PDF con marca de agua y compartiéndolo",
     shotsh2="Un vistazo por dentro",
     shotsalt=["Pantalla de renovaciones avisando de un pasaporte a punto de caducar", "Colocando una firma en la página de un documento", "Una carpeta familiar compartida con documentos de viaje"],
+    shotcaps=["Confirma la fecha que detecta Amano. Activa un recordatorio para renovar.", "Dibuja o escribe tu firma, colócala en la página y comparte una copia limpia.", "Comparte una carpeta con tu familia. Tus archivos privados, por separado."],
     faqh2="Preguntas, respondidas",
     faq=[
         ("¿Dónde se guardan mis documentos?", "En tu iPhone, cifrados; y si activas la sincronización, en tu propio iCloud. Amano no tiene servidores ni cuentas: nadie más que tú puede abrir tu espacio."),
@@ -102,6 +104,7 @@ S = {
     videolabel="Amano transforme trois photos en un PDF filigrané et le partage",
     shotsh2="Un aperçu de l’intérieur",
     shotsalt=["Écran des renouvellements signalant un passeport bientôt expiré", "Pose d’une signature sur la page d’un document", "Un dossier familial partagé avec des documents de voyage"],
+    shotcaps=["Confirmez la date repérée par Amano. Activez un rappel de renouvellement.", "Dessine ou tape ta signature, place-la sur la page et partage une copie propre.", "Partagez un dossier avec votre famille. Gardez vos fichiers privés à part."],
     faqh2="Vos questions, nos réponses",
     faq=[
         ("Où mes documents sont-ils stockés ?", "Sur ton iPhone, chiffrés — et, si tu actives la synchronisation, dans ton propre iCloud. Amano n’a ni serveurs ni comptes : personne d’autre que toi ne peut ouvrir ton espace."),
@@ -131,6 +134,7 @@ S = {
     videolabel="Amano macht aus drei Fotos ein PDF mit Wasserzeichen und teilt es",
     shotsh2="Ein Blick hinein",
     shotsalt=["Verlängerungs-Ansicht warnt vor einem ablaufenden Reisepass", "Eine Unterschrift wird auf einer Dokumentseite platziert", "Ein geteilter Familienordner mit Reisedokumenten"],
+    shotcaps=["Bestätige das erkannte Ablaufdatum. Lass dich ans Verlängern erinnern.", "Zeichne oder tippe deine Unterschrift, platziere sie auf der Seite und teile eine saubere Kopie.", "Teile einen Ordner mit deiner Familie. Deine privaten Dateien bleiben privat."],
     faqh2="Fragen, beantwortet",
     faq=[
         ("Wo werden meine Dokumente gespeichert?", "Auf deinem iPhone, verschlüsselt — und wenn du die Synchronisierung einschaltest, in deiner eigenen iCloud. Amano hat keine Server und keine Konten: Niemand außer dir kann deinen Bereich öffnen."),
@@ -160,6 +164,7 @@ S = {
     videolabel="Amano trasforma tre foto in un PDF con filigrana e lo condivide",
     shotsh2="Uno sguardo dentro",
     shotsalt=["Schermata dei rinnovi che segnala un passaporto in scadenza", "Una firma viene posizionata sulla pagina di un documento", "Una cartella famiglia condivisa con documenti di viaggio"],
+    shotcaps=["Conferma la scadenza trovata da Amano. Imposta un promemoria per rinnovare.", "Disegna o digita la tua firma, posizionala sulla pagina e condividi una copia pulita.", "Condividi una cartella con la tua famiglia. I file privati restano a parte."],
     faqh2="Domande, risposte",
     faq=[
         ("Dove sono conservati i miei documenti?", "Sul tuo iPhone, cifrati — e, se attivi la sincronizzazione, nel tuo iCloud. Amano non ha server né account: nessuno oltre a te può aprire il tuo archivio."),
@@ -189,6 +194,7 @@ S = {
     videolabel="O Amano transforma três fotos num PDF com marca de água e partilha-o",
     shotsh2="Um olhar por dentro",
     shotsalt=["Ecrã de renovações a avisar de um passaporte prestes a caducar", "Uma assinatura a ser colocada na página de um documento", "Uma pasta de família partilhada com documentos de viagem"],
+    shotcaps=["Confirme a data de validade que o Amano encontra. Defina um lembrete para renovar.", "Desenhe ou escreva a sua assinatura, coloque-a na página e partilhe uma cópia limpa.", "Partilhe uma pasta com a família. Mantenha os ficheiros privados à parte."],
     faqh2="Perguntas, respondidas",
     faq=[
         ("Onde ficam guardados os meus documentos?", "No seu iPhone, cifrados — e, se ativar a sincronização, no seu próprio iCloud. O Amano não tem servidores nem contas: ninguém além de si pode abrir o seu espaço."),
@@ -218,6 +224,7 @@ S = {
     videolabel="Amano üç fotoğrafı filigranlı tek bir PDF’e dönüştürüp paylaşıyor",
     shotsh2="İçeriden bir bakış",
     shotsalt=["Yenilemeler ekranı süresi dolmak üzere olan bir pasaportu bildiriyor", "Bir belge sayfasına imza yerleştiriliyor", "Seyahat belgeleriyle paylaşılan bir aile klasörü"],
+    shotcaps=["Amano'nun bulduğu tarihi onaylayın. Yenilemek için hatırlatıcı ayarlayın.", "İmzanızı çizin veya yazın, sayfaya yerleştirin ve temiz bir kopya paylaşın.", "Bir klasörü ailenizle paylaşın. Özel dosyalarınız ayrı kalsın."],
     faqh2="Sorular ve yanıtları",
     faq=[
         ("Belgelerim nerede saklanıyor?", "iPhone’unuzda, şifrelenmiş olarak — ve eşitlemeyi açarsanız kendi iCloud’unuzda. Amano’nun sunucusu da hesabı da yok: kasanızı sizden başka kimse açamaz."),
@@ -242,7 +249,13 @@ STYLE = """
   body { background: var(--paper); color: var(--ink); font-family: var(--body);
     font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
   .wrap { max-width: 1020px; margin: 0 auto; padding: 0 24px; }
-  header.top { display: flex; align-items: center; justify-content: space-between; padding: 28px 0 0; }
+  header.top { display: flex; align-items: center; justify-content: space-between;
+    position: sticky; top: 0; z-index: 50; background: var(--paper);
+    padding: 14px 0; border-bottom: 1px solid rgba(16, 23, 34, 0.06); }
+  .badge { display: block; height: 40px; width: auto; }
+  .badge-hero { height: 58px; }
+  .shots figure { margin: 0; }
+  .shots figcaption { font-size: 14px; color: var(--muted); padding: 10px 4px 0; text-wrap: pretty; }
   .wordmark { font-family: var(--display); font-weight: 600; font-size: 30px; color: var(--navy);
     font-variation-settings: "opsz" 72, "SOFT" 100; letter-spacing: 0.01em; text-decoration: none; }
   .top a.store-mini { font-weight: 600; font-size: 15px; color: var(--link);
@@ -351,8 +364,9 @@ def page(key):
     canon = BASE + folder
     store = f"https://apps.apple.com/{storefront}app/id{APP_ID}"
     shots = "".join(
-        f'<img src="{root}assets/shots/{key}/{name}.webp" alt="{alt}" loading="lazy" width="480" height="1039">'
-        for name, alt in zip(["renew", "sign", "family"], s["shotsalt"]))
+        f'<figure><img src="{root}assets/shots/{key}/{name}.webp" alt="{alt}" loading="lazy" width="480" height="1039">'
+        f'<figcaption>{cap}</figcaption></figure>'
+        for name, alt, cap in zip(["renew", "sign", "family"], s["shotsalt"], s["shotcaps"]))
     faqs = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in s["faq"])
     return f"""<!doctype html>
 <html lang="{lang}">
@@ -382,13 +396,13 @@ def page(key):
 <div class="wrap">
   <header class="top">
     <a class="wordmark" href="{canon}">amano</a>
-    <a class="store-mini" href="{store}">{s['getapp']}</a>
+    <a href="{store}" aria-label="{s['getapp']}"><img class="badge" src="{root}assets/badges/{key}.svg" alt="{badge}" width="120" height="40"></a>
   </header>
   <section class="hero">
     <h1>{s['h1']}</h1>
     <p class="lede">{s['lede']}</p>
     <div class="cta-row">
-      <a class="store-button" href="{store}">{APPLE_SVG}{badge}</a>
+      <a href="{store}" aria-label="{badge}"><img class="badge badge-hero" src="{root}assets/badges/{key}.svg" alt="{badge}" width="174" height="58"></a>
       <span class="cta-note">{s['ctanote']}</span>
     </div>
   </section>

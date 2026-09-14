@@ -39,7 +39,13 @@
   body { background: var(--paper); color: var(--ink); font-family: var(--body);
     font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
   .wrap { max-width: 1020px; margin: 0 auto; padding: 0 24px; }
-  header.top { display: flex; align-items: center; justify-content: space-between; padding: 28px 0 0; }
+  header.top { display: flex; align-items: center; justify-content: space-between;
+    position: sticky; top: 0; z-index: 50; background: var(--paper);
+    padding: 14px 0; border-bottom: 1px solid rgba(16, 23, 34, 0.06); }
+  .badge { display: block; height: 40px; width: auto; }
+  .badge-hero { height: 58px; }
+  .shots figure { margin: 0; }
+  .shots figcaption { font-size: 14px; color: var(--muted); padding: 10px 4px 0; text-wrap: pretty; }
   .wordmark { font-family: var(--display); font-weight: 600; font-size: 30px; color: var(--navy);
     font-variation-settings: "opsz" 72, "SOFT" 100; letter-spacing: 0.01em; text-decoration: none; }
   .top a.store-mini { font-weight: 600; font-size: 15px; color: var(--link);
@@ -110,13 +116,13 @@
 <div class="wrap">
   <header class="top">
     <a class="wordmark" href="https://getamano.app/tr/">amano</a>
-    <a class="store-mini" href="https://apps.apple.com/tr/app/id6809212902">Uygulamayı edin</a>
+    <a href="https://apps.apple.com/tr/app/id6809212902" aria-label="Uygulamayı edin"><img class="badge" src="../assets/badges/tr.svg" alt="App Store’dan indir" width="120" height="40"></a>
   </header>
   <section class="hero">
     <h1>Önemli olan her şey, <em>elinizin altında.</em></h1>
     <p class="lede">Amano, önemli belgeleriniz için özel bir kasa: taranır, düzenlenir, zamanında yenilenir ve yalnızca sizin koşullarınızla paylaşılır. iPhone’unuzda ve iCloud’unuzda. Başka hiçbir yerde.</p>
     <div class="cta-row">
-      <a class="store-button" href="https://apps.apple.com/tr/app/id6809212902"><svg width="20" height="24" viewBox="0 0 20 24" fill="currentColor" aria-hidden="true"><path d="M16.6 12.8c0-3 2.4-4.4 2.5-4.5-1.4-2-3.5-2.3-4.3-2.3-1.8-.2-3.5 1.1-4.4 1.1-.9 0-2.3-1-3.8-1-2 0-3.8 1.1-4.8 2.9-2 3.5-.5 8.8 1.5 11.6 1 1.4 2.1 3 3.6 2.9 1.5-.1 2-.9 3.8-.9s2.3.9 3.8.9c1.6 0 2.6-1.4 3.5-2.8 1.1-1.6 1.6-3.2 1.6-3.3-.1-.1-3-1.2-3-4.6zM13.7 3.9c.8-1 1.4-2.4 1.2-3.9-1.2.1-2.7.8-3.5 1.9-.8.9-1.5 2.3-1.3 3.7 1.4.1 2.8-.7 3.6-1.7z"/></svg>App Store’dan indir</a>
+      <a href="https://apps.apple.com/tr/app/id6809212902" aria-label="App Store’dan indir"><img class="badge badge-hero" src="../assets/badges/tr.svg" alt="App Store’dan indir" width="174" height="58"></a>
       <span class="cta-note">Ücretsiz başlayın. Her şey için tek ödeme — asla abonelik yok.</span>
     </div>
   </section>
@@ -138,7 +144,7 @@
   </section>
   <section class="shots">
     <h2>İçeriden bir bakış</h2>
-    <div class="strip"><img src="../assets/shots/tr/renew.webp" alt="Yenilemeler ekranı süresi dolmak üzere olan bir pasaportu bildiriyor" loading="lazy" width="480" height="1039"><img src="../assets/shots/tr/sign.webp" alt="Bir belge sayfasına imza yerleştiriliyor" loading="lazy" width="480" height="1039"><img src="../assets/shots/tr/family.webp" alt="Seyahat belgeleriyle paylaşılan bir aile klasörü" loading="lazy" width="480" height="1039"></div>
+    <div class="strip"><figure><img src="../assets/shots/tr/renew.webp" alt="Yenilemeler ekranı süresi dolmak üzere olan bir pasaportu bildiriyor" loading="lazy" width="480" height="1039"><figcaption>Amano'nun bulduğu tarihi onaylayın. Yenilemek için hatırlatıcı ayarlayın.</figcaption></figure><figure><img src="../assets/shots/tr/sign.webp" alt="Bir belge sayfasına imza yerleştiriliyor" loading="lazy" width="480" height="1039"><figcaption>İmzanızı çizin veya yazın, sayfaya yerleştirin ve temiz bir kopya paylaşın.</figcaption></figure><figure><img src="../assets/shots/tr/family.webp" alt="Seyahat belgeleriyle paylaşılan bir aile klasörü" loading="lazy" width="480" height="1039"><figcaption>Bir klasörü ailenizle paylaşın. Özel dosyalarınız ayrı kalsın.</figcaption></figure></div>
   </section>
 </div>
 <section class="promise">
