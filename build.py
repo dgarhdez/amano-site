@@ -8,7 +8,7 @@ Run `python3 build.py` after editing, then commit the generated files.
 import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent
-BASE = "https://dgarhdez.github.io/amano-site/"
+BASE = "https://getamano.app/"
 APP_ID = "6809212902"
 
 # locale key -> (folder, html lang, hreflang, storefront path, App Store link label)
