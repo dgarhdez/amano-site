@@ -51,7 +51,18 @@
   .top a.store-mini { font-weight: 600; font-size: 15px; color: var(--link);
     text-decoration: none; padding: 10px 16px; border-radius: 999px; }
   .top a.store-mini:hover { background: var(--card); }
-  .hero { padding: 88px 0 40px; text-align: center; }
+  .hero { padding: 48px 0 24px; text-align: center; }
+  .hero-visual { max-width: 300px; margin: 36px auto 0; }
+  .hero-visual img { width: 100%; height: auto; display: block; border-radius: 24px;
+    box-shadow: 0 26px 60px rgba(16, 23, 34, 0.20); }
+  @media (min-width: 900px) {
+    .hero { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px;
+      align-items: center; text-align: left; padding: 48px 0 32px; }
+    .hero .cta-row { justify-content: flex-start; }
+    .hero .cta-note { text-align: left; }
+    .hero h1, .hero p.lede { margin-left: 0; }
+    .hero-visual { max-width: 420px; margin: 0 0 0 auto; }
+  }
   .hero h1 { font-family: var(--display); font-variation-settings: "opsz" 72, "SOFT" 100;
     font-weight: 560; font-size: clamp(42px, 7vw, 74px); line-height: 1.06;
     color: var(--ink); text-wrap: balance; letter-spacing: -0.01em; }
@@ -119,18 +130,17 @@
     <a href="https://apps.apple.com/app/id6809212902" aria-label="Get the app"><img class="badge" src="./assets/badges/en.svg" alt="Download on the App Store" width="120" height="40"></a>
   </header>
   <section class="hero">
-    <h1>What matters, <em>close at hand.</em></h1>
-    <p class="lede">Amano is a private vault for the documents that matter — scanned, organized, renewed on time, and shared only on your terms. On your iPhone and in your iCloud. Nowhere else.</p>
-    <div class="cta-row">
-      <a href="https://apps.apple.com/app/id6809212902" aria-label="Download on the App Store"><img class="badge badge-hero" src="./assets/badges/en.svg" alt="Download on the App Store" width="174" height="58"></a>
-      <span class="cta-note">Free to start. One single payment for everything — no subscriptions, ever.</span>
+    <div>
+      <h1>What matters, <em>close at hand.</em></h1>
+      <p class="lede">Amano is a private vault for the documents that matter — scanned, organized, renewed on time, and shared only on your terms. On your iPhone and in your iCloud. Nowhere else.</p>
+      <div class="cta-row">
+        <a href="https://apps.apple.com/app/id6809212902" aria-label="Download on the App Store"><img class="badge badge-hero" src="./assets/badges/en.svg" alt="Download on the App Store" width="174" height="58"></a>
+        <span class="cta-note">Free to start. One single payment for everything — no subscriptions, ever.</span>
+      </div>
     </div>
-  </section>
-  <section class="demo">
-    <figure>
-      <video src="./assets/demo.mp4" poster="./assets/poster.jpg" muted loop playsinline controls preload="metadata" aria-label="Amano turning three photos into one watermarked PDF and sharing it"></video>
-      <figcaption>Thirty-five seconds: three photos become one PDF, watermarked, shared.</figcaption>
-    </figure>
+    <div class="hero-visual">
+      <img src="./assets/hero/en.webp" alt="The Amano vault on an iPhone" width="640" height="1100" fetchpriority="high">
+    </div>
   </section>
   <section class="features">
     <div class="grid">
@@ -141,6 +151,12 @@
       <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="3" width="9" height="12" rx="2"/><rect x="11" y="9" width="9" height="12" rx="2"/></svg></div><h3>Many files, one PDF</h3><p>Photos and PDFs become one ordered document — contracts, receipts, school forms — ready to share.</p></article>
       <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Share safely, from your phone</h3><p>Review every page and file before it leaves your iPhone. Family folders keep shared paperwork in one place.</p></article>
     </div>
+  </section>
+  <section class="demo">
+    <figure>
+      <video src="./assets/demo.mp4" poster="./assets/poster.jpg" muted loop playsinline controls preload="metadata" aria-label="Amano turning three photos into one watermarked PDF and sharing it"></video>
+      <figcaption>Thirty-five seconds: three photos become one PDF, watermarked, shared.</figcaption>
+    </figure>
   </section>
   <section class="shots">
     <h2>A look inside</h2>

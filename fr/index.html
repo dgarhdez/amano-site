@@ -51,7 +51,18 @@
   .top a.store-mini { font-weight: 600; font-size: 15px; color: var(--link);
     text-decoration: none; padding: 10px 16px; border-radius: 999px; }
   .top a.store-mini:hover { background: var(--card); }
-  .hero { padding: 88px 0 40px; text-align: center; }
+  .hero { padding: 48px 0 24px; text-align: center; }
+  .hero-visual { max-width: 300px; margin: 36px auto 0; }
+  .hero-visual img { width: 100%; height: auto; display: block; border-radius: 24px;
+    box-shadow: 0 26px 60px rgba(16, 23, 34, 0.20); }
+  @media (min-width: 900px) {
+    .hero { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px;
+      align-items: center; text-align: left; padding: 48px 0 32px; }
+    .hero .cta-row { justify-content: flex-start; }
+    .hero .cta-note { text-align: left; }
+    .hero h1, .hero p.lede { margin-left: 0; }
+    .hero-visual { max-width: 420px; margin: 0 0 0 auto; }
+  }
   .hero h1 { font-family: var(--display); font-variation-settings: "opsz" 72, "SOFT" 100;
     font-weight: 560; font-size: clamp(42px, 7vw, 74px); line-height: 1.06;
     color: var(--ink); text-wrap: balance; letter-spacing: -0.01em; }
@@ -119,18 +130,17 @@
     <a href="https://apps.apple.com/fr/app/id6809212902" aria-label="Obtenir l’app"><img class="badge" src="../assets/badges/fr.svg" alt="Télécharger dans l’App Store" width="120" height="40"></a>
   </header>
   <section class="hero">
-    <h1>L’essentiel, <em>à portée de main.</em></h1>
-    <p class="lede">Amano est un espace privé pour les documents qui comptent : scannés, organisés, renouvelés à temps et partagés uniquement selon tes conditions. Sur ton iPhone et dans ton iCloud. Nulle part ailleurs.</p>
-    <div class="cta-row">
-      <a href="https://apps.apple.com/fr/app/id6809212902" aria-label="Télécharger dans l’App Store"><img class="badge badge-hero" src="../assets/badges/fr.svg" alt="Télécharger dans l’App Store" width="174" height="58"></a>
-      <span class="cta-note">Commence gratuitement. Un seul paiement pour tout — jamais d’abonnement.</span>
+    <div>
+      <h1>L’essentiel, <em>à portée de main.</em></h1>
+      <p class="lede">Amano est un espace privé pour les documents qui comptent : scannés, organisés, renouvelés à temps et partagés uniquement selon tes conditions. Sur ton iPhone et dans ton iCloud. Nulle part ailleurs.</p>
+      <div class="cta-row">
+        <a href="https://apps.apple.com/fr/app/id6809212902" aria-label="Télécharger dans l’App Store"><img class="badge badge-hero" src="../assets/badges/fr.svg" alt="Télécharger dans l’App Store" width="174" height="58"></a>
+        <span class="cta-note">Commence gratuitement. Un seul paiement pour tout — jamais d’abonnement.</span>
+      </div>
     </div>
-  </section>
-  <section class="demo">
-    <figure>
-      <video src="../assets/demo.mp4" poster="../assets/poster.jpg" muted loop playsinline controls preload="metadata" aria-label="Amano transforme trois photos en un PDF filigrané et le partage"></video>
-      <figcaption>Trente-cinq secondes : trois photos deviennent un PDF, filigrané, partagé.</figcaption>
-    </figure>
+    <div class="hero-visual">
+      <img src="../assets/hero/fr.webp" alt="Le coffre Amano sur un iPhone" width="640" height="1100" fetchpriority="high">
+    </div>
   </section>
   <section class="features">
     <div class="grid">
@@ -141,6 +151,12 @@
       <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="3" width="9" height="12" rx="2"/><rect x="11" y="9" width="9" height="12" rx="2"/></svg></div><h3>Plusieurs fichiers, un seul PDF</h3><p>Photos et PDF deviennent un document unique et ordonné : contrats, reçus, papiers d’école, prêts à partager.</p></article>
       <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Partage en sécurité, depuis le téléphone</h3><p>Vérifie chaque page et chaque fichier avant qu’il quitte ton iPhone. Les dossiers familiaux réunissent les papiers partagés.</p></article>
     </div>
+  </section>
+  <section class="demo">
+    <figure>
+      <video src="../assets/demo.mp4" poster="../assets/poster.jpg" muted loop playsinline controls preload="metadata" aria-label="Amano transforme trois photos en un PDF filigrané et le partage"></video>
+      <figcaption>Trente-cinq secondes : trois photos deviennent un PDF, filigrané, partagé.</figcaption>
+    </figure>
   </section>
   <section class="shots">
     <h2>Un aperçu de l’intérieur</h2>
