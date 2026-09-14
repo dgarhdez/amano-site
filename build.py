@@ -334,6 +334,7 @@ STYLE = """
   footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
     align-items: baseline; border-top: 1px solid rgba(244,246,249,0.12); padding-top: 26px; }
   footer a { color: #EEF2F8; text-decoration: none; margin-left: 18px; }
+  footer a.mail { margin-left: 0; color: #ABB7C8; }
   footer a:hover { text-decoration: underline; }
   footer .langs { width: 100%; margin-top: 14px; }
   footer .langs a { margin: 0 12px 0 0; color: #8FA0B8; font-size: 13px; }
@@ -498,7 +499,7 @@ def page(key):
 </div>
 <footer>
   <div class="wrap">
-    <span>&copy; 2026 Amano &middot; {s['made']}</span>
+    <span>&copy; 2026 Amano &middot; {s['made']} &middot; <a class="mail" href="mailto:dani@getamano.app">dani@getamano.app</a></span>
     <span>
       <a href="{BASE}privacy/">{s['privacy']}</a>
       <a href="{BASE}terms/">{s['terms']}</a>
