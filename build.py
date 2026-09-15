@@ -286,8 +286,8 @@ STYLE = """
   .store-button:hover { transform: translateY(-1px); box-shadow: 0 14px 34px rgba(25, 59, 112, 0.34); }
   .store-button:focus-visible, a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; }
   .store-button svg { flex: none; }
-  .cta-note { font-size: 14px; color: var(--muted); width: 100%; margin-top: 4px; }
-  .cta-note strong { display: block; margin-top: 8px; font-size: 19px; font-weight: 650; color: #101722; }
+  .cta-note { font-size: 19px; color: var(--muted); width: 100%; margin-top: 4px; }
+  .cta-note strong { display: block; margin-top: 6px; font-weight: 650; color: #101722; }
   .demo { padding: 44px 0 20px; }
   .demo figure { max-width: 560px; margin: 0 auto; border-radius: 24px; overflow: hidden;
     box-shadow: 0 30px 70px rgba(16, 23, 34, 0.16); background: var(--paper); }
