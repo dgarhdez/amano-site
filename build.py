@@ -28,7 +28,7 @@ S = {
     desc="Amano is a private vault for the documents that matter — scanned, organized, renewed on time, and shared only on your terms. On your iPhone and in your iCloud. Nowhere else.",
     getapp="Get the app",
     h1="What matters, <em>close at hand.</em>",
-    lede="Amano is a private vault for the documents that matter — scanned, organized, renewed on time, and shared only on your terms. On your iPhone and in your iCloud. Nowhere else.",
+    lede="Your family's IDs, insurance papers and renewal dates live scattered across chats, camera rolls and drawers — until the day you need them at a counter. Amano puts them in one encrypted place, reminds you before anything expires, and shares only safe, watermarked copies.",
     ctanote="Free to start, no subscriptions — ever. <strong>One payment of $12.99 / 12,99 € and it’s yours forever.</strong>",
     figcap="Thirty-five seconds: three photos become one PDF, watermarked, shared.",
     f1h="Private by design", f1p="No accounts, no servers, no tracking. Your documents stay on your device and in your own iCloud, behind Face&nbsp;ID if you want it.",
@@ -51,7 +51,23 @@ S = {
         ("What happens if I lose my phone?", "With iCloud sync on (part of Unlimited), your vault is waiting on your next iPhone. Without it, documents live only on the device — that is the trade-off of fully local storage."),
         ("What exactly does the one payment include?", "Everything, forever: unlimited documents, folders and subfolders, iCloud sync and backup, shared family folders, expiry reminders, personal watermarks, document packs and Event mode. No subscription, ever."),
         ("Do I need to create an account?", "No. Amano works the moment you open it. There is nothing to sign up for — and nothing to be leaked."),
+    ],,
+    painh2="Sound familiar?",
+    pains=[
+        ("&ldquo;Where&rsquo;s the passport?&rdquo;",
+         "At a counter, scrolling months of camera roll for a document you know you photographed. In Amano it&rsquo;s one search away — behind Face&nbsp;ID, in folders that make sense."),
+        ("&ldquo;It expired last month.&rdquo;",
+         "IDs, policies and permits lapse silently — until they ruin a trip or cost a fine. Amano reads the expiry date when you save, and reminds you in time to renew."),
+        ("&ldquo;I emailed my ID&hellip; who has it now?&rdquo;",
+         "A clean scan of your ID can be reused anywhere. Amano stamps every shared copy — &ldquo;rental application only&rdquo; — so it&rsquo;s worthless to anyone else."),
     ],
+    priceh2="One price. Once.",
+    freecolh="Free", unlcolh="Unlimited",
+    pricefree=["10 documents", "Scanning &amp; import", "Signatures", "Expiry reminders", "Contact card"],
+    pricenum="$12.99", priceonce="one payment — yours forever",
+    priceunl=["Unlimited documents &amp; folders", "iCloud sync &amp; backup", "Shared family folders", "Personal watermarks", "Document packs &amp; Event mode"],
+    pricenote="No subscription. No ads. No accounts. Pricing varies slightly by region (12,99&nbsp;€ in Europe).",
+
 ),
 "es": dict(
     title="Amano — Documentos privados",
@@ -353,6 +369,25 @@ STYLE = """
   .faq summary { cursor: pointer; font-weight: 600; font-size: 17px; padding: 16px 0; list-style-position: outside; }
   .faq details p { color: var(--muted); padding: 0 0 18px; text-wrap: pretty; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .store-button { transition: none; } }
+
+  /* Pain cards + explicit pricing (PoC: rendered only when a locale defines them) */
+  .pains { padding: 26px 0 8px; }
+  .pains h2, .pricing h2 { font-family: Fraunces, Georgia, serif; font-weight: 550; font-size: 30px; margin: 0 0 18px; }
+  .pains .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .pain { background: var(--card); border-radius: 16px; padding: 20px 22px; box-shadow: 0 1px 2px rgba(16,23,34,.06); }
+  .pain h3 { font-family: Fraunces, Georgia, serif; font-weight: 550; font-size: 20px; margin: 0 0 8px; color: var(--deep); }
+  .pain p { margin: 0; color: var(--muted); font-size: 15.5px; }
+  .pricing { padding: 34px 0 10px; }
+  .pricing .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; align-items: stretch; }
+  .pricing .col { background: var(--card); border-radius: 16px; padding: 22px 24px; }
+  .pricing .col.main { border: 2px solid var(--navy); }
+  .pricing h3 { margin: 0 0 6px; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .pricing .num { font-family: Fraunces, Georgia, serif; font-weight: 650; font-size: 52px; color: var(--deep); line-height: 1; }
+  .pricing .once { color: var(--navy); font-weight: 600; margin: 4px 0 12px; }
+  .pricing ul { margin: 10px 0 0; padding-left: 20px; color: var(--muted); }
+  .pricing li { margin: 6px 0; }
+  .pricing .buy { display: inline-block; margin-top: 16px; background: var(--navy); color: #fff; text-decoration: none; border-radius: 12px; padding: 12px 22px; font-weight: 600; }
+  .pricing .pricenote { color: var(--muted); font-size: 14px; margin-top: 14px; }
 """
 
 GLYPH1 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>'
@@ -389,6 +424,22 @@ def faq_jsonld(s):
         "mainEntity": [{"@type": "Question", "name": q,
                         "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in s["faq"]],
     }, ensure_ascii=False)
+
+def pains_html(s):
+    if not s.get("pains"): return ""
+    cards = "".join(f'<article class="pain"><h3>{q}</h3><p>{a}</p></article>' for q, a in s["pains"])
+    return f'<section class="pains"><h2>{s["painh2"]}</h2><div class="grid">{cards}</div></section>'
+
+def pricing_html(s, store, badge):
+    if not s.get("priceh2"): return ""
+    free = "".join(f"<li>{x}</li>" for x in s["pricefree"])
+    unl = "".join(f"<li>{x}</li>" for x in s["priceunl"])
+    return (f'<section class="pricing"><h2>{s["priceh2"]}</h2><div class="cols">'
+            f'<div class="col"><h3>{s["freecolh"]}</h3><ul>{free}</ul></div>'
+            f'<div class="col main"><h3>{s["unlcolh"]}</h3><div class="num">{s["pricenum"]}</div>'
+            f'<div class="once">{s["priceonce"]}</div><ul>{unl}</ul>'
+            f'<a class="buy" href="{store}" aria-label="{badge}">{s["getapp"]}</a></div>'
+            f'</div><p class="pricenote">{s["pricenote"]}</p></section>')
 
 def page(key):
     folder, lang, _, storefront, badge = LOCALES[key]
@@ -444,6 +495,7 @@ def page(key):
       <img src="{root}assets/features/{key}/family.webp" alt="{s['heroalt']}" width="560" height="918" fetchpriority="high">
     </div>
   </section>
+  {pains_html(s)}
   <section class="chapters">
     <div class="chapter">
       <div class="art"><img src="{root}assets/features/{key}/renew.webp" alt="{s['shotsalt'][0]}" loading="lazy" width="560" height="918"></div>
@@ -493,6 +545,7 @@ def page(key):
   </div>
 </section>
 <div class="wrap">
+  {pricing_html(s, store, badge)}
   <section class="faq">
     <h2>{s['faqh2']}</h2>
     <div class="qa">{faqs}</div>
