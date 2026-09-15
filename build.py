@@ -51,7 +51,7 @@ S = {
         ("What happens if I lose my phone?", "With iCloud sync on (part of Unlimited), your vault is waiting on your next iPhone. Without it, documents live only on the device — that is the trade-off of fully local storage."),
         ("What exactly does the one payment include?", "Everything, forever: unlimited documents, folders and subfolders, iCloud sync and backup, shared family folders, expiry reminders, personal watermarks, document packs and Event mode. No subscription, ever."),
         ("Do I need to create an account?", "No. Amano works the moment you open it. There is nothing to sign up for — and nothing to be leaked."),
-    ],,
+    ],
     painh2="Sound familiar?",
     pains=[
         ("&ldquo;Where&rsquo;s the passport?&rdquo;",

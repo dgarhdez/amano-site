@@ -143,6 +143,25 @@
   .faq summary { cursor: pointer; font-weight: 600; font-size: 17px; padding: 16px 0; list-style-position: outside; }
   .faq details p { color: var(--muted); padding: 0 0 18px; text-wrap: pretty; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .store-button { transition: none; } }
+
+  /* Pain cards + explicit pricing (PoC: rendered only when a locale defines them) */
+  .pains { padding: 26px 0 8px; }
+  .pains h2, .pricing h2 { font-family: Fraunces, Georgia, serif; font-weight: 550; font-size: 30px; margin: 0 0 18px; }
+  .pains .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .pain { background: var(--card); border-radius: 16px; padding: 20px 22px; box-shadow: 0 1px 2px rgba(16,23,34,.06); }
+  .pain h3 { font-family: Fraunces, Georgia, serif; font-weight: 550; font-size: 20px; margin: 0 0 8px; color: var(--deep); }
+  .pain p { margin: 0; color: var(--muted); font-size: 15.5px; }
+  .pricing { padding: 34px 0 10px; }
+  .pricing .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; align-items: stretch; }
+  .pricing .col { background: var(--card); border-radius: 16px; padding: 22px 24px; }
+  .pricing .col.main { border: 2px solid var(--navy); }
+  .pricing h3 { margin: 0 0 6px; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .pricing .num { font-family: Fraunces, Georgia, serif; font-weight: 650; font-size: 52px; color: var(--deep); line-height: 1; }
+  .pricing .once { color: var(--navy); font-weight: 600; margin: 4px 0 12px; }
+  .pricing ul { margin: 10px 0 0; padding-left: 20px; color: var(--muted); }
+  .pricing li { margin: 6px 0; }
+  .pricing .buy { display: inline-block; margin-top: 16px; background: var(--navy); color: #fff; text-decoration: none; border-radius: 12px; padding: 12px 22px; font-weight: 600; }
+  .pricing .pricenote { color: var(--muted); font-size: 14px; margin-top: 14px; }
 </style>
 </head>
 <body>
@@ -154,7 +173,7 @@
   <section class="hero">
     <div>
       <h1>What matters, <em>close at hand.</em></h1>
-      <p class="lede">Amano is a private vault for the documents that matter — scanned, organized, renewed on time, and shared only on your terms. On your iPhone and in your iCloud. Nowhere else.</p>
+      <p class="lede">Your family's IDs, insurance papers and renewal dates live scattered across chats, camera rolls and drawers — until the day you need them at a counter. Amano puts them in one encrypted place, reminds you before anything expires, and shares only safe, watermarked copies.</p>
       <div class="cta-row">
         <a href="https://apps.apple.com/app/id6809212902" aria-label="Download on the App Store"><img class="badge badge-hero" src="./assets/badges/en.svg" alt="Download on the App Store" width="174" height="58"></a>
         <span class="cta-note">Free to start, no subscriptions — ever. <strong>One payment of $12.99 / 12,99 € and it’s yours forever.</strong></span>
@@ -164,6 +183,7 @@
       <img src="./assets/features/en/family.webp" alt="The Amano vault on an iPhone" width="560" height="918" fetchpriority="high">
     </div>
   </section>
+  <section class="pains"><h2>Sound familiar?</h2><div class="grid"><article class="pain"><h3>&ldquo;Where&rsquo;s the passport?&rdquo;</h3><p>At a counter, scrolling months of camera roll for a document you know you photographed. In Amano it&rsquo;s one search away — behind Face&nbsp;ID, in folders that make sense.</p></article><article class="pain"><h3>&ldquo;It expired last month.&rdquo;</h3><p>IDs, policies and permits lapse silently — until they ruin a trip or cost a fine. Amano reads the expiry date when you save, and reminds you in time to renew.</p></article><article class="pain"><h3>&ldquo;I emailed my ID&hellip; who has it now?&rdquo;</h3><p>A clean scan of your ID can be reused anywhere. Amano stamps every shared copy — &ldquo;rental application only&rdquo; — so it&rsquo;s worthless to anyone else.</p></article></div></section>
   <section class="chapters">
     <div class="chapter">
       <div class="art"><img src="./assets/features/en/renew.webp" alt="Renewals screen reminding about an expiring passport" loading="lazy" width="560" height="918"></div>
@@ -213,6 +233,7 @@
   </div>
 </section>
 <div class="wrap">
+  <section class="pricing"><h2>One price. Once.</h2><div class="cols"><div class="col"><h3>Free</h3><ul><li>10 documents</li><li>Scanning &amp; import</li><li>Signatures</li><li>Expiry reminders</li><li>Contact card</li></ul></div><div class="col main"><h3>Unlimited</h3><div class="num">$12.99</div><div class="once">one payment — yours forever</div><ul><li>Unlimited documents &amp; folders</li><li>iCloud sync &amp; backup</li><li>Shared family folders</li><li>Personal watermarks</li><li>Document packs &amp; Event mode</li></ul><a class="buy" href="https://apps.apple.com/app/id6809212902" aria-label="Download on the App Store">Get the app</a></div></div><p class="pricenote">No subscription. No ads. No accounts. Pricing varies slightly by region (12,99&nbsp;€ in Europe).</p></section>
   <section class="faq">
     <h2>Questions, answered</h2>
     <div class="qa"><details><summary>Where are my documents stored?</summary><p>On your iPhone, encrypted — and, if you turn on sync, in your own iCloud. Amano has no servers and no accounts; nobody but you can open your vault.</p></details><details><summary>What happens if I lose my phone?</summary><p>With iCloud sync on (part of Unlimited), your vault is waiting on your next iPhone. Without it, documents live only on the device — that is the trade-off of fully local storage.</p></details><details><summary>What exactly does the one payment include?</summary><p>Everything, forever: unlimited documents, folders and subfolders, iCloud sync and backup, shared family folders, expiry reminders, personal watermarks, document packs and Event mode. No subscription, ever.</p></details><details><summary>Do I need to create an account?</summary><p>No. Amano works the moment you open it. There is nothing to sign up for — and nothing to be leaked.</p></details></div>

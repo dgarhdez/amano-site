@@ -143,6 +143,25 @@
   .faq summary { cursor: pointer; font-weight: 600; font-size: 17px; padding: 16px 0; list-style-position: outside; }
   .faq details p { color: var(--muted); padding: 0 0 18px; text-wrap: pretty; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .store-button { transition: none; } }
+
+  /* Pain cards + explicit pricing (PoC: rendered only when a locale defines them) */
+  .pains { padding: 26px 0 8px; }
+  .pains h2, .pricing h2 { font-family: Fraunces, Georgia, serif; font-weight: 550; font-size: 30px; margin: 0 0 18px; }
+  .pains .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .pain { background: var(--card); border-radius: 16px; padding: 20px 22px; box-shadow: 0 1px 2px rgba(16,23,34,.06); }
+  .pain h3 { font-family: Fraunces, Georgia, serif; font-weight: 550; font-size: 20px; margin: 0 0 8px; color: var(--deep); }
+  .pain p { margin: 0; color: var(--muted); font-size: 15.5px; }
+  .pricing { padding: 34px 0 10px; }
+  .pricing .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; align-items: stretch; }
+  .pricing .col { background: var(--card); border-radius: 16px; padding: 22px 24px; }
+  .pricing .col.main { border: 2px solid var(--navy); }
+  .pricing h3 { margin: 0 0 6px; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .pricing .num { font-family: Fraunces, Georgia, serif; font-weight: 650; font-size: 52px; color: var(--deep); line-height: 1; }
+  .pricing .once { color: var(--navy); font-weight: 600; margin: 4px 0 12px; }
+  .pricing ul { margin: 10px 0 0; padding-left: 20px; color: var(--muted); }
+  .pricing li { margin: 6px 0; }
+  .pricing .buy { display: inline-block; margin-top: 16px; background: var(--navy); color: #fff; text-decoration: none; border-radius: 12px; padding: 12px 22px; font-weight: 600; }
+  .pricing .pricenote { color: var(--muted); font-size: 14px; margin-top: 14px; }
 </style>
 </head>
 <body>
@@ -164,6 +183,7 @@
       <img src="../assets/features/de/family.webp" alt="Der Amano-Bereich auf einem iPhone" width="560" height="918" fetchpriority="high">
     </div>
   </section>
+  
   <section class="chapters">
     <div class="chapter">
       <div class="art"><img src="../assets/features/de/renew.webp" alt="Verlängerungs-Ansicht warnt vor einem ablaufenden Reisepass" loading="lazy" width="560" height="918"></div>
@@ -213,6 +233,7 @@
   </div>
 </section>
 <div class="wrap">
+  
   <section class="faq">
     <h2>Fragen, beantwortet</h2>
     <div class="qa"><details><summary>Wo werden meine Dokumente gespeichert?</summary><p>Auf deinem iPhone, verschlüsselt — und wenn du die Synchronisierung einschaltest, in deiner eigenen iCloud. Amano hat keine Server und keine Konten: Niemand außer dir kann deinen Bereich öffnen.</p></details><details><summary>Was passiert, wenn ich mein iPhone verliere?</summary><p>Mit iCloud-Synchronisierung (Teil von Unlimited) wartet dein Bereich auf deinem nächsten iPhone. Ohne sie leben die Dokumente nur auf dem Gerät — das ist der Preis rein lokaler Speicherung.</p></details><details><summary>Was genau enthält der Einmalkauf?</summary><p>Alles, für immer: unbegrenzte Dokumente, Ordner und Unterordner, iCloud-Synchronisierung und Sicherung, gemeinsame Familienordner, Ablauferinnerungen, eigene Wasserzeichen, Dokumentmappen und den Event-Modus. Nie ein Abo.</p></details><details><summary>Brauche ich ein Konto?</summary><p>Nein. Amano funktioniert ab dem ersten Öffnen. Es gibt nichts zu registrieren — und nichts, das geleakt werden könnte.</p></details></div>
