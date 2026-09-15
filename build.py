@@ -29,7 +29,7 @@ S = {
     getapp="Get the app",
     h1="What matters, <em>close at hand.</em>",
     lede="Amano is a private vault for the documents that matter — scanned, organized, renewed on time, and shared only on your terms. On your iPhone and in your iCloud. Nowhere else.",
-    ctanote="Free to start. Everything for one payment of $12.99 / 12,99 € — no subscriptions, ever.",
+    ctanote="Free to start, no subscriptions — ever. <strong>One payment of $12.99 / 12,99 € and it’s yours forever.</strong>",
     figcap="Thirty-five seconds: three photos become one PDF, watermarked, shared.",
     f1h="Private by design", f1p="No accounts, no servers, no tracking. Your documents stay on your device and in your own iCloud, behind Face&nbsp;ID if you want it.",
     f2h="Renewed on time", f2p="Amano reads expiry dates when you save a document and reminds you before passports, permits and policies lapse.",
@@ -59,7 +59,7 @@ S = {
     getapp="Descargar la app",
     h1="Lo importante, <em>a mano.</em>",
     lede="Amano es un espacio privado para los documentos que importan: escaneados, organizados, renovados a tiempo y compartidos solo en tus términos. En tu iPhone y en tu iCloud. En ningún otro sitio.",
-    ctanote="Empieza gratis. Todo por un solo pago de 12,99 €: sin suscripciones, nunca.",
+    ctanote="Empieza gratis, sin suscripciones — nunca. <strong>Un solo pago de 12,99 € y es tuya para siempre.</strong>",
     figcap="Treinta y cinco segundos: tres fotos se convierten en un PDF, con marca de agua, compartido.",
     f1h="Privacidad desde el principio", f1p="Sin cuentas, sin servidores, sin rastreo. Tus documentos se quedan en tu dispositivo y en tu propio iCloud, protegidos con Face&nbsp;ID si quieres.",
     f2h="Renovado a tiempo", f2p="Amano lee la fecha de caducidad al guardar un documento y te avisa antes de que caduquen pasaportes, permisos y pólizas.",
@@ -89,7 +89,7 @@ S = {
     getapp="Obtenir l’app",
     h1="L’essentiel, <em>à portée de main.</em>",
     lede="Amano est un espace privé pour les documents qui comptent : scannés, organisés, renouvelés à temps et partagés uniquement selon tes conditions. Sur ton iPhone et dans ton iCloud. Nulle part ailleurs.",
-    ctanote="Commence gratuitement. Tout pour un seul paiement de 12,99 € — jamais d’abonnement.",
+    ctanote="Commence gratuitement, jamais d’abonnement. <strong>Un seul paiement de 12,99 € — à toi pour toujours.</strong>",
     figcap="Trente-cinq secondes : trois photos deviennent un PDF, filigrané, partagé.",
     f1h="Privé dès la conception", f1p="Pas de compte, pas de serveur, pas de pistage. Tes documents restent sur ton appareil et dans ton propre iCloud, derrière Face&nbsp;ID si tu le souhaites.",
     f2h="Renouvelé à temps", f2p="Amano lit la date d’échéance quand tu enregistres un document et te prévient avant que passeports, permis et contrats n’expirent.",
@@ -119,7 +119,7 @@ S = {
     getapp="App laden",
     h1="Alles Wichtige, <em>griffbereit.</em>",
     lede="Amano ist ein privater Ort für die Dokumente, die zählen: gescannt, geordnet, rechtzeitig verlängert und nur zu deinen Bedingungen geteilt. Auf deinem iPhone und in deiner iCloud. Nirgendwo sonst.",
-    ctanote="Kostenlos starten. Alles für einmalig 12,99 € – nie ein Abo.",
+    ctanote="Kostenlos starten, nie ein Abo. <strong>Einmal 12,99 € zahlen – für immer deins.</strong>",
     figcap="Fünfunddreißig Sekunden: Drei Fotos werden ein PDF, mit Wasserzeichen, geteilt.",
     f1h="Privat von Grund auf", f1p="Keine Konten, keine Server, kein Tracking. Deine Dokumente bleiben auf deinem Gerät und in deiner eigenen iCloud – auf Wunsch hinter Face&nbsp;ID.",
     f2h="Rechtzeitig verlängert", f2p="Amano liest das Ablaufdatum beim Speichern und erinnert dich, bevor Reisepässe, Ausweise und Policen ablaufen.",
@@ -149,7 +149,7 @@ S = {
     getapp="Scarica l’app",
     h1="Ciò che conta, <em>a portata di mano.</em>",
     lede="Amano è uno spazio privato per i documenti che contano: scansionati, organizzati, rinnovati in tempo e condivisi solo alle tue condizioni. Sul tuo iPhone e nel tuo iCloud. Da nessun’altra parte.",
-    ctanote="Inizia gratis. Tutto con un solo pagamento di 12,99 €: mai abbonamenti.",
+    ctanote="Inizia gratis, mai abbonamenti. <strong>Un solo pagamento di 12,99 € — tua per sempre.</strong>",
     figcap="Trentacinque secondi: tre foto diventano un PDF, con filigrana, condiviso.",
     f1h="Privato fin dall’inizio", f1p="Niente account, niente server, niente tracciamento. I tuoi documenti restano sul tuo dispositivo e nel tuo iCloud, dietro Face&nbsp;ID se vuoi.",
     f2h="Rinnovato in tempo", f2p="Amano legge la scadenza quando salvi un documento e ti avvisa prima che passaporti, patenti e polizze scadano.",
@@ -179,7 +179,7 @@ S = {
     getapp="Obter a app",
     h1="O que importa, <em>à mão.</em>",
     lede="O Amano é um espaço privado para os documentos que importam: digitalizados, organizados, renovados a tempo e partilhados apenas nos seus termos. No seu iPhone e no seu iCloud. Em mais lado nenhum.",
-    ctanote="Comece grátis. Tudo por um único pagamento de 12,99 € — sem subscrições, nunca.",
+    ctanote="Comece grátis, sem subscrições. <strong>Um único pagamento de 12,99 € — sua para sempre.</strong>",
     figcap="Trinta e cinco segundos: três fotos tornam-se um PDF, com marca de água, partilhado.",
     f1h="Privado por conceção", f1p="Sem contas, sem servidores, sem rastreio. Os seus documentos ficam no seu dispositivo e no seu próprio iCloud, protegidos com Face&nbsp;ID se quiser.",
     f2h="Renovado a tempo", f2p="O Amano lê a validade quando guarda um documento e avisa antes que passaportes, cartas e apólices caduquem.",
@@ -209,7 +209,7 @@ S = {
     getapp="Uygulamayı edin",
     h1="Önemli olan her şey, <em>elinizin altında.</em>",
     lede="Amano, önemli belgeleriniz için özel bir kasa: taranır, düzenlenir, zamanında yenilenir ve yalnızca sizin koşullarınızla paylaşılır. iPhone’unuzda ve iCloud’unuzda. Başka hiçbir yerde.",
-    ctanote="Ücretsiz başlayın. Her şey için tek seferlik ödeme — asla abonelik yok.",
+    ctanote="Ücretsiz başlayın, asla abonelik yok. <strong>Tek seferlik ödeme — sonsuza kadar sizin.</strong>",
     figcap="Otuz beş saniye: üç fotoğraf tek bir PDF olur, filigran eklenir, paylaşılır.",
     f1h="Tasarımdan özel", f1p="Hesap yok, sunucu yok, takip yok. Belgeleriniz cihazınızda ve kendi iCloud’unuzda kalır; isterseniz Face&nbsp;ID arkasında.",
     f2h="Zamanında yenilenir", f2p="Amano bir belgeyi kaydederken son geçerlilik tarihini okur; pasaportlar, ehliyetler ve poliçeler dolmadan önce hatırlatır.",
@@ -287,6 +287,7 @@ STYLE = """
   .store-button:focus-visible, a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; }
   .store-button svg { flex: none; }
   .cta-note { font-size: 14px; color: var(--muted); width: 100%; margin-top: 4px; }
+  .cta-note strong { display: block; margin-top: 8px; font-size: 19px; font-weight: 650; color: #101722; }
   .demo { padding: 44px 0 20px; }
   .demo figure { max-width: 560px; margin: 0 auto; border-radius: 24px; overflow: hidden;
     box-shadow: 0 30px 70px rgba(16, 23, 34, 0.16); background: var(--paper); }
