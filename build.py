@@ -28,7 +28,7 @@ S = {
     desc="Amano is a private vault for the documents that matter — scanned, organized, renewed on time, and shared only on your terms. On your iPhone and in your iCloud. Nowhere else.",
     getapp="Get the app",
     h1="What matters, <em>close at hand.</em>",
-    lede="Every ID, policy and paper your family needs — scanned into one encrypted app that reminds you before anything expires.",
+    lede="Every document you or your family needs — scanned into one encrypted app that reminds you before anything expires.",
     ctanote="Free to start. No subscriptions, ever. <strong>$12.99 / 12,99&nbsp;€ once — yours forever.</strong>",
     figcap="Thirty-five seconds: three photos become one PDF, watermarked, shared.",
     f1h="Private by design", f1p="No accounts, no servers, no tracking. Your documents stay on your device and in your own iCloud, behind Face&nbsp;ID if you want it.",
