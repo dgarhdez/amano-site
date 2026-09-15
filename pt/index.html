@@ -79,8 +79,7 @@
   .cta-note { font-size: 22px; color: var(--muted); width: 100%; margin-top: 4px; }
   .cta-note strong { display: block; margin-top: 6px; font-weight: 650; color: #101722; }
   .demo { padding: 44px 0 20px; }
-  .demo figure { max-width: 560px; margin: 0 auto; border-radius: 24px; overflow: hidden;
-    box-shadow: 0 30px 70px rgba(16, 23, 34, 0.16); background: var(--paper); }
+  .demo figure { max-width: 560px; margin: 0 auto; border-radius: 24px; overflow: hidden; }
   .demo video { display: block; width: 100%; height: auto; }
   .demo figcaption { text-align: center; font-size: 14px; color: var(--muted);
     padding: 14px 16px 16px; background: var(--card); }
@@ -162,6 +161,8 @@
   .pricing li { margin: 6px 0; }
   .pricing .buy { display: inline-block; margin-top: 16px; background: var(--navy); color: #fff; text-decoration: none; border-radius: 12px; padding: 12px 22px; font-weight: 600; }
   .pricing .pricenote { color: var(--muted); font-size: 14px; margin-top: 14px; }
+
+  .chapter .art video { display: block; width: 100%; height: auto; border-radius: 22px; }
 </style>
 </head>
 <body>
@@ -185,6 +186,8 @@
   </section>
   
   <section class="chapters">
+    
+    
     <div class="chapter">
       <div class="art"><img src="../assets/features/pt/renew.webp" alt="Ecrã de renovações a avisar de um passaporte prestes a caducar" loading="lazy" width="560" height="918"></div>
       <div>
@@ -218,12 +221,7 @@
       <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 9h16M8 3v4M16 3v4M12 13v4M10 15h4"/></svg></div><h3>Comece grátis</h3><p>Digitalize ou importe os seus primeiros dez documentos sem pagar nada.</p></article>
     </div>
   </section>
-  <section class="demo">
-    <figure>
-      <video src="../assets/demo.mp4" poster="../assets/poster.jpg" muted loop playsinline controls preload="metadata" aria-label="O Amano transforma três fotos num PDF com marca de água e partilha-o"></video>
-      <figcaption>Trinta e cinco segundos: três fotos tornam-se um PDF, com marca de água, partilhado.</figcaption>
-    </figure>
-  </section>
+  <section class="demo"><figure><video src="../assets/demo.mp4" poster="../assets/poster.jpg" muted loop playsinline autoplay preload="metadata" aria-label="O Amano transforma três fotos num PDF com marca de água e partilha-o"></video><figcaption>Trinta e cinco segundos: três fotos tornam-se um PDF, com marca de água, partilhado.</figcaption></figure></section>
 </div>
 <section class="promise">
   <div class="inner">

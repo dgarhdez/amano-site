@@ -32,7 +32,7 @@ S = {
     ctanote="Free to start, no subscriptions — ever. <strong>One payment of $12.99 / 12,99 € and it’s yours forever.</strong>",
     figcap="Thirty-five seconds: three photos become one PDF, watermarked, shared.",
     f1h="Private by design", f1p="No accounts, no servers, no tracking. Your documents stay on your device and in your own iCloud, behind Face&nbsp;ID if you want it.",
-    f2h="Renewed on time", f2p="Amano reads expiry dates when you save a document and reminds you before passports, permits and policies lapse.",
+    f2h="It reads the expiry date for you", f2p="Save a passport, permit or policy and Amano finds the renewal date on the document itself — no typing — then reminds you in time to renew. No more silent lapses.",
     f3h="Sign it on your phone", f3p="Draw or type your signature, place it on the page, and send a signed copy. The original stays untouched.",
     f4h="Watermark every copy", f4p="Stamp a copy with who it’s for — “For the gym”, “Rental only”. Worthless anywhere else, so it’s safe to send.",
     f5h="Many files, one PDF", f5p="Photos and PDFs become one ordered document — contracts, receipts, school forms — ready to share.",
@@ -67,6 +67,11 @@ S = {
     pricenum="$12.99", priceonce="one payment — yours forever",
     priceunl=["Unlimited documents &amp; folders", "iCloud sync &amp; backup", "Shared family folders", "Personal watermarks", "Document packs &amp; Event mode"],
     pricenote="No subscription. No ads. No accounts. Pricing varies slightly by region (12,99&nbsp;€ in Europe).",
+    scanh="Scan it once. Find it forever.",
+    scanp="Point the camera at any paper — or import from Photos, Files and other apps. Several photos become one tidy PDF, filed where you&rsquo;ll actually find it, behind Face&nbsp;ID.",
+    wmh="Share copies that can&rsquo;t be misused.",
+    wmp="Before your ID leaves your phone, Amano stamps the copy with who it&rsquo;s for — &ldquo;rental application only&rdquo;, &ldquo;for the gym&rdquo;. The original never changes; the copy is worthless anywhere else.",
+    wmalt="A shared ID copy with a personal watermark across it",
 
 ),
 "es": dict(
@@ -305,8 +310,7 @@ STYLE = """
   .cta-note { font-size: 22px; color: var(--muted); width: 100%; margin-top: 4px; }
   .cta-note strong { display: block; margin-top: 6px; font-weight: 650; color: #101722; }
   .demo { padding: 44px 0 20px; }
-  .demo figure { max-width: 560px; margin: 0 auto; border-radius: 24px; overflow: hidden;
-    box-shadow: 0 30px 70px rgba(16, 23, 34, 0.16); background: var(--paper); }
+  .demo figure { max-width: 560px; margin: 0 auto; border-radius: 24px; overflow: hidden; }
   .demo video { display: block; width: 100%; height: auto; }
   .demo figcaption { text-align: center; font-size: 14px; color: var(--muted);
     padding: 14px 16px 16px; background: var(--card); }
@@ -388,6 +392,8 @@ STYLE = """
   .pricing li { margin: 6px 0; }
   .pricing .buy { display: inline-block; margin-top: 16px; background: var(--navy); color: #fff; text-decoration: none; border-radius: 12px; padding: 12px 22px; font-weight: 600; }
   .pricing .pricenote { color: var(--muted); font-size: 14px; margin-top: 14px; }
+
+  .chapter .art video { display: block; width: 100%; height: auto; border-radius: 22px; }
 """
 
 GLYPH1 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>'
@@ -424,6 +430,26 @@ def faq_jsonld(s):
         "mainEntity": [{"@type": "Question", "name": q,
                         "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in s["faq"]],
     }, ensure_ascii=False)
+
+def scan_chapter(s, key, root):
+    if not s.get("scanh"): return ""
+    return (f'<div class="chapter"><div class="art">'
+            f'<video src="{root}assets/demo.mp4" poster="{root}assets/poster.jpg" '
+            f'muted loop playsinline autoplay preload="metadata" aria-label="{s["videolabel"]}"></video></div>'
+            f'<div><span class="chip free">{s["tagfree"]}</span><h2>{s["scanh"]}</h2><p>{s["scanp"]}</p></div></div>')
+
+def wm_chapter(s, key, root):
+    if not s.get("wmh"): return ""
+    return (f'<div class="chapter"><div class="art">'
+            f'<img src="{root}assets/features/{key}/share.webp" alt="{s["wmalt"]}" loading="lazy" width="560" height="918"></div>'
+            f'<div><span class="chip unl">{s["tagunl"]}</span><h2>{s["wmh"]}</h2><p>{s["wmp"]}</p></div></div>')
+
+def demo_html(s, root):
+    if s.get("scanh"): return ""  # the video already stars in the scan chapter
+    return (f'<section class="demo"><figure>'
+            f'<video src="{root}assets/demo.mp4" poster="{root}assets/poster.jpg" '
+            f'muted loop playsinline autoplay preload="metadata" aria-label="{s["videolabel"]}"></video>'
+            f'<figcaption>{s["figcap"]}</figcaption></figure></section>')
 
 def pains_html(s):
     if not s.get("pains"): return ""
@@ -497,6 +523,8 @@ def page(key):
   </section>
   {pains_html(s)}
   <section class="chapters">
+    {scan_chapter(s, key, root)}
+    {wm_chapter(s, key, root)}
     <div class="chapter">
       <div class="art"><img src="{root}assets/features/{key}/renew.webp" alt="{s['shotsalt'][0]}" loading="lazy" width="560" height="918"></div>
       <div>
@@ -530,12 +558,7 @@ def page(key):
       <article class="feature"><div class="glyph">{GLYPH2}</div><h3>{s['freeh']}</h3><p>{s['freep']}</p></article>
     </div>
   </section>
-  <section class="demo">
-    <figure>
-      <video src="{root}assets/demo.mp4" poster="{root}assets/poster.jpg" muted loop playsinline controls preload="metadata" aria-label="{s['videolabel']}"></video>
-      <figcaption>{s['figcap']}</figcaption>
-    </figure>
-  </section>
+  {demo_html(s, root)}
 </div>
 <section class="promise">
   <div class="inner">
