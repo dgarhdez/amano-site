@@ -10,6 +10,7 @@ import pathlib
 ROOT = pathlib.Path(__file__).resolve().parent
 BASE = "https://getamano.app/"
 APP_ID = "6809212902"
+PROVIDER_TOKEN = "128749840"
 
 # locale key -> (folder, html lang, hreflang, storefront path, App Store link label)
 LOCALES = {
@@ -64,7 +65,7 @@ S = {
     ],
     priceh2="One price. Once.",
     freecolh="Free", unlcolh="Unlimited",
-    pricefree=["5 documents &amp; 2 folders", "Scanning, import &amp; PDF merging", "Signatures &amp; expiry dates", "Contact card &amp; QR code", "Face ID &amp; widgets"],
+    pricefree=["3 documents &amp; 2 folders", "Scanning, import &amp; PDF merging", "Signatures &amp; expiry dates", "Contact card &amp; QR code", "Face ID &amp; widgets"],
     pricenum="$12.99", priceonce="one payment — yours forever",
     priceunl=["Unlimited documents &amp; folders", "Advance expiry reminders", "iCloud sync &amp; backup", "Shared family folders", "Personal watermarks", "Document packs &amp; Event mode"],
     pricenote="No subscription. No ads. No accounts. Pricing varies slightly by region (12,99&nbsp;€ in Europe).",
@@ -479,7 +480,12 @@ def page(key):
     s = S[key]
     root = "../" if folder else "./"
     canon = BASE + folder
-    store = f"https://apps.apple.com/{storefront}app/id{APP_ID}"
+    # Apple Search Ads campaign attribution. pt is the provider token; ct is
+    # reported per value in App Store Connect, so each locale is countable
+    # on its own. The write-review link below stays untagged: it is for
+    # people who already installed and would pollute install attribution.
+    store = (f"https://apps.apple.com/{storefront}app/id{APP_ID}"
+             f"?pt={PROVIDER_TOKEN}&amp;ct=web-{key}&amp;mt=8")
     shots = "".join(
         f'<figure><img src="{root}assets/features/{key}/{name}.webp" alt="{alt}" loading="lazy" width="560" height="918">'
         f'<figcaption>{cap}</figcaption></figure>'
