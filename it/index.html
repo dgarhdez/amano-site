@@ -77,11 +77,9 @@
   .store-button:hover { transform: translateY(-1px); box-shadow: 0 14px 34px rgba(25, 59, 112, 0.34); }
   .store-button:focus-visible, a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; }
   .store-button svg { flex: none; }
-  .cta-note { width: 100%; margin-top: 8px; padding: 16px 20px; text-align: left;
-    background: var(--card); border-left: 3px solid var(--navy); border-radius: 12px;
-    font-size: 16px; line-height: 1.5; color: var(--muted); }
-  .cta-note strong { display: block; margin: 6px 0; font-size: 21px; line-height: 1.3;
-    font-weight: 650; color: var(--navy); }
+  .cta-note { width: 100%; max-width: 34em; text-align: center;
+    font-size: clamp(17px, 2.2vw, 20px); line-height: 1.6; color: var(--ink); text-wrap: pretty; }
+  .cta-note strong { font-weight: 650; color: var(--deep); }
   .demo { padding: 44px 0 20px; }
   .demo figure { max-width: 560px; margin: 0 auto; border-radius: 24px; overflow: hidden; }
   .demo video { display: block; width: 100%; height: auto; }
@@ -191,7 +189,7 @@
       <p class="lede">La tua CIE, la patente, il passaporto e le carte di casa: scansionati, organizzati, rinnovati in tempo e condivisi solo alle tue condizioni. Sul tuo iPhone e nel tuo iCloud. Da nessun’altra parte.</p>
       <div class="cta-row">
         <a href="https://apps.apple.com/it/app/id6809212902?pt=128749840&amp;ct=web-it&amp;mt=8" aria-label="Scarica su App Store"><img class="badge badge-hero" src="../assets/badges/it.svg" alt="Scarica su App Store" width="174" height="58"></a>
-        <span class="cta-note">Prova tutte le funzioni gratis per 7 giorni. <strong>Poi sblocca tutto per sempre con un unico pagamento di 7,99 € in Spagna.</strong> Il prezzo varia in base al Paese. Nessun abbonamento né addebito automatico.</span>
+        <p class="cta-note">Prova tutte le funzioni gratis per 7 giorni. Poi sblocca tutto per sempre con un unico pagamento di <strong>7,99 €</strong> in Spagna. Il prezzo varia in base al Paese. Nessun abbonamento né addebito automatico.</p>
       </div>
     </div>
     <div class="hero-visual">

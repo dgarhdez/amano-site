@@ -77,11 +77,9 @@
   .store-button:hover { transform: translateY(-1px); box-shadow: 0 14px 34px rgba(25, 59, 112, 0.34); }
   .store-button:focus-visible, a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; }
   .store-button svg { flex: none; }
-  .cta-note { width: 100%; margin-top: 8px; padding: 16px 20px; text-align: left;
-    background: var(--card); border-left: 3px solid var(--navy); border-radius: 12px;
-    font-size: 16px; line-height: 1.5; color: var(--muted); }
-  .cta-note strong { display: block; margin: 6px 0; font-size: 21px; line-height: 1.3;
-    font-weight: 650; color: var(--navy); }
+  .cta-note { width: 100%; max-width: 34em; text-align: center;
+    font-size: clamp(17px, 2.2vw, 20px); line-height: 1.6; color: var(--ink); text-wrap: pretty; }
+  .cta-note strong { font-weight: 650; color: var(--deep); }
   .demo { padding: 44px 0 20px; }
   .demo figure { max-width: 560px; margin: 0 auto; border-radius: 24px; overflow: hidden; }
   .demo video { display: block; width: 100%; height: auto; }
@@ -191,7 +189,7 @@
       <p class="lede">Ehliyetiniz, pasaportunuz, kimliğiniz ve evin evrakları: taranır, düzenlenir, zamanında yenilenir ve yalnızca sizin koşullarınızla paylaşılır. iPhone’unuzda ve iCloud’unuzda. Başka hiçbir yerde.</p>
       <div class="cta-row">
         <a href="https://apps.apple.com/tr/app/id6809212902?pt=128749840&amp;ct=web-tr&amp;mt=8" aria-label="App Store’dan indir"><img class="badge badge-hero" src="../assets/badges/tr.svg" alt="App Store’dan indir" width="174" height="58"></a>
-        <span class="cta-note">Tüm özellikleri 7 gün ücretsiz deneyin. <strong>Ardından İspanya'da tek seferlik 7,99 € ödeyerek ömür boyu erişimin kilidini açın.</strong> Fiyat ülkeye göre değişir. Abonelik veya otomatik ücret yok.</span>
+        <p class="cta-note">Tüm özellikleri 7 gün ücretsiz deneyin. Ardından İspanya'da tek seferlik <strong>7,99 €</strong> ödeyerek ömür boyu erişimin kilidini açın. Fiyat ülkeye göre değişir. Abonelik veya otomatik ücret yok.</p>
       </div>
     </div>
     <div class="hero-visual">
