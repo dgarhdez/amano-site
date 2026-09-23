@@ -516,7 +516,7 @@ def page(key):
     store = (f"https://apps.apple.com/{storefront}app/id{APP_ID}"
              f"?pt={PROVIDER_TOKEN}&amp;ct=web-{key}&amp;mt=8")
     chapters = "".join(
-        f'<div class="chapter"><div class="art"><img src="{root}assets/phones/{key}/{scene}.webp" '
+        f'<div class="chapter"><div class="art"><img src="{root}assets/phones/{key}/{scene}.webp?v=a3cd617" '
         f'alt="{heading}" loading="lazy" width="900" height="1200"></div>'
         f'<div><span class="eyebrow">0{number}</span><h2>{heading}</h2><p>{body}</p></div></div>'
         for number, (scene, heading, body) in enumerate(STORY[key], 1))
@@ -577,7 +577,7 @@ def page(key):
       </div>
     </div>
     <div class="hero-visual">
-      <img src="{root}assets/phones/{key}/folders.webp" alt="{s['heroalt']}" width="900" height="1200" fetchpriority="high">
+      <img src="{root}assets/phones/{key}/folders.webp?v=a3cd617" alt="{s['heroalt']}" width="900" height="1200" fetchpriority="high">
     </div>
   </section>
   <section class="chapters">
