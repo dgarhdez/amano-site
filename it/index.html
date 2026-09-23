@@ -26,7 +26,7 @@
 <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..650,100&family=Instrument+Sans:wght@400;500;600&display=swap">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Come funziona la prova gratuita?", "acceptedAnswer": {"@type": "Answer", "text": "I nuovi utenti possono provare tutte le funzioni per sette giorni, senza limiti di documenti o cartelle. Poi un unico pagamento sblocca l’accesso completo per sempre. Nessun abbonamento né addebito automatico."}}, {"@type": "Question", "name": "Cosa succede quando finisce la prova?", "acceptedAnswer": {"@type": "Answer", "text": "Puoi continuare a vedere i documenti salvati ed esportarli come copie semplici. I dettagli già estratti restano copiabili. Per aggiungere documenti e usare tutte le funzioni devi sbloccare Amano con un unico pagamento."}}, {"@type": "Question", "name": "Dove sono conservati i miei documenti?", "acceptedAnswer": {"@type": "Answer", "text": "Sul tuo iPhone, cifrati — e, se attivi la sincronizzazione, nel tuo iCloud."}}, {"@type": "Question", "name": "Cosa succede se perdo il telefono?", "acceptedAnswer": {"@type": "Answer", "text": "Con la sincronizzazione iCloud attiva (parte di Unlimited), il tuo archivio ti aspetta sul prossimo iPhone. Senza, i documenti vivono solo sul dispositivo: è il compromesso dell’archiviazione interamente locale."}}, {"@type": "Question", "name": "Cosa include esattamente il pagamento unico?", "acceptedAnswer": {"@type": "Answer", "text": "Tutto, per sempre: documenti illimitati, filigrana o firma su ogni copia condivisa, promemoria anticipati di scadenza, sincronizzazione e backup iCloud, cartelle famiglia condivise, kit per condividere più documenti insieme e widget nella schermata Home. Mai un abbonamento."}}, {"@type": "Question", "name": "Devo creare un account?", "acceptedAnswer": {"@type": "Answer", "text": "No. Amano funziona appena lo apri. Non c’è nulla da registrare."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Come funziona la prova gratuita?", "acceptedAnswer": {"@type": "Answer", "text": "I nuovi utenti possono provare tutte le funzioni per sette giorni, senza limiti di documenti o cartelle. Poi un unico pagamento sblocca l’accesso completo per sempre. Nessun abbonamento né addebito automatico."}}, {"@type": "Question", "name": "Cosa succede quando finisce la prova?", "acceptedAnswer": {"@type": "Answer", "text": "Puoi continuare a vedere i documenti salvati ed esportarli come copie semplici. I dettagli già estratti restano copiabili. Per aggiungere documenti e usare tutte le funzioni devi sbloccare Amano con un unico pagamento."}}, {"@type": "Question", "name": "Dove sono conservati i miei documenti?", "acceptedAnswer": {"@type": "Answer", "text": "Sul tuo iPhone, cifrati — e, se attivi la sincronizzazione, nel tuo iCloud."}}, {"@type": "Question", "name": "Cosa succede se perdo il telefono?", "acceptedAnswer": {"@type": "Answer", "text": "Con la sincronizzazione iCloud attiva (parte di Unlimited), il tuo archivio ti aspetta sul prossimo iPhone. Senza, i documenti vivono solo sul dispositivo: è il compromesso dell’archiviazione interamente locale."}}, {"@type": "Question", "name": "Cosa include esattamente il pagamento unico?", "acceptedAnswer": {"@type": "Answer", "text": "Accesso completo per sempre: documenti e cartelle private illimitati, copie firmate o con filigrana, promemoria, backup personale iCloud, kit e widget. L’estrazione intelligente richiede un iPhone compatibile. Nessun abbonamento."}}, {"@type": "Question", "name": "Devo creare un account?", "acceptedAnswer": {"@type": "Answer", "text": "No. Amano funziona appena lo apri. Non c’è nulla da registrare."}}]}</script>
 <style>
   :root {
     --paper: #F4F6F9; --card: #FFFFFF; --navy: #193B70; --deep: #101722;
@@ -53,6 +53,7 @@
   .top a.store-mini:hover { background: var(--card); }
   .hero { padding: 48px 0 24px; text-align: center; }
   .hero-visual { max-width: 320px; margin: 24px auto 0; }
+  .hero-visual, .chapter .art { background: #F4F6F9; }
   .hero-visual img { width: 100%; height: auto; display: block; }
   @media (min-width: 900px) {
     .hero { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px;
@@ -163,6 +164,15 @@
   .pricing .pricenote { color: var(--muted); font-size: 14px; margin-top: 14px; }
 
   .chapter .art video { display: block; width: 100%; height: auto; border-radius: 22px; }
+  .hero-visual img, .chapter .art img { border-radius: 18px; }
+  .eyebrow { display: inline-block; color: var(--navy); font-size: 13px; font-weight: 600;
+    letter-spacing: .12em; text-transform: uppercase; margin-bottom: 16px; }
+  .pricing { padding: 76px 0 14px; }
+  .pricing h2 { font-family: var(--display); font-size: clamp(30px, 4.5vw, 46px); }
+  .pricing .col { padding: 30px; }
+  .pricing .col p { color: var(--muted); max-width: 30em; }
+  .pricing .num { margin: 16px 0 8px; }
+  @media (max-width: 640px) { .hero { padding-top: 36px; } .chapter { gap: 8px; margin-bottom: 70px; } }
 </style>
 </head>
 <body>
@@ -173,6 +183,7 @@
   </header>
   <section class="hero">
     <div>
+      <span class="eyebrow">Amano · iPhone</span>
       <h1>Ciò che conta, <em>a portata di mano.</em></h1>
       <p class="lede">La tua CIE, la patente, il passaporto e le carte di casa: scansionati, organizzati, rinnovati in tempo e condivisi solo alle tue condizioni. Sul tuo iPhone e nel tuo iCloud. Da nessun’altra parte.</p>
       <div class="cta-row">
@@ -181,52 +192,32 @@
       </div>
     </div>
     <div class="hero-visual">
-      <img src="../assets/features/it/home.webp" alt="L’archivio Amano su un iPhone" width="560" height="918" fetchpriority="high">
+      <img src="../assets/phones/it/folders.webp" alt="L’archivio Amano su un iPhone" width="900" height="1200" fetchpriority="high">
     </div>
   </section>
-  
   <section class="chapters">
-    
-    
-    <div class="chapter">
-      <div class="art"><img src="../assets/features/it/renew.webp" alt="Schermata dei rinnovi che segnala un passaporto in scadenza" loading="lazy" width="560" height="918"></div>
-      <div>
-        <span class="chip unl">Incluso nella prova di 7 giorni</span>
-        <h2>Rinnovato in tempo</h2>
-        <p>Amano legge la scadenza quando salvi un documento e ti avvisa prima che passaporti, patenti e polizze scadano.</p>
-      </div>
-    </div>
-    <div class="chapter">
-      <div class="art"><img src="../assets/features/it/family.webp" alt="Una cartella famiglia condivisa con documenti di viaggio" loading="lazy" width="560" height="918"></div>
-      <div>
-        <span class="chip unl">Incluso nella prova di 7 giorni</span>
-        <h2>Condividi in sicurezza dal telefono</h2>
-        <p>Controlla ogni pagina e ogni file prima che lasci il tuo iPhone. Le cartelle famiglia tengono insieme le pratiche condivise.</p>
-      </div>
-    </div>
+    <div class="chapter"><div class="art"><img src="../assets/phones/it/scan-review.webp" alt="Conserva il documento. Evita di trascriverlo." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">01</span><h2>Conserva il documento. Evita di trascriverlo.</h2><p>Scansiona o importa un documento. Amano suggerisce nome e scadenza; controllali prima di salvare.</p></div></div><div class="chapter"><div class="art"><img src="../assets/phones/it/renewals.webp" alt="Rinnova prima della scadenza." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">02</span><h2>Rinnova prima della scadenza.</h2><p>Ricevi un promemoria per passaporto, patente o polizza quando sei ancora in tempo.</p></div></div><div class="chapter"><div class="art"><img src="../assets/phones/it/signature.webp" alt="Invia la copia. Tieni l’originale." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">03</span><h2>Invia la copia. Tieni l’originale.</h2><p>Firma una pagina o aggiungi una filigrana con destinatario e scopo. Controlla la copia prima di condividerla.</p></div></div><div class="chapter"><div class="art"><img src="../assets/phones/it/extraction.webp" alt="Trova il dato senza cercare." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">04</span><h2>Trova il dato senza cercare.</h2><p>Copia le informazioni senza riscriverle. Verificale sull’originale. Richiede un iPhone compatibile con Apple Intelligence pronto all’uso.</p></div></div><div class="chapter"><div class="art"><img src="../assets/phones/it/settings-icloud.webp" alt="I tuoi documenti. Il tuo iCloud." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">05</span><h2>I tuoi documenti. Il tuo iCloud.</h2><p>L’archivio resta sul tuo iPhone. Attiva il backup personale iCloud per ritrovarlo sul prossimo dispositivo.</p></div></div>
   </section>
-  <section class="also">
-    <h2>E inoltre, in Amano</h2>
-    <div class="grid">
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div><h3>Privato fin dall’inizio</h3><p>I documenti restano sul dispositivo e, con la sincronizzazione Unlimited, nel tuo iCloud. Face&nbsp;ID protegge l’accesso.</p></article>
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="3" width="9" height="12" rx="2"/><rect x="11" y="9" width="9" height="12" rx="2"/></svg></div><h3>Tanti file, un solo PDF</h3><p>Foto e PDF diventano un unico documento ordinato: contratti, ricevute, moduli della scuola, pronti da condividere.</p></article>
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 9h16M8 3v4M16 3v4M12 13v4M10 15h4"/></svg></div><h3>Prova tutte le funzioni</h3><p>Per 7 giorni puoi scansionare, importare, organizzare e condividere i tuoi documenti senza limiti. Poi sblocca l’accesso completo per sempre con un unico pagamento. Nessun abbonamento né addebito automatico.</p></article>
-    </div>
-  </section>
-  <section class="demo"><figure><video src="../assets/demo.mp4" poster="../assets/poster.jpg" muted loop playsinline autoplay preload="metadata" aria-label="Amano trasforma tre foto in un PDF con filigrana e lo condivide"></video><figcaption>Trentacinque secondi: tre foto diventano un PDF, con filigrana, condiviso.</figcaption></figure></section>
 </div>
 <section class="promise">
   <div class="inner">
     <h2>I tuoi documenti restano tuoi.</h2>
-    <p>RevenueCat elabora i dati degli acquisti per attivare l’accesso, ripristinare gli acquisti e misurare le vendite. L’attribuzione Apple Ads misura il rendimento degli annunci. Il contenuto dei documenti resta sul dispositivo o in iCloud.</p>
+    <p>I documenti restano sul dispositivo e, con la sincronizzazione Unlimited, nel tuo iCloud. Face&nbsp;ID protegge l’accesso.</p>
     <span class="price">7 giorni gratis &middot; un pagamento per sbloccare tutto per sempre &middot; nessun abbonamento</span>
   </div>
 </section>
 <div class="wrap">
-  
+  <section class="pricing" id="pricing">
+    <h2>Sette giorni, tutte le funzioni.</h2>
+    <div class="cols">
+      <div class="col"><h3>01 / Prova di 7 giorni</h3><p>Prova Amano senza limiti di documenti o cartelle. I documenti salvati restano consultabili dopo la prova. Nessun addebito automatico.</p></div>
+      <div class="col main"><h3>02 / Amano per sempre</h3><div class="num">7,99 €</div><p>Un solo pagamento in Spagna per l’accesso a vita. Il prezzo locale compare nell’app prima dell’acquisto.</p>
+        <a class="buy" href="https://apps.apple.com/it/app/id6809212902?pt=128749840&amp;ct=web-it&amp;mt=8">Scarica l’app</a></div>
+    </div>
+  </section>
   <section class="faq">
     <h2>Domande, risposte</h2>
-    <div class="qa"><details><summary>Come funziona la prova gratuita?</summary><p>I nuovi utenti possono provare tutte le funzioni per sette giorni, senza limiti di documenti o cartelle. Poi un unico pagamento sblocca l’accesso completo per sempre. Nessun abbonamento né addebito automatico.</p></details><details><summary>Cosa succede quando finisce la prova?</summary><p>Puoi continuare a vedere i documenti salvati ed esportarli come copie semplici. I dettagli già estratti restano copiabili. Per aggiungere documenti e usare tutte le funzioni devi sbloccare Amano con un unico pagamento.</p></details><details><summary>Dove sono conservati i miei documenti?</summary><p>Sul tuo iPhone, cifrati — e, se attivi la sincronizzazione, nel tuo iCloud.</p></details><details><summary>Cosa succede se perdo il telefono?</summary><p>Con la sincronizzazione iCloud attiva (parte di Unlimited), il tuo archivio ti aspetta sul prossimo iPhone. Senza, i documenti vivono solo sul dispositivo: è il compromesso dell’archiviazione interamente locale.</p></details><details><summary>Cosa include esattamente il pagamento unico?</summary><p>Tutto, per sempre: documenti illimitati, filigrana o firma su ogni copia condivisa, promemoria anticipati di scadenza, sincronizzazione e backup iCloud, cartelle famiglia condivise, kit per condividere più documenti insieme e widget nella schermata Home. Mai un abbonamento.</p></details><details><summary>Devo creare un account?</summary><p>No. Amano funziona appena lo apri. Non c’è nulla da registrare.</p></details></div>
+    <div class="qa"><details><summary>Come funziona la prova gratuita?</summary><p>I nuovi utenti possono provare tutte le funzioni per sette giorni, senza limiti di documenti o cartelle. Poi un unico pagamento sblocca l’accesso completo per sempre. Nessun abbonamento né addebito automatico.</p></details><details><summary>Cosa succede quando finisce la prova?</summary><p>Puoi continuare a vedere i documenti salvati ed esportarli come copie semplici. I dettagli già estratti restano copiabili. Per aggiungere documenti e usare tutte le funzioni devi sbloccare Amano con un unico pagamento.</p></details><details><summary>Dove sono conservati i miei documenti?</summary><p>Sul tuo iPhone, cifrati — e, se attivi la sincronizzazione, nel tuo iCloud.</p></details><details><summary>Cosa succede se perdo il telefono?</summary><p>Con la sincronizzazione iCloud attiva (parte di Unlimited), il tuo archivio ti aspetta sul prossimo iPhone. Senza, i documenti vivono solo sul dispositivo: è il compromesso dell’archiviazione interamente locale.</p></details><details><summary>Cosa include esattamente il pagamento unico?</summary><p>Accesso completo per sempre: documenti e cartelle private illimitati, copie firmate o con filigrana, promemoria, backup personale iCloud, kit e widget. L’estrazione intelligente richiede un iPhone compatibile. Nessun abbonamento.</p></details><details><summary>Devo creare un account?</summary><p>No. Amano funziona appena lo apri. Non c’è nulla da registrare.</p></details></div>
   </section>
 </div>
 <footer>

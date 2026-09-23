@@ -26,7 +26,7 @@
 <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..650,100&family=Instrument+Sans:wght@400;500;600&display=swap">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Ücretsiz deneme nasıl çalışır?", "acceptedAnswer": {"@type": "Answer", "text": "Yeni kullanıcılar yedi gün boyunca tüm özellikleri belge veya klasör sınırı olmadan deneyebilir. Sonrasında tek seferlik ödeme tam erişimi sonsuza kadar açar. Abonelik ve otomatik ücret yok."}}, {"@type": "Question", "name": "Deneme süresi bitince ne olur?", "acceptedAnswer": {"@type": "Answer", "text": "Kaydettiğiniz belgeleri görmeye ve basit kopyalar olarak dışa aktarmaya devam edebilirsiniz. Daha önce çıkarılmış bilgiler kopyalanabilir. Yeni belge eklemek ve tüm özellikleri kullanmak için Amano’yu tek seferlik ödeme ile açmanız gerekir."}}, {"@type": "Question", "name": "Belgelerim nerede saklanıyor?", "acceptedAnswer": {"@type": "Answer", "text": "iPhone’unuzda, şifrelenmiş olarak — ve eşitlemeyi açarsanız kendi iCloud’unuzda."}}, {"@type": "Question", "name": "Telefonumu kaybedersem ne olur?", "acceptedAnswer": {"@type": "Answer", "text": "iCloud eşitleme açıksa (Unlimited’ın parçası), kasanız bir sonraki iPhone’unuzda sizi bekler. Kapalıysa belgeler yalnızca cihazda yaşar — tamamen yerel saklamanın bedeli budur."}}, {"@type": "Question", "name": "Tek ödeme tam olarak neleri içeriyor?", "acceptedAnswer": {"@type": "Answer", "text": "Her şeyi, sonsuza dek: sınırsız belge, paylaştığınız her kopyada filigran ya da imza, önceden son geçerlilik hatırlatmaları, iCloud eşitleme ve yedekleme, paylaşılan aile klasörleri, birden çok belgeyi birlikte paylaşmak için kitler ve ana ekran araç takımları. Asla abonelik yok."}}, {"@type": "Question", "name": "Hesap açmam gerekiyor mu?", "acceptedAnswer": {"@type": "Answer", "text": "Hayır. Amano açtığınız anda çalışır. Kaydolacak bir şey yok."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Ücretsiz deneme nasıl çalışır?", "acceptedAnswer": {"@type": "Answer", "text": "Yeni kullanıcılar yedi gün boyunca tüm özellikleri belge veya klasör sınırı olmadan deneyebilir. Sonrasında tek seferlik ödeme tam erişimi sonsuza kadar açar. Abonelik ve otomatik ücret yok."}}, {"@type": "Question", "name": "Deneme süresi bitince ne olur?", "acceptedAnswer": {"@type": "Answer", "text": "Kaydettiğiniz belgeleri görmeye ve basit kopyalar olarak dışa aktarmaya devam edebilirsiniz. Daha önce çıkarılmış bilgiler kopyalanabilir. Yeni belge eklemek ve tüm özellikleri kullanmak için Amano’yu tek seferlik ödeme ile açmanız gerekir."}}, {"@type": "Question", "name": "Belgelerim nerede saklanıyor?", "acceptedAnswer": {"@type": "Answer", "text": "iPhone’unuzda, şifrelenmiş olarak — ve eşitlemeyi açarsanız kendi iCloud’unuzda."}}, {"@type": "Question", "name": "Telefonumu kaybedersem ne olur?", "acceptedAnswer": {"@type": "Answer", "text": "iCloud eşitleme açıksa (Unlimited’ın parçası), kasanız bir sonraki iPhone’unuzda sizi bekler. Kapalıysa belgeler yalnızca cihazda yaşar — tamamen yerel saklamanın bedeli budur."}}, {"@type": "Question", "name": "Tek ödeme tam olarak neleri içeriyor?", "acceptedAnswer": {"@type": "Answer", "text": "Ömür boyu tam erişim: sınırsız belge ve özel klasör, imzalı veya filigranlı kopyalar, son geçerlilik hatırlatmaları, kişisel iCloud yedeklemesi, kitler ve araç takımları. Akıllı bilgi çıkarma uyumlu iPhone gerektirir. Abonelik yok."}}, {"@type": "Question", "name": "Hesap açmam gerekiyor mu?", "acceptedAnswer": {"@type": "Answer", "text": "Hayır. Amano açtığınız anda çalışır. Kaydolacak bir şey yok."}}]}</script>
 <style>
   :root {
     --paper: #F4F6F9; --card: #FFFFFF; --navy: #193B70; --deep: #101722;
@@ -53,6 +53,7 @@
   .top a.store-mini:hover { background: var(--card); }
   .hero { padding: 48px 0 24px; text-align: center; }
   .hero-visual { max-width: 320px; margin: 24px auto 0; }
+  .hero-visual, .chapter .art { background: #F4F6F9; }
   .hero-visual img { width: 100%; height: auto; display: block; }
   @media (min-width: 900px) {
     .hero { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px;
@@ -163,6 +164,15 @@
   .pricing .pricenote { color: var(--muted); font-size: 14px; margin-top: 14px; }
 
   .chapter .art video { display: block; width: 100%; height: auto; border-radius: 22px; }
+  .hero-visual img, .chapter .art img { border-radius: 18px; }
+  .eyebrow { display: inline-block; color: var(--navy); font-size: 13px; font-weight: 600;
+    letter-spacing: .12em; text-transform: uppercase; margin-bottom: 16px; }
+  .pricing { padding: 76px 0 14px; }
+  .pricing h2 { font-family: var(--display); font-size: clamp(30px, 4.5vw, 46px); }
+  .pricing .col { padding: 30px; }
+  .pricing .col p { color: var(--muted); max-width: 30em; }
+  .pricing .num { margin: 16px 0 8px; }
+  @media (max-width: 640px) { .hero { padding-top: 36px; } .chapter { gap: 8px; margin-bottom: 70px; } }
 </style>
 </head>
 <body>
@@ -173,6 +183,7 @@
   </header>
   <section class="hero">
     <div>
+      <span class="eyebrow">Amano · iPhone</span>
       <h1>Önemli olan her şey, <em>elinizin altında.</em></h1>
       <p class="lede">Ehliyetiniz, pasaportunuz, kimliğiniz ve evin evrakları: taranır, düzenlenir, zamanında yenilenir ve yalnızca sizin koşullarınızla paylaşılır. iPhone’unuzda ve iCloud’unuzda. Başka hiçbir yerde.</p>
       <div class="cta-row">
@@ -181,52 +192,32 @@
       </div>
     </div>
     <div class="hero-visual">
-      <img src="../assets/features/tr/home.webp" alt="iPhone’da Amano kasası" width="560" height="918" fetchpriority="high">
+      <img src="../assets/phones/tr/folders.webp" alt="iPhone’da Amano kasası" width="900" height="1200" fetchpriority="high">
     </div>
   </section>
-  
   <section class="chapters">
-    
-    
-    <div class="chapter">
-      <div class="art"><img src="../assets/features/tr/renew.webp" alt="Yenilemeler ekranı süresi dolmak üzere olan bir pasaportu bildiriyor" loading="lazy" width="560" height="918"></div>
-      <div>
-        <span class="chip unl">7 günlük denemeye dahil</span>
-        <h2>Zamanında yenilenir</h2>
-        <p>Amano bir belgeyi kaydederken son geçerlilik tarihini okur; pasaportlar, ehliyetler ve poliçeler dolmadan önce hatırlatır.</p>
-      </div>
-    </div>
-    <div class="chapter">
-      <div class="art"><img src="../assets/features/tr/family.webp" alt="Seyahat belgeleriyle paylaşılan bir aile klasörü" loading="lazy" width="560" height="918"></div>
-      <div>
-        <span class="chip unl">7 günlük denemeye dahil</span>
-        <h2>Telefondan güvenle paylaşın</h2>
-        <p>Her sayfayı ve dosyayı iPhone’unuzdan çıkmadan önce gözden geçirin. Aile klasörleri ortak evrakı bir arada tutar.</p>
-      </div>
-    </div>
+    <div class="chapter"><div class="art"><img src="../assets/phones/tr/scan-review.webp" alt="Belgeyi saklayın. Yeniden yazmayın." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">01</span><h2>Belgeyi saklayın. Yeniden yazmayın.</h2><p>Bir belgeyi tarayın veya içe aktarın. Amano ad ve son geçerlilik tarihi önerir; kaydetmeden önce siz onaylarsınız.</p></div></div><div class="chapter"><div class="art"><img src="../assets/phones/tr/renewals.webp" alt="Süresi dolmadan yenileyin." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">02</span><h2>Süresi dolmadan yenileyin.</h2><p>Pasaport, ehliyet veya poliçeniz için hâlâ zaman varken hatırlatma alın.</p></div></div><div class="chapter"><div class="art"><img src="../assets/phones/tr/signature.webp" alt="Kopyayı gönderin. Orijinali koruyun." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">03</span><h2>Kopyayı gönderin. Orijinali koruyun.</h2><p>Bir sayfayı imzalayın veya alıcı ve amacı gösteren filigran ekleyin. Paylaşmadan önce kopyayı inceleyin.</p></div></div><div class="chapter"><div class="art"><img src="../assets/phones/tr/extraction.webp" alt="Bilgiyi yeniden yazmadan bulun." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">04</span><h2>Bilgiyi yeniden yazmadan bulun.</h2><p>Bilgileri yeniden yazmadan kopyalayın. Orijinaliyle karşılaştırın. Kullanıma hazır Apple Intelligence bulunan uyumlu bir iPhone gerekir.</p></div></div><div class="chapter"><div class="art"><img src="../assets/phones/tr/settings-icloud.webp" alt="Belgeleriniz. iCloud’unuz." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">05</span><h2>Belgeleriniz. iCloud’unuz.</h2><p>Arşiviniz iPhone’unuzda kalır. Sonraki cihazınızda kullanmak için kişisel iCloud yedeklemesini açın.</p></div></div>
   </section>
-  <section class="also">
-    <h2>Ayrıca Amano’da</h2>
-    <div class="grid">
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div><h3>Tasarımdan özel</h3><p>Belgeleriniz cihazınızda ve Unlimited eşitlemesi ile kendi iCloud’unuzda kalır. Face&nbsp;ID erişimi korur.</p></article>
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="3" width="9" height="12" rx="2"/><rect x="11" y="9" width="9" height="12" rx="2"/></svg></div><h3>Birçok dosya, tek PDF</h3><p>Fotoğraflar ve PDF’ler tek ve düzenli bir belgeye dönüşür: sözleşmeler, makbuzlar, okul evrakı — paylaşıma hazır.</p></article>
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 9h16M8 3v4M16 3v4M12 13v4M10 15h4"/></svg></div><h3>Tüm özellikleri deneyin</h3><p>7 gün boyunca belgelerinizi sınırsız tarayın, içe aktarın, düzenleyin ve paylaşın. Sonra tek seferlik ödeme ile tam erişimi sonsuza kadar açın. Abonelik ve otomatik ücret yok.</p></article>
-    </div>
-  </section>
-  <section class="demo"><figure><video src="../assets/demo.mp4" poster="../assets/poster.jpg" muted loop playsinline autoplay preload="metadata" aria-label="Amano üç fotoğrafı filigranlı tek bir PDF’e dönüştürüp paylaşıyor"></video><figcaption>Otuz beş saniye: üç fotoğraf tek bir PDF olur, filigran eklenir, paylaşılır.</figcaption></figure></section>
 </div>
 <section class="promise">
   <div class="inner">
     <h2>Belgeleriniz sizin kalır.</h2>
-    <p>RevenueCat, erişimi açmak, satın alımları geri yüklemek ve satışları ölçmek için satın alma bilgilerini işler. Apple Ads ilişkilendirmesi reklam performansını ölçer. Belge içerikleriniz cihazınızda veya iCloud’da kalır.</p>
+    <p>Belgeleriniz cihazınızda ve Unlimited eşitlemesi ile kendi iCloud’unuzda kalır. Face&nbsp;ID erişimi korur.</p>
     <span class="price">7 gün ücretsiz &middot; her şeyi sonsuza kadar açmak için tek ödeme &middot; abonelik yok</span>
   </div>
 </section>
 <div class="wrap">
-  
+  <section class="pricing" id="pricing">
+    <h2>Yedi gün, tüm özellikler.</h2>
+    <div class="cols">
+      <div class="col"><h3>01 / 7 günlük deneme</h3><p>Amano’yu belge veya klasör sınırı olmadan deneyin. Kayıtlı belgelerinizi deneme sonrasında da görebilirsiniz. Otomatik ücret yok.</p></div>
+      <div class="col main"><h3>02 / Ömür boyu Amano</h3><div class="num">€7.99</div><p>İspanya fiyatı, ömür boyu erişim için tek ödeme. Yerel fiyat satın almadan önce uygulamada gösterilir.</p>
+        <a class="buy" href="https://apps.apple.com/tr/app/id6809212902?pt=128749840&amp;ct=web-tr&amp;mt=8">Uygulamayı edin</a></div>
+    </div>
+  </section>
   <section class="faq">
     <h2>Sorular ve yanıtları</h2>
-    <div class="qa"><details><summary>Ücretsiz deneme nasıl çalışır?</summary><p>Yeni kullanıcılar yedi gün boyunca tüm özellikleri belge veya klasör sınırı olmadan deneyebilir. Sonrasında tek seferlik ödeme tam erişimi sonsuza kadar açar. Abonelik ve otomatik ücret yok.</p></details><details><summary>Deneme süresi bitince ne olur?</summary><p>Kaydettiğiniz belgeleri görmeye ve basit kopyalar olarak dışa aktarmaya devam edebilirsiniz. Daha önce çıkarılmış bilgiler kopyalanabilir. Yeni belge eklemek ve tüm özellikleri kullanmak için Amano’yu tek seferlik ödeme ile açmanız gerekir.</p></details><details><summary>Belgelerim nerede saklanıyor?</summary><p>iPhone’unuzda, şifrelenmiş olarak — ve eşitlemeyi açarsanız kendi iCloud’unuzda.</p></details><details><summary>Telefonumu kaybedersem ne olur?</summary><p>iCloud eşitleme açıksa (Unlimited’ın parçası), kasanız bir sonraki iPhone’unuzda sizi bekler. Kapalıysa belgeler yalnızca cihazda yaşar — tamamen yerel saklamanın bedeli budur.</p></details><details><summary>Tek ödeme tam olarak neleri içeriyor?</summary><p>Her şeyi, sonsuza dek: sınırsız belge, paylaştığınız her kopyada filigran ya da imza, önceden son geçerlilik hatırlatmaları, iCloud eşitleme ve yedekleme, paylaşılan aile klasörleri, birden çok belgeyi birlikte paylaşmak için kitler ve ana ekran araç takımları. Asla abonelik yok.</p></details><details><summary>Hesap açmam gerekiyor mu?</summary><p>Hayır. Amano açtığınız anda çalışır. Kaydolacak bir şey yok.</p></details></div>
+    <div class="qa"><details><summary>Ücretsiz deneme nasıl çalışır?</summary><p>Yeni kullanıcılar yedi gün boyunca tüm özellikleri belge veya klasör sınırı olmadan deneyebilir. Sonrasında tek seferlik ödeme tam erişimi sonsuza kadar açar. Abonelik ve otomatik ücret yok.</p></details><details><summary>Deneme süresi bitince ne olur?</summary><p>Kaydettiğiniz belgeleri görmeye ve basit kopyalar olarak dışa aktarmaya devam edebilirsiniz. Daha önce çıkarılmış bilgiler kopyalanabilir. Yeni belge eklemek ve tüm özellikleri kullanmak için Amano’yu tek seferlik ödeme ile açmanız gerekir.</p></details><details><summary>Belgelerim nerede saklanıyor?</summary><p>iPhone’unuzda, şifrelenmiş olarak — ve eşitlemeyi açarsanız kendi iCloud’unuzda.</p></details><details><summary>Telefonumu kaybedersem ne olur?</summary><p>iCloud eşitleme açıksa (Unlimited’ın parçası), kasanız bir sonraki iPhone’unuzda sizi bekler. Kapalıysa belgeler yalnızca cihazda yaşar — tamamen yerel saklamanın bedeli budur.</p></details><details><summary>Tek ödeme tam olarak neleri içeriyor?</summary><p>Ömür boyu tam erişim: sınırsız belge ve özel klasör, imzalı veya filigranlı kopyalar, son geçerlilik hatırlatmaları, kişisel iCloud yedeklemesi, kitler ve araç takımları. Akıllı bilgi çıkarma uyumlu iPhone gerektirir. Abonelik yok.</p></details><details><summary>Hesap açmam gerekiyor mu?</summary><p>Hayır. Amano açtığınız anda çalışır. Kaydolacak bir şey yok.</p></details></div>
   </section>
 </div>
 <footer>

@@ -108,7 +108,7 @@ S = {
         ("¿Puedo comprar antes de que termine la prueba?", "Sí. Puedes desbloquear Amano en cualquier momento durante la prueba. El acceso completo empieza inmediatamente y el pago es único."),
         ("¿Dónde se guardan mis documentos?", "En tu iPhone, cifrados; y si activas la sincronización, en tu propio iCloud."),
         ("¿Qué pasa si pierdo el móvil?", "Con la sincronización de iCloud activada (parte de Unlimited), tu espacio te espera en tu siguiente iPhone. Sin ella, los documentos viven solo en el dispositivo: es la contrapartida del almacenamiento totalmente local."),
-        ("¿Qué incluye exactamente el pago único?", "Todo, para siempre: documentos ilimitados, marca de agua o firma en cada copia que compartes, recordatorios anticipados de caducidad, sincronización y copia en iCloud, carpetas familiares compartidas, kits para compartir varios documentos juntos y widgets en la pantalla de inicio. Sin suscripción, nunca."),
+        ("¿Qué incluye exactamente el pago único?", "Acceso completo para siempre: documentos y carpetas privadas ilimitados, copias con firma o marca de agua, recordatorios de caducidad, copia personal en iCloud, kits y widgets. La extracción inteligente requiere un iPhone compatible. Sin suscripción."),
         ("¿Necesito crear una cuenta?", "No. Amano funciona desde el momento en que lo abres. No hay nada que registrar."),
     ],
 ),
@@ -140,7 +140,7 @@ S = {
         ("Que se passe-t-il à la fin de l’essai ?", "Tu peux continuer à consulter tes documents enregistrés et les exporter en copies simples. Les informations déjà extraites restent copiables. Pour ajouter des documents et utiliser toutes les fonctions, il faut débloquer Amano avec un seul paiement."),
         ("Où mes documents sont-ils stockés ?", "Sur ton iPhone, chiffrés — et, si tu actives la synchronisation, dans ton propre iCloud."),
         ("Que se passe-t-il si je perds mon téléphone ?", "Avec la synchronisation iCloud activée (incluse dans Unlimited), ton espace t’attend sur ton prochain iPhone. Sans elle, les documents ne vivent que sur l’appareil — c’est la contrepartie d’un stockage entièrement local."),
-        ("Que comprend exactement le paiement unique ?", "Tout, pour toujours : documents illimités, filigrane ou signature sur chaque copie partagée, rappels d’échéance anticipés, synchronisation et sauvegarde iCloud, dossiers familiaux partagés, kits pour partager plusieurs documents ensemble et widgets sur l’écran d’accueil. Jamais d’abonnement."),
+        ("Que comprend exactement le paiement unique ?", "Accès complet à vie : documents et dossiers privés illimités, copies signées ou filigranées, rappels d’échéance, sauvegarde personnelle iCloud, kits et widgets. L’extraction intelligente nécessite un iPhone compatible. Aucun abonnement."),
         ("Dois-je créer un compte ?", "Non. Amano fonctionne dès l’ouverture. Il n’y a rien à créer."),
     ],
 ),
@@ -172,7 +172,7 @@ S = {
         ("Was passiert nach der Testphase?", "Du kannst deine gespeicherten Dokumente weiterhin ansehen und als einfache Kopien exportieren. Bereits extrahierte Details bleiben kopierbar. Für neue Dokumente und alle Funktionen brauchst du die dauerhafte Freischaltung mit einer einmaligen Zahlung."),
         ("Wo werden meine Dokumente gespeichert?", "Auf deinem iPhone, verschlüsselt — und wenn du die Synchronisierung einschaltest, in deiner eigenen iCloud."),
         ("Was passiert, wenn ich mein iPhone verliere?", "Mit iCloud-Synchronisierung (Teil von Unlimited) wartet dein Bereich auf deinem nächsten iPhone. Ohne sie leben die Dokumente nur auf dem Gerät — das ist der Preis rein lokaler Speicherung."),
-        ("Was genau enthält der Einmalkauf?", "Alles, für immer: unbegrenzte Dokumente, Wasserzeichen oder Unterschrift auf jeder geteilten Kopie, Voraberinnerungen vor dem Ablauf, iCloud-Synchronisierung und Sicherung, gemeinsame Familienordner, Kits zum gemeinsamen Teilen mehrerer Dokumente und Widgets für den Home-Bildschirm. Nie ein Abo."),
+        ("Was genau enthält der Einmalkauf?", "Dauerhafter Vollzugriff: unbegrenzte Dokumente und private Ordner, Kopien mit Unterschrift oder Wasserzeichen, Ablauferinnerungen, persönliches iCloud-Backup, Kits und Widgets. Intelligente Texterkennung erfordert ein unterstütztes iPhone. Kein Abo."),
         ("Brauche ich ein Konto?", "Nein. Amano funktioniert ab dem ersten Öffnen. Es gibt nichts zu registrieren."),
     ],
 ),
@@ -204,7 +204,7 @@ S = {
         ("Cosa succede quando finisce la prova?", "Puoi continuare a vedere i documenti salvati ed esportarli come copie semplici. I dettagli già estratti restano copiabili. Per aggiungere documenti e usare tutte le funzioni devi sbloccare Amano con un unico pagamento."),
         ("Dove sono conservati i miei documenti?", "Sul tuo iPhone, cifrati — e, se attivi la sincronizzazione, nel tuo iCloud."),
         ("Cosa succede se perdo il telefono?", "Con la sincronizzazione iCloud attiva (parte di Unlimited), il tuo archivio ti aspetta sul prossimo iPhone. Senza, i documenti vivono solo sul dispositivo: è il compromesso dell’archiviazione interamente locale."),
-        ("Cosa include esattamente il pagamento unico?", "Tutto, per sempre: documenti illimitati, filigrana o firma su ogni copia condivisa, promemoria anticipati di scadenza, sincronizzazione e backup iCloud, cartelle famiglia condivise, kit per condividere più documenti insieme e widget nella schermata Home. Mai un abbonamento."),
+        ("Cosa include esattamente il pagamento unico?", "Accesso completo per sempre: documenti e cartelle private illimitati, copie firmate o con filigrana, promemoria, backup personale iCloud, kit e widget. L’estrazione intelligente richiede un iPhone compatibile. Nessun abbonamento."),
         ("Devo creare un account?", "No. Amano funziona appena lo apri. Non c’è nulla da registrare."),
     ],
 ),
@@ -236,7 +236,7 @@ S = {
         ("O que acontece quando termina o teste?", "Pode continuar a ver os documentos guardados e exportá-los como cópias simples. Os detalhes já extraídos continuam disponíveis para copiar. Para adicionar documentos e usar todas as funcionalidades, precisa de desbloquear o Amano com um único pagamento."),
         ("Onde ficam guardados os meus documentos?", "No seu iPhone, cifrados — e, se ativar a sincronização, no seu próprio iCloud."),
         ("O que acontece se perder o telemóvel?", "Com a sincronização iCloud ativa (parte do Unlimited), o seu espaço espera por si no próximo iPhone. Sem ela, os documentos vivem apenas no dispositivo — é a contrapartida do armazenamento totalmente local."),
-        ("O que inclui exatamente o pagamento único?", "Tudo, para sempre: documentos ilimitados, marca de água ou assinatura em cada cópia partilhada, lembretes antecipados de validade, sincronização e cópia iCloud, pastas de família partilhadas, kits para partilhar vários documentos juntos e widgets no ecrã principal. Nunca uma subscrição."),
+        ("O que inclui exatamente o pagamento único?", "Acesso completo para sempre: documentos e pastas privadas ilimitados, cópias assinadas ou com marca de água, lembretes, cópia pessoal no iCloud, kits e widgets. A extração inteligente requer um iPhone compatível. Sem subscrição."),
         ("Preciso de criar uma conta?", "Não. O Amano funciona assim que o abre. Não há nada para registar."),
     ],
 ),
@@ -268,13 +268,65 @@ S = {
         ("Deneme süresi bitince ne olur?", "Kaydettiğiniz belgeleri görmeye ve basit kopyalar olarak dışa aktarmaya devam edebilirsiniz. Daha önce çıkarılmış bilgiler kopyalanabilir. Yeni belge eklemek ve tüm özellikleri kullanmak için Amano’yu tek seferlik ödeme ile açmanız gerekir."),
         ("Belgelerim nerede saklanıyor?", "iPhone’unuzda, şifrelenmiş olarak — ve eşitlemeyi açarsanız kendi iCloud’unuzda."),
         ("Telefonumu kaybedersem ne olur?", "iCloud eşitleme açıksa (Unlimited’ın parçası), kasanız bir sonraki iPhone’unuzda sizi bekler. Kapalıysa belgeler yalnızca cihazda yaşar — tamamen yerel saklamanın bedeli budur."),
-        ("Tek ödeme tam olarak neleri içeriyor?", "Her şeyi, sonsuza dek: sınırsız belge, paylaştığınız her kopyada filigran ya da imza, önceden son geçerlilik hatırlatmaları, iCloud eşitleme ve yedekleme, paylaşılan aile klasörleri, birden çok belgeyi birlikte paylaşmak için kitler ve ana ekran araç takımları. Asla abonelik yok."),
+        ("Tek ödeme tam olarak neleri içeriyor?", "Ömür boyu tam erişim: sınırsız belge ve özel klasör, imzalı veya filigranlı kopyalar, son geçerlilik hatırlatmaları, kişisel iCloud yedeklemesi, kitler ve araç takımları. Akıllı bilgi çıkarma uyumlu iPhone gerektirir. Abonelik yok."),
         ("Hesap açmam gerekiyor mu?", "Hayır. Amano açtığınız anda çalışır. Kaydolacak bir şey yok."),
     ],
 ),
 }
 
 APPLE_SVG = '<svg width="20" height="24" viewBox="0 0 20 24" fill="currentColor" aria-hidden="true"><path d="M16.6 12.8c0-3 2.4-4.4 2.5-4.5-1.4-2-3.5-2.3-4.3-2.3-1.8-.2-3.5 1.1-4.4 1.1-.9 0-2.3-1-3.8-1-2 0-3.8 1.1-4.8 2.9-2 3.5-.5 8.8 1.5 11.6 1 1.4 2.1 3 3.6 2.9 1.5-.1 2-.9 3.8-.9s2.3.9 3.8.9c1.6 0 2.6-1.4 3.5-2.8 1.1-1.6 1.6-3.2 1.6-3.3-.1-.1-3-1.2-3-4.6zM13.7 3.9c.8-1 1.4-2.4 1.2-3.9-1.2.1-2.7.8-3.5 1.9-.8.9-1.5 2.3-1.3 3.7 1.4.1 2.8-.7 3.6-1.7z"/></svg>'
+
+STORY = {
+    "en": [
+        ("scan-review", "Save the paper. Skip the typing.", "Scan or import a document. Amano suggests a name and expiry date; you check them before saving."),
+        ("renewals", "Know when to renew.", "Get a reminder before a passport, permit or policy expires — while there is still time to act."),
+        ("signature", "Send the copy, keep the original.", "Sign a page or add a visible watermark for its recipient and purpose. Review the copy before sharing."),
+        ("extraction", "Find the detail without digging.", "Copy the information you need without retyping it. Check against the original. Available on supported iPhones with Apple Intelligence ready."),
+        ("settings-icloud", "Your documents. Your iCloud.", "Your vault stays on your iPhone. Turn on personal iCloud backup if you want it on your next device."),
+    ],
+    "es": [
+        ("scan-review", "Guarda el papel. No lo transcribas.", "Escanea o importa un documento. Amano sugiere un nombre y la fecha de caducidad; tú los confirmas antes de guardar."),
+        ("renewals", "Renueva antes de que caduque.", "Recibe un recordatorio para el DNI, el pasaporte o la póliza cuando todavía estás a tiempo."),
+        ("signature", "Envía la copia. Conserva el original.", "Firma una página o añade una marca de agua con el destinatario y el motivo. Revisa la copia antes de compartirla."),
+        ("extraction", "Encuentra el dato sin buscar entre papeles.", "Copia la información sin volver a escribirla. Compruébala con el original. Requiere un iPhone compatible con Apple Intelligence listo para usar."),
+        ("settings-icloud", "Tus documentos. Tu iCloud.", "Tu espacio permanece en el iPhone. Activa la copia personal en iCloud si quieres tenerlo en tu próximo dispositivo."),
+    ],
+    "fr": [
+        ("scan-review", "Garde le document. Évite la saisie.", "Scanne ou importe un document. Amano suggère un nom et une date d’expiration ; tu les vérifies avant d’enregistrer."),
+        ("renewals", "Renouvelle avant l’échéance.", "Reçois un rappel pour ton passeport, ton permis ou ton contrat pendant qu’il est encore temps d’agir."),
+        ("signature", "Envoie la copie. Garde l’original.", "Signe une page ou ajoute un filigrane indiquant le destinataire et l’usage. Vérifie la copie avant de l’envoyer."),
+        ("extraction", "Trouve l’information sans fouiller.", "Copie les détails sans les retaper. Vérifie-les sur l’original. Nécessite un iPhone compatible avec Apple Intelligence prêt à l’emploi."),
+        ("settings-icloud", "Tes documents. Ton iCloud.", "Ton coffre reste sur ton iPhone. Active la sauvegarde personnelle iCloud pour le retrouver sur ton prochain appareil."),
+    ],
+    "de": [
+        ("scan-review", "Papier sichern. Tippen sparen.", "Scanne oder importiere ein Dokument. Amano schlägt Name und Ablaufdatum vor; du bestätigst beides vor dem Speichern."),
+        ("renewals", "Vor dem Ablauf Bescheid wissen.", "Erhalte eine Erinnerung für Pass, Ausweis oder Police, solange noch Zeit zum Handeln ist."),
+        ("signature", "Kopie senden. Original behalten.", "Unterschreibe eine Seite oder kennzeichne die Kopie mit Empfänger und Zweck. Prüfe sie vor dem Teilen."),
+        ("extraction", "Details finden, ohne zu suchen.", "Kopiere wichtige Angaben statt sie abzutippen. Vergleiche sie mit dem Original. Erfordert ein unterstütztes iPhone mit einsatzbereiter Apple Intelligence."),
+        ("settings-icloud", "Deine Dokumente. Deine iCloud.", "Dein Archiv bleibt auf deinem iPhone. Aktiviere das persönliche iCloud-Backup für dein nächstes Gerät."),
+    ],
+    "it": [
+        ("scan-review", "Conserva il documento. Evita di trascriverlo.", "Scansiona o importa un documento. Amano suggerisce nome e scadenza; controllali prima di salvare."),
+        ("renewals", "Rinnova prima della scadenza.", "Ricevi un promemoria per passaporto, patente o polizza quando sei ancora in tempo."),
+        ("signature", "Invia la copia. Tieni l’originale.", "Firma una pagina o aggiungi una filigrana con destinatario e scopo. Controlla la copia prima di condividerla."),
+        ("extraction", "Trova il dato senza cercare.", "Copia le informazioni senza riscriverle. Verificale sull’originale. Richiede un iPhone compatibile con Apple Intelligence pronto all’uso."),
+        ("settings-icloud", "I tuoi documenti. Il tuo iCloud.", "L’archivio resta sul tuo iPhone. Attiva il backup personale iCloud per ritrovarlo sul prossimo dispositivo."),
+    ],
+    "pt": [
+        ("scan-review", "Guarde o documento. Evite transcrevê-lo.", "Digitalize ou importe um documento. O Amano sugere nome e validade; confirme-os antes de guardar."),
+        ("renewals", "Renove antes do prazo.", "Receba um lembrete para o passaporte, carta ou apólice enquanto ainda há tempo."),
+        ("signature", "Envie a cópia. Guarde o original.", "Assine uma página ou acrescente uma marca de água com destinatário e finalidade. Reveja a cópia antes de partilhar."),
+        ("extraction", "Encontre o dado sem procurar.", "Copie as informações sem voltar a escrevê-las. Confirme-as no original. Requer um iPhone compatível com Apple Intelligence pronto a usar."),
+        ("settings-icloud", "Os seus documentos. O seu iCloud.", "O arquivo fica no seu iPhone. Ative a cópia pessoal no iCloud para o ter no próximo dispositivo."),
+    ],
+    "tr": [
+        ("scan-review", "Belgeyi saklayın. Yeniden yazmayın.", "Bir belgeyi tarayın veya içe aktarın. Amano ad ve son geçerlilik tarihi önerir; kaydetmeden önce siz onaylarsınız."),
+        ("renewals", "Süresi dolmadan yenileyin.", "Pasaport, ehliyet veya poliçeniz için hâlâ zaman varken hatırlatma alın."),
+        ("signature", "Kopyayı gönderin. Orijinali koruyun.", "Bir sayfayı imzalayın veya alıcı ve amacı gösteren filigran ekleyin. Paylaşmadan önce kopyayı inceleyin."),
+        ("extraction", "Bilgiyi yeniden yazmadan bulun.", "Bilgileri yeniden yazmadan kopyalayın. Orijinaliyle karşılaştırın. Kullanıma hazır Apple Intelligence bulunan uyumlu bir iPhone gerekir."),
+        ("settings-icloud", "Belgeleriniz. iCloud’unuz.", "Arşiviniz iPhone’unuzda kalır. Sonraki cihazınızda kullanmak için kişisel iCloud yedeklemesini açın."),
+    ],
+}
 
 STYLE = """
   :root {
@@ -302,6 +354,7 @@ STYLE = """
   .top a.store-mini:hover { background: var(--card); }
   .hero { padding: 48px 0 24px; text-align: center; }
   .hero-visual { max-width: 320px; margin: 24px auto 0; }
+  .hero-visual, .chapter .art { background: #F4F6F9; }
   .hero-visual img { width: 100%; height: auto; display: block; }
   @media (min-width: 900px) {
     .hero { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px;
@@ -412,14 +465,16 @@ STYLE = """
   .pricing .pricenote { color: var(--muted); font-size: 14px; margin-top: 14px; }
 
   .chapter .art video { display: block; width: 100%; height: auto; border-radius: 22px; }
+  .hero-visual img, .chapter .art img { border-radius: 18px; }
+  .eyebrow { display: inline-block; color: var(--navy); font-size: 13px; font-weight: 600;
+    letter-spacing: .12em; text-transform: uppercase; margin-bottom: 16px; }
+  .pricing { padding: 76px 0 14px; }
+  .pricing h2 { font-family: var(--display); font-size: clamp(30px, 4.5vw, 46px); }
+  .pricing .col { padding: 30px; }
+  .pricing .col p { color: var(--muted); max-width: 30em; }
+  .pricing .num { margin: 16px 0 8px; }
+  @media (max-width: 640px) { .hero { padding-top: 36px; } .chapter { gap: 8px; margin-bottom: 70px; } }
 """
-
-GLYPH1 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>'
-GLYPH2 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 9h16M8 3v4M16 3v4M12 13v4M10 15h4"/></svg>'
-GLYPH3 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l4-1L19 8l-3-3L5 16l-1 4z"/><path d="M13.5 7.5l3 3"/></svg>'
-GLYPH4 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 4c3 3.8 5 6.3 5 8.8a5 5 0 0 1-10 0C7 10.3 9 7.8 12 4z"/></svg>'
-GLYPH5 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="3" width="9" height="12" rx="2"/><rect x="11" y="9" width="9" height="12" rx="2"/></svg>'
-GLYPH6 = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>'
 
 LANG_NAMES = {"en": "English", "es": "Español", "fr": "Français", "de": "Deutsch",
               "it": "Italiano", "pt": "Português", "tr": "Türkçe"}
@@ -449,42 +504,6 @@ def faq_jsonld(s):
                         "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in s["faq"]],
     }, ensure_ascii=False)
 
-def scan_chapter(s, key, root):
-    if not s.get("scanh"): return ""
-    return (f'<div class="chapter"><div class="art">'
-            f'<video src="{root}assets/demo.mp4" poster="{root}assets/poster.jpg" '
-            f'muted loop playsinline autoplay preload="metadata" aria-label="{s["videolabel"]}"></video></div>'
-            f'<div><span class="chip free">{s["tagfree"]}</span><h2>{s["scanh"]}</h2><p>{s["scanp"]}</p></div></div>')
-
-def wm_chapter(s, key, root):
-    if not s.get("wmh"): return ""
-    return (f'<div class="chapter"><div class="art">'
-            f'<img src="{root}assets/features/{key}/share.webp" alt="{s["wmalt"]}" loading="lazy" width="560" height="918"></div>'
-            f'<div><span class="chip unl">{s["tagunl"]}</span><h2>{s["wmh"]}</h2><p>{s["wmp"]}</p></div></div>')
-
-def demo_html(s, root):
-    if s.get("scanh"): return ""  # the video already stars in the scan chapter
-    return (f'<section class="demo"><figure>'
-            f'<video src="{root}assets/demo.mp4" poster="{root}assets/poster.jpg" '
-            f'muted loop playsinline autoplay preload="metadata" aria-label="{s["videolabel"]}"></video>'
-            f'<figcaption>{s["figcap"]}</figcaption></figure></section>')
-
-def pains_html(s):
-    if not s.get("pains"): return ""
-    cards = "".join(f'<article class="pain"><h3>{q}</h3><p>{a}</p></article>' for q, a in s["pains"])
-    return f'<section class="pains"><h2>{s["painh2"]}</h2><div class="grid">{cards}</div></section>'
-
-def pricing_html(s, store, badge):
-    if not s.get("priceh2"): return ""
-    free = "".join(f"<li>{x}</li>" for x in s["pricefree"])
-    unl = "".join(f"<li>{x}</li>" for x in s["priceunl"])
-    return (f'<section class="pricing"><h2>{s["priceh2"]}</h2><div class="cols">'
-            f'<div class="col"><h3>{s["freecolh"]}</h3><ul>{free}</ul></div>'
-            f'<div class="col main"><h3>{s["unlcolh"]}</h3><div class="num">{s["pricenum"]}</div>'
-            f'<div class="once">{s["priceonce"]}</div><ul>{unl}</ul>'
-            f'<a class="buy" href="{store}" aria-label="{badge}">{s["getapp"]}</a></div>'
-            f'</div><p class="pricenote">{s["pricenote"]}</p></section>')
-
 def page(key):
     folder, lang, _, storefront, badge = LOCALES[key]
     s = S[key]
@@ -496,11 +515,27 @@ def page(key):
     # people who already installed and would pollute install attribution.
     store = (f"https://apps.apple.com/{storefront}app/id{APP_ID}"
              f"?pt={PROVIDER_TOKEN}&amp;ct=web-{key}&amp;mt=8")
-    shots = "".join(
-        f'<figure><img src="{root}assets/features/{key}/{name}.webp" alt="{alt}" loading="lazy" width="560" height="918">'
-        f'<figcaption>{cap}</figcaption></figure>'
-        for name, alt, cap in zip(["renew", "sign"], s["shotsalt"], s["shotcaps"]))
+    chapters = "".join(
+        f'<div class="chapter"><div class="art"><img src="{root}assets/phones/{key}/{scene}.webp" '
+        f'alt="{heading}" loading="lazy" width="900" height="1200"></div>'
+        f'<div><span class="eyebrow">0{number}</span><h2>{heading}</h2><p>{body}</p></div></div>'
+        for number, (scene, heading, body) in enumerate(STORY[key], 1))
     faqs = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in s["faq"])
+    trial = {
+        "en": ("Seven days, every feature.", "Try Amano with no document or folder limit. Your saved documents remain viewable after the trial. Nothing is charged automatically.", "€7.99", "One payment in Spain for lifetime access. Your local price appears in the app before purchase."),
+        "es": ("Siete días, todas las funciones.", "Prueba Amano sin límite de documentos ni carpetas. Al terminar, puedes seguir viendo los documentos guardados. No hay cobro automático.", "7,99 €", "Un solo pago en España para usar Amano para siempre. La app muestra el precio local antes de comprar."),
+        "fr": ("Sept jours, toutes les fonctions.", "Essaie Amano sans limite de documents ni de dossiers. Tes documents restent consultables après l’essai. Aucun prélèvement automatique.", "7,99 €", "Un seul paiement en Espagne pour un accès à vie. Le prix local est affiché dans l’app avant l’achat."),
+        "de": ("Sieben Tage, alle Funktionen.", "Teste Amano ohne Dokument- oder Ordnerlimit. Gespeicherte Dokumente bleiben nach der Testphase sichtbar. Keine automatische Abbuchung.", "7,99 €", "Einmalzahlung in Spanien für dauerhaften Zugang. Den lokalen Preis siehst du vor dem Kauf in der App."),
+        "it": ("Sette giorni, tutte le funzioni.", "Prova Amano senza limiti di documenti o cartelle. I documenti salvati restano consultabili dopo la prova. Nessun addebito automatico.", "7,99 €", "Un solo pagamento in Spagna per l’accesso a vita. Il prezzo locale compare nell’app prima dell’acquisto."),
+        "pt": ("Sete dias, todas as funcionalidades.", "Experimente o Amano sem limites de documentos ou pastas. Os documentos guardados continuam acessíveis após o teste. Sem cobrança automática.", "7,99 €", "Um único pagamento em Espanha para acesso vitalício. O preço local é mostrado na app antes da compra."),
+        "tr": ("Yedi gün, tüm özellikler.", "Amano’yu belge veya klasör sınırı olmadan deneyin. Kayıtlı belgelerinizi deneme sonrasında da görebilirsiniz. Otomatik ücret yok.", "€7.99", "İspanya fiyatı, ömür boyu erişim için tek ödeme. Yerel fiyat satın almadan önce uygulamada gösterilir."),
+    }[key]
+    steps = {
+        "en": ("7-day trial", "Amano forever"), "es": ("Prueba de 7 días", "Amano para siempre"),
+        "fr": ("Essai de 7 jours", "Amano à vie"), "de": ("7 Tage testen", "Amano für immer"),
+        "it": ("Prova di 7 giorni", "Amano per sempre"), "pt": ("Teste de 7 dias", "Amano para sempre"),
+        "tr": ("7 günlük deneme", "Ömür boyu Amano"),
+    }[key]
     return f"""<!doctype html>
 <html lang="{lang}">
 <head>
@@ -533,6 +568,7 @@ def page(key):
   </header>
   <section class="hero">
     <div>
+      <span class="eyebrow">Amano · iPhone</span>
       <h1>{s['h1']}</h1>
       <p class="lede">{s['lede']}</p>
       <div class="cta-row">
@@ -541,49 +577,29 @@ def page(key):
       </div>
     </div>
     <div class="hero-visual">
-      <img src="{root}assets/features/{key}/home.webp" alt="{s['heroalt']}" width="560" height="918" fetchpriority="high">
+      <img src="{root}assets/phones/{key}/folders.webp" alt="{s['heroalt']}" width="900" height="1200" fetchpriority="high">
     </div>
   </section>
-  {pains_html(s)}
   <section class="chapters">
-    {scan_chapter(s, key, root)}
-    {wm_chapter(s, key, root)}
-    <div class="chapter">
-      <div class="art"><img src="{root}assets/features/{key}/renew.webp" alt="{s['shotsalt'][0]}" loading="lazy" width="560" height="918"></div>
-      <div>
-        <span class="chip unl">{s['tagunl']}</span>
-        <h2>{s['f2h']}</h2>
-        <p>{s['f2p']}</p>
-      </div>
-    </div>
-    <div class="chapter">
-      <div class="art"><img src="{root}assets/features/{key}/{'share' if key == 'en' else 'family'}.webp" alt="{s['shotsalt'][2]}" loading="lazy" width="560" height="918"></div>
-      <div>
-        <span class="chip unl">{s['tagunl']}</span>
-        <h2>{s['f6h']}</h2>
-        <p>{s['f6p']}</p>
-      </div>
-    </div>
+    {chapters}
   </section>
-  <section class="also">
-    <h2>{s['alsoh']}</h2>
-    <div class="grid">
-      <article class="feature"><div class="glyph">{GLYPH1}</div><h3>{s['f1h']}</h3><p>{s['f1p']}</p></article>
-      <article class="feature"><div class="glyph">{GLYPH5}</div><h3>{s['f5h']}</h3><p>{s['f5p']}</p></article>
-      <article class="feature"><div class="glyph">{GLYPH2}</div><h3>{s['freeh']}</h3><p>{s['freep']}</p></article>
-    </div>
-  </section>
-  {demo_html(s, root)}
 </div>
 <section class="promise">
   <div class="inner">
     <h2>{s['ph2']}</h2>
-    <p>{s['pp']}</p>
+    <p>{s['f1p']}</p>
     <span class="price">{s['price']}</span>
   </div>
 </section>
 <div class="wrap">
-  {pricing_html(s, store, badge)}
+  <section class="pricing" id="pricing">
+    <h2>{trial[0]}</h2>
+    <div class="cols">
+      <div class="col"><h3>01 / {steps[0]}</h3><p>{trial[1]}</p></div>
+      <div class="col main"><h3>02 / {steps[1]}</h3><div class="num">{trial[2]}</div><p>{trial[3]}</p>
+        <a class="buy" href="{store}">{s['getapp']}</a></div>
+    </div>
+  </section>
   <section class="faq">
     <h2>{s['faqh2']}</h2>
     <div class="qa">{faqs}</div>

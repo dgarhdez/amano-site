@@ -53,6 +53,7 @@
   .top a.store-mini:hover { background: var(--card); }
   .hero { padding: 48px 0 24px; text-align: center; }
   .hero-visual { max-width: 320px; margin: 24px auto 0; }
+  .hero-visual, .chapter .art { background: #F4F6F9; }
   .hero-visual img { width: 100%; height: auto; display: block; }
   @media (min-width: 900px) {
     .hero { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px;
@@ -163,6 +164,15 @@
   .pricing .pricenote { color: var(--muted); font-size: 14px; margin-top: 14px; }
 
   .chapter .art video { display: block; width: 100%; height: auto; border-radius: 22px; }
+  .hero-visual img, .chapter .art img { border-radius: 18px; }
+  .eyebrow { display: inline-block; color: var(--navy); font-size: 13px; font-weight: 600;
+    letter-spacing: .12em; text-transform: uppercase; margin-bottom: 16px; }
+  .pricing { padding: 76px 0 14px; }
+  .pricing h2 { font-family: var(--display); font-size: clamp(30px, 4.5vw, 46px); }
+  .pricing .col { padding: 30px; }
+  .pricing .col p { color: var(--muted); max-width: 30em; }
+  .pricing .num { margin: 16px 0 8px; }
+  @media (max-width: 640px) { .hero { padding-top: 36px; } .chapter { gap: 8px; margin-bottom: 70px; } }
 </style>
 </head>
 <body>
@@ -173,6 +183,7 @@
   </header>
   <section class="hero">
     <div>
+      <span class="eyebrow">Amano · iPhone</span>
       <h1>What matters, <em>close at hand.</em></h1>
       <p class="lede">Your documents, ready when you need them. Scan once, find them quickly, and keep expiry dates, copies and family paperwork in one place.</p>
       <div class="cta-row">
@@ -181,49 +192,29 @@
       </div>
     </div>
     <div class="hero-visual">
-      <img src="./assets/features/en/home.webp" alt="Reviewing a watermarked document copy in Amano" width="560" height="918" fetchpriority="high">
+      <img src="./assets/phones/en/folders.webp" alt="Reviewing a watermarked document copy in Amano" width="900" height="1200" fetchpriority="high">
     </div>
   </section>
-  <section class="pains"><h2>Sound familiar?</h2><div class="grid"><article class="pain"><h3>&ldquo;Where&rsquo;s the passport?&rdquo;</h3><p>At a counter, scrolling months of camera roll for a document you know you photographed. In Amano it&rsquo;s one search away — behind Face&nbsp;ID, in folders that make sense.</p></article><article class="pain"><h3>&ldquo;It expired last month.&rdquo;</h3><p>Check the expiry date Amano suggests when you save, then set an advance reminder for your ID, policy or permit.</p></article><article class="pain"><h3>&ldquo;I emailed my ID&hellip; who has it now?&rdquo;</h3><p>Add a visible purpose to the copy you share, such as &ldquo;rental application only&rdquo;. Your original stays unchanged.</p></article></div></section>
   <section class="chapters">
-    <div class="chapter"><div class="art"><video src="./assets/demo.mp4" poster="./assets/poster.jpg" muted loop playsinline autoplay preload="metadata" aria-label="Amano turning three photos into one watermarked PDF and sharing it"></video></div><div><span class="chip free">Included in your 7-day trial</span><h2>Scan it once. Find it forever.</h2><p>Point the camera at any paper — or import from Photos, Files and other apps. Several photos become one tidy PDF, filed where you&rsquo;ll actually find it, behind Face&nbsp;ID.</p></div></div>
-    <div class="chapter"><div class="art"><img src="./assets/features/en/share.webp" alt="A shared ID copy with a personal watermark across it" loading="lazy" width="560" height="918"></div><div><span class="chip unl">Included in your 7-day trial</span><h2>Share a copy with a clear purpose.</h2><p>Add the recipient and intended use as a visible watermark: &ldquo;rental application only&rdquo;, &ldquo;for the gym&rdquo;. Your original stays unchanged.</p></div></div>
-    <div class="chapter">
-      <div class="art"><img src="./assets/features/en/renew.webp" alt="Renewals screen reminding about an expiring passport" loading="lazy" width="560" height="918"></div>
-      <div>
-        <span class="chip unl">Included in your 7-day trial</span>
-        <h2>Keep track of renewal dates</h2>
-        <p>Amano looks for expiry dates when you save a document. Check the suggested date and set a reminder for your passport, permit or policy.</p>
-      </div>
-    </div>
-    <div class="chapter">
-      <div class="art"><img src="./assets/features/en/share.webp" alt="Reviewing a watermarked copy before sharing" loading="lazy" width="560" height="918"></div>
-      <div>
-        <span class="chip unl">Included in your 7-day trial</span>
-        <h2>Review before you share</h2>
-        <p>Choose the pages and files to include, check your watermark or signature, then share the copy. Your original stays unchanged.</p>
-      </div>
-    </div>
+    <div class="chapter"><div class="art"><img src="./assets/phones/en/scan-review.webp" alt="Save the paper. Skip the typing." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">01</span><h2>Save the paper. Skip the typing.</h2><p>Scan or import a document. Amano suggests a name and expiry date; you check them before saving.</p></div></div><div class="chapter"><div class="art"><img src="./assets/phones/en/renewals.webp" alt="Know when to renew." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">02</span><h2>Know when to renew.</h2><p>Get a reminder before a passport, permit or policy expires — while there is still time to act.</p></div></div><div class="chapter"><div class="art"><img src="./assets/phones/en/signature.webp" alt="Send the copy, keep the original." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">03</span><h2>Send the copy, keep the original.</h2><p>Sign a page or add a visible watermark for its recipient and purpose. Review the copy before sharing.</p></div></div><div class="chapter"><div class="art"><img src="./assets/phones/en/extraction.webp" alt="Find the detail without digging." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">04</span><h2>Find the detail without digging.</h2><p>Copy the information you need without retyping it. Check against the original. Available on supported iPhones with Apple Intelligence ready.</p></div></div><div class="chapter"><div class="art"><img src="./assets/phones/en/settings-icloud.webp" alt="Your documents. Your iCloud." loading="lazy" width="900" height="1200"></div><div><span class="eyebrow">05</span><h2>Your documents. Your iCloud.</h2><p>Your vault stays on your iPhone. Turn on personal iCloud backup if you want it on your next device.</p></div></div>
   </section>
-  <section class="also">
-    <h2>Also in Amano</h2>
-    <div class="grid">
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div><h3>Private by design</h3><p>No Amano account needed. Keep your documents on your iPhone, protect access with Face&nbsp;ID, and enable personal iCloud backup if you want it.</p></article>
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="3" width="9" height="12" rx="2"/><rect x="11" y="9" width="9" height="12" rx="2"/></svg></div><h3>Many files, one PDF</h3><p>Photos and PDFs become one ordered document — contracts, receipts, school forms — ready to share.</p></article>
-      <article class="feature"><div class="glyph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 9h16M8 3v4M16 3v4M12 13v4M10 15h4"/></svg></div><h3>Copy key details without retyping</h3><p>Extract useful details from a document, then copy one item or everything at once. Check the results against the original before using them. Requires a supported iPhone with Apple Intelligence enabled and its on-device model downloaded and ready.</p></article>
-    </div>
-  </section>
-  
 </div>
 <section class="promise">
   <div class="inner">
     <h2>Your documents stay yours.</h2>
-    <p>Your document contents stay on your device or in your own iCloud. RevenueCat processes purchase information to unlock Unlimited, restore purchases and measure sales. Apple Ads attribution helps measure ad performance.</p>
+    <p>No Amano account needed. Keep your documents on your iPhone, protect access with Face&nbsp;ID, and enable personal iCloud backup if you want it.</p>
     <span class="price">7 days free &middot; €7.99 once in Spain to unlock forever &middot; no subscription</span>
   </div>
 </section>
 <div class="wrap">
-  <section class="pricing"><h2>Try it for a week. Keep it with one payment.</h2><div class="cols"><div class="col"><h3>7-day free trial</h3><ul><li>Every feature for seven days</li><li>Unlimited documents and private folders</li><li>Watermarked and signed copies</li><li>No automatic charge</li></ul></div><div class="col main"><h3>Amano forever</h3><div class="num">€7.99 in Spain</div><div class="once">One payment. Permanent full access.</div><ul><li>Unlimited scanning and document storage</li><li>Watermarked and signed copies</li><li>Renewal reminders</li><li>Personal iCloud backup</li><li>Kits and Home Screen widgets</li><li>Smart extraction on supported devices</li></ul><a class="buy" href="https://apps.apple.com/app/id6809212902?pt=128749840&amp;ct=web-en&amp;mt=8" aria-label="Download on the App Store">Get the app</a></div></div><p class="pricenote">Buy at any time, during or after your trial. Your local price is shown in the app before purchase. No subscription. After the trial, saved documents remain viewable and exportable as plain copies, without signatures or watermarks added by Amano.</p></section>
+  <section class="pricing" id="pricing">
+    <h2>Seven days, every feature.</h2>
+    <div class="cols">
+      <div class="col"><h3>01 / 7-day trial</h3><p>Try Amano with no document or folder limit. Your saved documents remain viewable after the trial. Nothing is charged automatically.</p></div>
+      <div class="col main"><h3>02 / Amano forever</h3><div class="num">€7.99</div><p>One payment in Spain for lifetime access. Your local price appears in the app before purchase.</p>
+        <a class="buy" href="https://apps.apple.com/app/id6809212902?pt=128749840&amp;ct=web-en&amp;mt=8">Get the app</a></div>
+    </div>
+  </section>
   <section class="faq">
     <h2>Questions, answered</h2>
     <div class="qa"><details><summary>How does the free trial work?</summary><p>New customers can try every feature for seven days, with no document or folder limits. Smart extraction requires a supported device with Apple Intelligence enabled and its on-device model ready. After the trial, choose a one-time purchase to keep full access. No subscription and no automatic charge.</p></details><details><summary>What happens when my trial ends?</summary><p>You can still view your saved documents and export plain copies, without signatures or watermarks added by Amano. You can also copy details already extracted from your documents. A one-time purchase unlocks adding documents and using the full set of features again.</p></details><details><summary>Can I buy before the trial ends?</summary><p>Yes. You can unlock Amano at any time during your trial. Pay once for permanent full access, with no subscription.</p></details><details><summary>What if I already had Amano?</summary><p>Customers who first downloaded Amano before the seven-day-trial release keep full access forever, at no extra cost. This includes existing free customers. Existing purchases remain valid.</p></details><details><summary>Where are my documents stored?</summary><p>On your iPhone, encrypted — and, if you turn on sync, in your own iCloud.</p></details><details><summary>What happens if I lose my phone?</summary><p>With iCloud sync on (part of Unlimited), your vault is waiting on your next iPhone. Without it, documents live only on the device — that is the trade-off of fully local storage.</p></details><details><summary>What does the one-time purchase unlock?</summary><p>Permanent full access: unlimited documents and private folders, watermarked or signed copies, renewal reminders, personal iCloud backup, document kits and Home Screen widgets. Smart extraction is included on supported devices with Apple Intelligence enabled and its on-device model ready. The app shows your local price before you buy.</p></details><details><summary>Do I need to create an account?</summary><p>No. Amano works the moment you open it. There is nothing to sign up for.</p></details></div>
