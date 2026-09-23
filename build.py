@@ -462,7 +462,7 @@ STYLE = """
   .pricing .once { color: var(--navy); font-weight: 600; margin: 4px 0 12px; }
   .pricing ul { margin: 10px 0 0; padding-left: 20px; color: var(--muted); }
   .pricing li { margin: 6px 0; }
-  .pricing .buy { display: inline-block; margin-top: 16px; background: var(--navy); color: #fff; text-decoration: none; border-radius: 12px; padding: 12px 22px; font-weight: 600; }
+  .pricing .badge-hero { margin-top: 16px; }
   .pricing .pricenote { color: var(--muted); font-size: 14px; margin-top: 14px; }
 
   .chapter .art video { display: block; width: 100%; height: auto; border-radius: 22px; }
@@ -598,7 +598,7 @@ def page(key):
     <div class="cols">
       <div class="col"><h3>01 / {steps[0]}</h3><p>{trial[1]}</p></div>
       <div class="col main"><h3>02 / {steps[1]}</h3><div class="num">{trial[2]}</div><p>{trial[3]}</p>
-        <a class="buy" href="{store}">{s['getapp']}</a></div>
+        <a href="{store}" aria-label="{badge}"><img class="badge badge-hero" src="{root}assets/badges/{key}.svg" alt="{badge}" width="174" height="58"></a></div>
     </div>
   </section>
   <section class="faq">
