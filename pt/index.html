@@ -77,11 +77,9 @@
   .store-button:hover { transform: translateY(-1px); box-shadow: 0 14px 34px rgba(25, 59, 112, 0.34); }
   .store-button:focus-visible, a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; }
   .store-button svg { flex: none; }
-  .cta-note { width: 100%; margin-top: 8px; padding: 16px 20px; text-align: left;
-    background: var(--card); border-left: 3px solid var(--navy); border-radius: 12px;
-    font-size: 16px; line-height: 1.5; color: var(--muted); }
-  .cta-note strong { display: block; margin: 6px 0; font-size: 21px; line-height: 1.3;
-    font-weight: 650; color: var(--navy); }
+  .cta-note { width: 100%; max-width: 34em; text-align: center;
+    font-size: clamp(17px, 2.2vw, 20px); line-height: 1.6; color: var(--ink); text-wrap: pretty; }
+  .cta-note strong { font-weight: 650; color: var(--deep); }
   .demo { padding: 44px 0 20px; }
   .demo figure { max-width: 560px; margin: 0 auto; border-radius: 24px; overflow: hidden; }
   .demo video { display: block; width: 100%; height: auto; }
@@ -191,7 +189,7 @@
       <p class="lede">O seu CC, a carta de condução, o passaporte e os papéis de casa: digitalizados, organizados, renovados a tempo e partilhados apenas nos seus termos. No seu iPhone e no seu iCloud. Em mais lado nenhum.</p>
       <div class="cta-row">
         <a href="https://apps.apple.com/pt/app/id6809212902?pt=128749840&amp;ct=web-pt&amp;mt=8" aria-label="Descarregar na App Store"><img class="badge badge-hero" src="../assets/badges/pt.svg" alt="Descarregar na App Store" width="174" height="58"></a>
-        <span class="cta-note">Experimente todas as funcionalidades gratuitamente durante 7 dias. <strong>Depois, desbloqueie tudo para sempre com um único pagamento de 7,99 € em Espanha.</strong> O preço varia consoante o país. Sem subscrição nem cobrança automática.</span>
+        <p class="cta-note">Experimente todas as funcionalidades gratuitamente durante 7 dias. Depois, desbloqueie tudo para sempre com um único pagamento de <strong>7,99 €</strong> em Espanha. O preço varia consoante o país. Sem subscrição nem cobrança automática.</p>
       </div>
     </div>
     <div class="hero-visual">

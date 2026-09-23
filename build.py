@@ -30,7 +30,7 @@ S = {
     getapp="Get the app",
     h1="What matters, <em>close at hand.</em>",
     lede="Your documents, ready when you need them. Scan once, find them quickly, and keep expiry dates, copies and family paperwork in one place.",
-    ctanote="Try every feature free for 7 days. <strong>Then unlock it for life for €7.99 in Spain.</strong> The price varies by country. No subscription or automatic charge.",
+    ctanote="Try every feature free for 7 days. Then unlock it for life for <strong>€7.99</strong> in Spain. The price varies by country. No subscription or automatic charge.",
     figcap="Thirty-five seconds: three photos become one PDF, watermarked, shared.",
     f1h="Private by design", f1p="No Amano account needed. Keep your documents on your iPhone, protect access with Face&nbsp;ID, and enable personal iCloud backup if you want it.",
     f2h="Keep track of renewal dates", f2p="Amano looks for expiry dates when you save a document. Check the suggested date and set a reminder for your passport, permit or policy.",
@@ -85,7 +85,7 @@ S = {
     getapp="Descargar la app",
     h1="Lo importante, <em>a mano.</em>",
     lede="Tu DNI, pasaporte, carnet y los papeles de casa: escaneados, organizados, renovados a tiempo y compartidos solo en tus términos. En tu iPhone y en tu iCloud. En ningún otro sitio.",
-    ctanote="Prueba todas las funciones gratis durante 7 días. <strong>Después, desbloquea Amano para siempre por 7,99 € en España.</strong> El precio varía según el país. Sin suscripción ni cobro automático.",
+    ctanote="Prueba todas las funciones gratis durante 7 días. Después, desbloquea Amano para siempre por <strong>7,99 €</strong> en España. El precio varía según el país. Sin suscripción ni cobro automático.",
     figcap="Treinta y cinco segundos: tres fotos se convierten en un PDF, con marca de agua, compartido.",
     f1h="Privacidad desde el principio", f1p="Tus documentos permanecen en tu dispositivo y, con la sincronización de Unlimited, en tu iCloud. Face&nbsp;ID protege el acceso.",
     f2h="Renovado a tiempo", f2p="Amano lee la fecha de caducidad al guardar un documento y te avisa antes de que caduquen pasaportes, permisos y pólizas.",
@@ -118,7 +118,7 @@ S = {
     getapp="Obtenir l’app",
     h1="L’essentiel, <em>à portée de main.</em>",
     lede="Ton permis, ta CNI, ton passeport et les papiers de la maison : scannés, organisés, renouvelés à temps et partagés uniquement selon tes conditions. Sur ton iPhone et dans ton iCloud. Nulle part ailleurs.",
-    ctanote="Essaie toutes les fonctions gratuitement pendant 7 jours. <strong>Ensuite, débloque tout à vie pour 7,99 € en Espagne.</strong> Le prix varie selon le pays. Aucun abonnement ni prélèvement automatique.",
+    ctanote="Essaie toutes les fonctions gratuitement pendant 7 jours. Ensuite, débloque tout à vie pour <strong>7,99 €</strong> en Espagne. Le prix varie selon le pays. Aucun abonnement ni prélèvement automatique.",
     figcap="Trente-cinq secondes : trois photos deviennent un PDF, filigrané, partagé.",
     f1h="Privé dès la conception", f1p="Tes documents restent sur ton appareil et, avec la synchronisation Unlimited, dans ton iCloud. Face&nbsp;ID protège l’accès.",
     f2h="Renouvelé à temps", f2p="Amano lit la date d’échéance quand tu enregistres un document et te prévient avant que passeports, permis et contrats n’expirent.",
@@ -150,7 +150,7 @@ S = {
     getapp="App laden",
     h1="Alles Wichtige, <em>griffbereit.</em>",
     lede="Dein Ausweis, Pass, Führerschein und die Unterlagen von zu Hause: gescannt, geordnet, rechtzeitig verlängert und nur zu deinen Bedingungen geteilt. Auf deinem iPhone und in deiner iCloud. Nirgendwo sonst.",
-    ctanote="Teste alle Funktionen 7 Tage kostenlos. <strong>Danach schaltest du alles für einmalig 7,99 € in Spanien dauerhaft frei.</strong> Der Preis variiert je nach Land. Kein Abo und keine automatische Abbuchung.",
+    ctanote="Teste alle Funktionen 7 Tage kostenlos. Danach schaltest du alles für einmalig <strong>7,99 €</strong> in Spanien dauerhaft frei. Der Preis variiert je nach Land. Kein Abo und keine automatische Abbuchung.",
     figcap="Fünfunddreißig Sekunden: Drei Fotos werden ein PDF, mit Wasserzeichen, geteilt.",
     f1h="Privat von Grund auf", f1p="Deine Dokumente bleiben auf deinem Gerät und mit Unlimited-Synchronisierung in deiner iCloud. Face&nbsp;ID schützt den Zugriff.",
     f2h="Rechtzeitig verlängert", f2p="Amano liest das Ablaufdatum beim Speichern und erinnert dich, bevor Reisepässe, Ausweise und Policen ablaufen.",
@@ -182,7 +182,7 @@ S = {
     getapp="Scarica l’app",
     h1="Ciò che conta, <em>a portata di mano.</em>",
     lede="La tua CIE, la patente, il passaporto e le carte di casa: scansionati, organizzati, rinnovati in tempo e condivisi solo alle tue condizioni. Sul tuo iPhone e nel tuo iCloud. Da nessun’altra parte.",
-    ctanote="Prova tutte le funzioni gratis per 7 giorni. <strong>Poi sblocca tutto per sempre con un unico pagamento di 7,99 € in Spagna.</strong> Il prezzo varia in base al Paese. Nessun abbonamento né addebito automatico.",
+    ctanote="Prova tutte le funzioni gratis per 7 giorni. Poi sblocca tutto per sempre con un unico pagamento di <strong>7,99 €</strong> in Spagna. Il prezzo varia in base al Paese. Nessun abbonamento né addebito automatico.",
     figcap="Trentacinque secondi: tre foto diventano un PDF, con filigrana, condiviso.",
     f1h="Privato fin dall’inizio", f1p="I documenti restano sul dispositivo e, con la sincronizzazione Unlimited, nel tuo iCloud. Face&nbsp;ID protegge l’accesso.",
     f2h="Rinnovato in tempo", f2p="Amano legge la scadenza quando salvi un documento e ti avvisa prima che passaporti, patenti e polizze scadano.",
@@ -214,7 +214,7 @@ S = {
     getapp="Obter a app",
     h1="O que importa, <em>à mão.</em>",
     lede="O seu CC, a carta de condução, o passaporte e os papéis de casa: digitalizados, organizados, renovados a tempo e partilhados apenas nos seus termos. No seu iPhone e no seu iCloud. Em mais lado nenhum.",
-    ctanote="Experimente todas as funcionalidades gratuitamente durante 7 dias. <strong>Depois, desbloqueie tudo para sempre com um único pagamento de 7,99 € em Espanha.</strong> O preço varia consoante o país. Sem subscrição nem cobrança automática.",
+    ctanote="Experimente todas as funcionalidades gratuitamente durante 7 dias. Depois, desbloqueie tudo para sempre com um único pagamento de <strong>7,99 €</strong> em Espanha. O preço varia consoante o país. Sem subscrição nem cobrança automática.",
     figcap="Trinta e cinco segundos: três fotos tornam-se um PDF, com marca de água, partilhado.",
     f1h="Privado por conceção", f1p="Os documentos ficam no dispositivo e, com a sincronização Unlimited, no seu iCloud. O Face&nbsp;ID protege o acesso.",
     f2h="Renovado a tempo", f2p="O Amano lê a validade quando guarda um documento e avisa antes que passaportes, cartas e apólices caduquem.",
@@ -246,7 +246,7 @@ S = {
     getapp="Uygulamayı edin",
     h1="Önemli olan her şey, <em>elinizin altında.</em>",
     lede="Ehliyetiniz, pasaportunuz, kimliğiniz ve evin evrakları: taranır, düzenlenir, zamanında yenilenir ve yalnızca sizin koşullarınızla paylaşılır. iPhone’unuzda ve iCloud’unuzda. Başka hiçbir yerde.",
-    ctanote="Tüm özellikleri 7 gün ücretsiz deneyin. <strong>Ardından İspanya'da tek seferlik 7,99 € ödeyerek ömür boyu erişimin kilidini açın.</strong> Fiyat ülkeye göre değişir. Abonelik veya otomatik ücret yok.",
+    ctanote="Tüm özellikleri 7 gün ücretsiz deneyin. Ardından İspanya'da tek seferlik <strong>7,99 €</strong> ödeyerek ömür boyu erişimin kilidini açın. Fiyat ülkeye göre değişir. Abonelik veya otomatik ücret yok.",
     figcap="Otuz beş saniye: üç fotoğraf tek bir PDF olur, filigran eklenir, paylaşılır.",
     f1h="Tasarımdan özel", f1p="Belgeleriniz cihazınızda ve Unlimited eşitlemesi ile kendi iCloud’unuzda kalır. Face&nbsp;ID erişimi korur.",
     f2h="Zamanında yenilenir", f2p="Amano bir belgeyi kaydederken son geçerlilik tarihini okur; pasaportlar, ehliyetler ve poliçeler dolmadan önce hatırlatır.",
@@ -378,11 +378,9 @@ STYLE = """
   .store-button:hover { transform: translateY(-1px); box-shadow: 0 14px 34px rgba(25, 59, 112, 0.34); }
   .store-button:focus-visible, a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; }
   .store-button svg { flex: none; }
-  .cta-note { width: 100%; margin-top: 8px; padding: 16px 20px; text-align: left;
-    background: var(--card); border-left: 3px solid var(--navy); border-radius: 12px;
-    font-size: 16px; line-height: 1.5; color: var(--muted); }
-  .cta-note strong { display: block; margin: 6px 0; font-size: 21px; line-height: 1.3;
-    font-weight: 650; color: var(--navy); }
+  .cta-note { width: 100%; max-width: 34em; text-align: center;
+    font-size: clamp(17px, 2.2vw, 20px); line-height: 1.6; color: var(--ink); text-wrap: pretty; }
+  .cta-note strong { font-weight: 650; color: var(--deep); }
   .demo { padding: 44px 0 20px; }
   .demo figure { max-width: 560px; margin: 0 auto; border-radius: 24px; overflow: hidden; }
   .demo video { display: block; width: 100%; height: auto; }
@@ -576,7 +574,7 @@ def page(key):
       <p class="lede">{s['lede']}</p>
       <div class="cta-row">
         <a href="{store}" aria-label="{badge}"><img class="badge badge-hero" src="{root}assets/badges/{key}.svg" alt="{badge}" width="174" height="58"></a>
-        <span class="cta-note">{s['ctanote']}</span>
+        <p class="cta-note">{s['ctanote']}</p>
       </div>
     </div>
     <div class="hero-visual">
