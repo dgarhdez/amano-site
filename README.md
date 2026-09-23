@@ -35,3 +35,27 @@ configuration and App Store Connect listing. €7.99 is the Spain price; the app
 shows each customer's local price before purchase. The phone scenes follow
 the current listing metadata in the app repository at
 `docs/localization/app-store-metadata.json`.
+
+## Matte phone images
+
+The site's background is `#F4F6F9` in `build.py`. Render phone stills from the
+app's current screenshot captures with `goldie/make-store-shot.py --still`.
+Do not use that script's default H.264 video-to-frame export for the website:
+it changes the background from `#F4F6F9` to a darker, nonuniform color. The
+direct Matte PNG capture preserves the exact background and phone shadow.
+
+For each locale and scene, use the same Matte arguments as the existing images:
+
+```sh
+python3 goldie/make-store-shot.py --raw RAW.png --headline '.' \
+  --out phone.png --background '#F4F6F9' --width 1200 --height 1600 \
+  --frame-color glacier --device-scale 0.95 --device-offset-y 0 \
+  --rotation-x 3 --rotation-y -7 --still
+magick phone.png -define webp:lossless=true assets/phones/en/folders.webp
+sh scripts/check-phone-background.sh
+```
+
+Use each scene's matching output path, rather than the example `en/folders.webp`.
+Lossless WebP matters here: lossy encoding can shift the edge pixels by a
+point even when the PNG is correct. The check verifies all 42 images against
+the current `--paper` color.
