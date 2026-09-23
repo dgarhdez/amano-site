@@ -44,14 +44,20 @@ Do not use that script's default H.264 video-to-frame export for the website:
 it changes the background from `#F4F6F9` to a darker, nonuniform color. The
 direct Matte PNG capture preserves the exact background and phone shadow.
 
-For each locale and scene, use the same Matte arguments as the existing images:
+For each locale and scene, run the renderer from the app repository with the
+same Matte arguments as the existing images:
 
 ```sh
 python3 goldie/make-store-shot.py --raw RAW.png --headline '.' \
-  --out phone.png --background '#F4F6F9' --width 1200 --height 1600 \
+  --out /tmp/amano-phone.png --background '#F4F6F9' --width 1200 --height 1600 \
   --frame-color glacier --device-scale 0.95 --device-offset-y 0 \
   --rotation-x 3 --rotation-y -7 --still
-magick phone.png -define webp:lossless=true assets/phones/en/folders.webp
+```
+
+Then, from this website repository:
+
+```sh
+magick /tmp/amano-phone.png -define webp:lossless=true assets/phones/en/folders.webp
 sh scripts/check-phone-background.sh
 ```
 
